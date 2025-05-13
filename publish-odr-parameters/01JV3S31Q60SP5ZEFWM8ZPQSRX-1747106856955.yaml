@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-05/13-es-invercargill-coastal-dem-rv57j/flat/",
+  "target": "s3://nz-coastal/southland/invercargill_2024/dem_1m/2193/",
+  "ticket": "TDE-1499",
+  "copy_option": "--no-clobber",
+  "region": "southland",
+  "flatten": "false"
+}
