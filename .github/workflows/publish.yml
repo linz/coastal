@@ -24,11 +24,12 @@ jobs:
 
       - name: Validate STAC Collections
         run: |
-          files=$(find "$PWD/stac" -type f -name collection.json)
-          if [ -z "$files" ]; then
+          files=($(find "$PWD/stac" -type f -name collection.json))
+
+          if [ ${#files[@]} -eq 0 ]; then
             echo "No collection.json files found."
           else
-            docker run -v "$PWD:$PWD" ghcr.io/linz/argo-tasks:v4 stac-validate $files
+            docker run -v "$PWD:$PWD" ghcr.io/linz/argo-tasks:v4 stac-validate "${files[@]}"
           fi
 
       - name: Download actionlint
