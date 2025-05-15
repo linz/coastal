@@ -24,7 +24,7 @@ jobs:
 
       - name: Validate STAC Collections
         run: |
-          files=($(find "$PWD/stac" -type f -name collection.json))
+          mapfile -t files < <(find "$PWD/stac" -type f -name collection.json)
 
           if [ ${#files[@]} -eq 0 ]; then
             echo "No collection.json files found."
