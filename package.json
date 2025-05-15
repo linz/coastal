@@ -1,0 +1,16 @@
+{
+  "name": "@linzjs/coastal",
+  "version": "1.0.0",
+  "private": "true",
+  "repository": "git@github.com:linz/coastal.git",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --quiet --fix --ignore-path=.gitignore . && prettier --check --write ."
+  },
+  "devDependencies": {
+    "@linzjs/style": "^5.4.0"
+  },
+  "engines": {
+    "node": "^20.13.1"
+  }
+}
