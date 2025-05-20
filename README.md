@@ -40,6 +40,6 @@ Source code is licensed under [MIT](LICENSE).
 
 All metadata and docs are licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
 
-Toitū Te Whenua Land Information New Zealand is the copyright owner for the New Zealand topographic feature data that is available in this bucket. Licensed for re-use under "[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)".
+Toitū Te Whenua Land Information New Zealand is the copyright owner for the data that is available in this bucket. Licensed for re-use under "[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)".
 
 Attribution: Licensed by Toitū Te Whenua Land Information New Zealand for re-use under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
