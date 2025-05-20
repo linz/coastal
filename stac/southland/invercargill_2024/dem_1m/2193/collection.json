@@ -1,0 +1,236 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01JV3S31Q60SP5ZEFWM8ZPQSRX",
+  "title": "Southland - Invercargill Coastal Mapping Trial LiDAR 1m DEM (2024)",
+  "description": "Digital Elevation Model within the Southland region captured in 2024.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./CG08_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220032c8833f394947c99644ac69c90d9aadb4ed13b0be4a5417becd4237d9d267c"
+    },
+    {
+      "href": "./CG08_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220dcaad7f6a6b5881c3a11ef27765212e2cc909011b09eb57cc4c4c9c8cc5fe162"
+    },
+    {
+      "href": "./CG08_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122086781ba04bb1fbc32ce5bd41ab82b5e49aada617a8be87dc1f09f6e5cb0c2572"
+    },
+    {
+      "href": "./CG08_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220882d6c947a9c893fed386122d07a46522a76fbae6efb7382247cdca9f5e9da6c"
+    },
+    {
+      "href": "./CG09_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208a3871d37636e993869b2493f0490e2717f003151156f7f1869f981c39e95045"
+    },
+    {
+      "href": "./CG09_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122089e272d874896dec1eef0930f76b1f3a41e50979b46ced6ad05a3c812240ab6a"
+    },
+    {
+      "href": "./CG09_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f44772dcf94c57b6c92ce68502e850791d0459b51a74ffdc50ecfea01a5b02e8"
+    },
+    {
+      "href": "./CG09_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220182a4fa3e4289dee7558356cd691e563359c946789813515db898a4470afb687"
+    },
+    {
+      "href": "./CG09_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c3cb2fc62b20af1e07c9216199b3bf6584516d43a14e090f0b854c994efcd40c"
+    },
+    {
+      "href": "./CG09_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220453c1099e4d8e4a12d517647d3671d82b0237db30ec23fcf616fe848e591a127"
+    },
+    {
+      "href": "./CG09_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122032fb4a4aa7049a8b206be0dd12d89ee689852cd3eec1e4ac188baea089adaf7b"
+    },
+    {
+      "href": "./CG10_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f2db5ef4e80889d3f6b05ea9fef5548e311797359808bd81f17010f2efba49b2"
+    },
+    {
+      "href": "./CG10_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220539051faca1daced189f30292c6debdd7326a041af70b1a153d0b673fa185bfe"
+    },
+    {
+      "href": "./CG10_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220085a003dbebf888937662a971f49ccb1ecd41d17711313b40eda9623b62aecf0"
+    },
+    {
+      "href": "./CG10_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203770d16216a4b98d81309562c9ed98fa70403f5b60d336a9713c2c011d90cdd2"
+    },
+    {
+      "href": "./CG10_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b0df17cd19f9c31ea817210e30b40de8ba01fe80b8bf3e966446e3b99addf912"
+    },
+    {
+      "href": "./CG10_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208d0c6c6399723fe38bc3b2209a78a6fb099a24ef8623ad831044e4f41eca3f52"
+    },
+    {
+      "href": "./CG10_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122088ce438ea71850578182f592117490abecc4d512a5afa92a4b1f9373269c845e"
+    },
+    {
+      "href": "./CG10_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122007f95bb5a07f9a20ff8d7f9051338c40770bd20f19f48da503cd469a79370c95"
+    },
+    {
+      "href": "./CG10_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220bdf99f3103a029e2bfd82f9ae40283a4baefec0c26750e2692067bde55b796f0"
+    },
+    {
+      "href": "./CG10_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209220c2caf1cd763456dfb3416eed4c89bcf1e313688f46b629e64afb2105a73c"
+    },
+    {
+      "href": "./CG10_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206474224e6d6150df8a8c08cacbd65dc3ced718d3823959dddbcecfede4cc0a71"
+    },
+    {
+      "href": "./CG11_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200153c066de4302cff9971b45ba9a861fabac568e769da2237d6fedd9d9670d7a"
+    },
+    {
+      "href": "./CG11_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220edae9c1ba3583f0e1e910c5c5819ba531c000243fbb1cba7bb9d18743ab4386e"
+    },
+    {
+      "href": "./CH10_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220851428f1fd83a289168c6754313120e1d824200126d4c6a9a187a1bbf863b589"
+    },
+    {
+      "href": "./CH10_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203b86f2cfab39b93b98a8cc6ad60b5b46bc66d5c68c7084dc2c4650f07f582fc2"
+    },
+    {
+      "href": "./CH10_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220da0c8b7fb05f9c7d135a41949255c496bf1c895a9481c830be1bdbf13ce36c04"
+    },
+    {
+      "href": "./CH10_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d6e79ee31b0e1216e09b53153096df0d24a8a0fd7f10ac114b086a38f5378f5b"
+    },
+    {
+      "href": "./CH11_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201b76ccbb0b24877745b90e198556b9e85f94787378d20cf9ba6449f43382c1c7"
+    },
+    {
+      "href": "./CH11_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220dc2b7ceb59dc4de0e3ea58b702b55f2923de82c03bcf36234719177894ddff53"
+    },
+    {
+      "href": "./CH11_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209e3a307c79ffca85f4fdefef2cadfc07d919d7562b10cab4a503e343c58cbd04"
+    },
+    {
+      "href": "./CH11_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a813a51e058db91afc931cef6e1e25848ec537051aef944a1e960f08850129b3"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Fugro", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "southland",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "invercargill_2024",
+  "created": "2025-05-13T02:55:28Z",
+  "updated": "2025-05-13T02:55:28Z",
+  "linz:geographic_description": "Invercargill",
+  "extent": {
+    "spatial": { "bbox": [[167.7202738, -46.727365, 168.5868921, -46.3028934]] },
+    "temporal": { "interval": [["2024-04-11T12:00:00Z", "2024-04-17T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12202c29a566dc9f6f394918eb02e97ce4f7e8d9f423b1fa43b389e75a1b1baccf57",
+      "file:size": 4103861
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
