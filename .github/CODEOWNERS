@@ -1,0 +1,3 @@
+* @linz/li-topo-data-engineering
+publish-odr-parameters @linz/li-sea @linz/li-topo-data-engineering
+stac @linz/li-sea @linz/li-topo-data-engineering
