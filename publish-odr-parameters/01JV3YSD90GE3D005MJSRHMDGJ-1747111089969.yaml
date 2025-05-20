@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-05/13-es-tauranga-coastal-dem-jj48d/flat/",
+  "target": "s3://nz-coastal/bay-of-plenty/tauranga_2024/dem_1m/2193/",
+  "ticket": "TDE-1499",
+  "copy_option": "--no-clobber",
+  "region": "bay-of-plenty",
+  "flatten": "false"
+}
