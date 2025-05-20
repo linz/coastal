@@ -3,7 +3,7 @@
 [![STAC Browser Badge](https://img.shields.io/badge/Open_in_STAC_Browser-%2309B3AD?style=flat&label=New%20Zealand%20Elevation&labelColor=%23144E63)](https://radiantearth.github.io/stac-browser/#/external/nz-coastal.s3-ap-southeast-2.amazonaws.com/catalog.json?.language=en)
 [![AWS Badge](https://img.shields.io/badge/Open_in_Registry_of_Open_Data_on_AWS-%23FF9900.svg?logo=amazon-web-services&logoColor=white&labelColor=%23232F3E)](https://registry.opendata.aws/nz-coastal/)
 
-TODO update: Toitū Te Whenua makes New Zealand's most up-to-date publicly owned coastal elevation data freely available to use under an open licence. You can access this through the [LINZ Data Service](https://data.linz.govt.nz/data/category/elevation/), [LINZ Basemaps](https://basemaps.linz.govt.nz/@-41.8899962,174.0492437,z5?i=elevation) or the [Registry of Open Data on AWS](https://registry.opendata.aws/nz-coastal/).
+Toitū Te Whenua makes New Zealand's most up-to-date publicly owned coastal elevation data freely available to use under an open licence. You can access this through the [Registry of Open Data on AWS](https://registry.opendata.aws/nz-coastal/).
 
 ## Quickstart
 
@@ -13,7 +13,7 @@ Browse the archive with [STAC Browser](https://radiantearth.github.io/stac-brows
 
 This repository contains STAC Collection metadata for each coastal elevation dataset.
 
-The New Zealand Elevation guidance documentation covers information that also applies to coastal elevation:
+The New Zealand Elevation repository guidance documentation covers information that also applies to coastal elevation:
 
 - [Naming](https://github.com/linz/elevation/blob/master/docs/naming.md) covers the bucket naming structure
 - [Usage](https://github.com/linz/elevation/blob/master/docs/usage.md) shows how TIFFs can be interacted with from S3 using GDAL, QGIS, etc
@@ -31,9 +31,8 @@ aws s3 ls --no-sign-request s3://nz-coastal/
 
 ## Related
 
-For access to LINZ's aerial and satellite imagery see [linz/imagery](https://github.com/linz/imagery)
 For access to LINZ's elevation data see [linz/elevation](https://github.com/linz/elevation)
-
+For access to LINZ's aerial and satellite imagery see [linz/imagery](https://github.com/linz/imagery)
 
 ## License
 
