@@ -1,0 +1,114 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01JXXBX23Z75K9Z2WD61QB12VG",
+  "title": "New Zealand Coastal 1m DEM Hillshade - Igor",
+  "description": "Coastal Hillshade generated from the New Zealand LiDAR 1m DEM using the -igor option in GDAL. This renders a softer hillshade that tries to minimize effects on other map features.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BC36.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122005af0b939955ec59d77dd1be3d53a31f9205efbd6d5439ddad5dea0cfe7c9636"
+    },
+    {
+      "href": "./BC37.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200c9a8620c5fe881c4449be4e23b7949ba44ce6235412cd48036845344cd52ee8"
+    },
+    {
+      "href": "./BC38.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220060cc90886e3796dd475473346683345ef2c3bfbefda2d1237903f3d5c3a8af7"
+    },
+    {
+      "href": "./BD36.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220274ed646f3ba88096c1c5cd4c2ff07178e9c4b3aef221d0ad1455519ebec131e"
+    },
+    {
+      "href": "./BD37.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209b103e3b3845646465c3e689203e61d78d9f463348f28b2c858355f5f9ba3c25"
+    },
+    {
+      "href": "./BD38.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220619a5ea07f928917852d77d737d6d1ff7f7e33f8afb76fa28bfd358c0a503c4e"
+    },
+    {
+      "href": "./CG08.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220168b59c28ca95a3f80d838606c6cdac60d531fad7e1e4d56083a31f45747ca05"
+    },
+    {
+      "href": "./CG09.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208a3eba61239a59358d427a022c1caa1c3b75e46d2fb2b1248f47d8a93545f330"
+    },
+    {
+      "href": "./CG10.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f33989a019a636129ff0bf149d80fb8d976f50390dcdd5019e2e83e9ca8e9ea0"
+    },
+    {
+      "href": "./CG11.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d62bcc5d74ece9a964fc047b5b3b33cf38e09d2fc4f810f0bd0127a8bbcbbffb"
+    },
+    {
+      "href": "./CH10.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ba89974f2f983e82096e4178c542e341461664f354d5f51b5b50b243bc600b0e"
+    },
+    {
+      "href": "./CH11.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220efcad2e1a09a399d3f056e0d2c1682ed68c19f6242580efe11af445d404e2ecb"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor", "producer"] }
+  ],
+  "linz:lifecycle": "ongoing",
+  "linz:geospatial_category": "dem-hillshade-igor",
+  "linz:region": "new-zealand",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "new-zealand",
+  "created": "2025-06-16T21:56:40Z",
+  "updated": "2025-06-16T21:56:40Z",
+  "extent": {
+    "spatial": { "bbox": [[167.5207033, -46.9283415, 176.683288, -37.2242493]] },
+    "temporal": { "interval": [["2024-04-11T12:00:00Z", "2024-04-24T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220b7737a792988e7f29e22b56c1d24d0671b3eb76b48fce5a0b191456424d57faa",
+      "file:size": 6458172
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
