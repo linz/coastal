@@ -2,8 +2,8 @@
   "type": "Collection",
   "stac_version": "1.0.0",
   "id": "01JXXGZ4206K41PVE53ZVNG4A8",
-  "title": "New Zealand DEM Hillshade - Igor",
-  "description": "Hillshade generated from the New Zealand LiDAR 1m DEM using the -igor option in GDAL. This renders a softer hillshade that tries to minimize effects on other map features.",
+  "title": "New Zealand Coastal DEM Hillshade - Igor",
+  "description": "Coastal Hillshade generated from the New Zealand LiDAR 1m DEM using the -igor option in GDAL. This renders a softer hillshade that tries to minimize effects on other map features.",
   "license": "CC-BY-4.0",
   "links": [
     {
