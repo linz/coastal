@@ -1,0 +1,110 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01K3SSEYXW3K6GWW02J4X752G6",
+  "title": "Northland - Doubtless Bay and Mangōnui Harbour Coastal LiDAR 1m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Northland region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./AU26_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a137164b2962c673dd234a0fcf36c0a858f2c660d7ed5c8081160cd867a09f4d"
+    },
+    {
+      "href": "./AU26_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208529fdd50732ce6e8c6a88567243ab867bf184bb2d14b4fdfe7d0a2e1fe898ed"
+    },
+    {
+      "href": "./AU26_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12202abe1ee9c6ed6c41d150ca770fe132d55bfe317c2107a815a2f11eb01d8911dc"
+    },
+    {
+      "href": "./AU27_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12202f9fe7c321672aca72e76ecd3651436a8cfff354645ee9c99e7cc18079940b11"
+    },
+    {
+      "href": "./AU27_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122058366bb9227f35aad9eba1925ee11f382fedb533d6a28493fc1ddad8876ae7f5"
+    },
+    {
+      "href": "./AU27_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c66176c18cb866a0fc5577ca4a13267b6bbfdb2df5a4fb82273bbee0db507fdb"
+    },
+    {
+      "href": "./AU27_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122043e459a89a156748819697ac74d226045b34cc8783b303e2904c24ddd3fbac98"
+    },
+    {
+      "href": "./AU27_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f4601f55685d4acb635677982927f27adbb71d738d4f453c8a10c3ebd115ba23"
+    },
+    {
+      "href": "./AU27_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200881d8a60be0af6aa9ec5cfddb802b9b4454c8403a24dbabe6b33c75acd465f4"
+    },
+    {
+      "href": "./AV27_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205ab72b20df813fc7f5912e384b46f7e47c4bc68fd8d391819a0d6ccf293c67a9"
+    },
+    {
+      "href": "./AV27_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ecd7774b5e41bc252872886eb453d9f0ea52e1f852c2fdea4e970a536075d65a"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "northland",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "doubtless-bay-and-mangonui-harbour_2025",
+  "created": "2025-08-29T02:10:49Z",
+  "updated": "2025-08-29T02:10:49Z",
+  "linz:geographic_description": "Doubtless Bay and Mangōnui Harbour",
+  "extent": {
+    "spatial": { "bbox": [[173.3411382, -35.072523, 173.6054478, -34.8130318]] },
+    "temporal": { "interval": [["2025-03-07T11:00:00Z", "2025-03-15T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220e7eba5ad9eb8f959f295cdd03a4a9f7b7c9ab1663c15a208f7b6cf52de9be82f",
+      "file:size": 51357
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
