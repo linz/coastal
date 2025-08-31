@@ -2,7 +2,7 @@
   "type": "Collection",
   "stac_version": "1.0.0",
   "id": "01JXTPWYDWTP9TRXV5CTW6MTCX",
-  "title": "New Zealand Coastal LiDAR 1m DEM (2024)",
+  "title": "New Zealand Coastal LiDAR 1m DEM",
   "description": "Coastal Digital Elevation Model within the New Zealand region captured in 2024-2025.",
   "license": "CC-BY-4.0",
   "links": [
