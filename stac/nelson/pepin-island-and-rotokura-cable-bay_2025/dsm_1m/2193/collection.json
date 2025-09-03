@@ -1,0 +1,80 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01K48R7JHC6P06DR7P2TH57QG5",
+  "title": "Nelson - Pepin Island and Rotokura/Cable Bay Coastal LiDAR 1m DSM (2025)",
+  "description": "Coastal Digital Surface Model within the Nelson region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BP26_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122069ec0fbd3b35741a6390d12ec37e7f4c8872184f9393e6e02ea492458c21738b"
+    },
+    {
+      "href": "./BP27_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b2ed1dea1b9dfe5efa75e023fd37e08d72c1ab950eddad6ec4732980b5e3d839"
+    },
+    {
+      "href": "./BP27_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209bd75be6f68009decf9dbbe9daf34a08010db003bac274218a40f980ec925620"
+    },
+    {
+      "href": "./BP27_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207773aea38ecbf2ff13d82738888a2c3dc87f4fc7cc280d9d558e92dcced5b9d1"
+    },
+    {
+      "href": "./BQ26_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b875b555e0ed442550cfbb8a19b78cdceccece2b714f32190504532d150f4fcd"
+    },
+    {
+      "href": "./BQ27_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207f51fa8583261e905c3e0d1f97314567a9453c00410dbce9d2e5dfd4da1a87d9"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "NV5", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "nelson",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "pepin-island-and-rotokura-cable-bay_2025",
+  "created": "2025-09-03T21:37:55Z",
+  "updated": "2025-09-03T21:37:55Z",
+  "linz:geographic_description": "Pepin Island and Rotokura/Cable Bay",
+  "extent": {
+    "spatial": { "bbox": [[173.3715864, -41.2375974, 173.5436168, -41.0423491]] },
+    "temporal": { "interval": [["2025-02-27T11:00:00Z", "2025-03-30T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220f5650fe0dd50f2592e38c47b52d4411584b0301e4dd8d3fd9c207de40b8a2dfa",
+      "file:size": 113588
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
