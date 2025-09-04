@@ -67,6 +67,30 @@
       "file:checksum": "1220380ee30e85d61b1ba65b5a8a4b566026ebe83eca66ce328f792fe8f484d49fbd"
     },
     {
+      "href": "./BP26.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204098908c3795c1e0c65c68eefc75c879b02c8507603cd3144ff852fbc9bafaf1"
+    },
+    {
+      "href": "./BP27.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122047ec91526fbb044250ecae67aebd9c0ab353148f40a8cb5d829d83e7a7b08537"
+    },
+    {
+      "href": "./BQ26.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d10c7502887943438aa7b9817cd1ec7d1e10a87a34487fafacf555f032630755"
+    },
+    {
+      "href": "./BQ27.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206b0dff95d04334038c0bd79003ee2f3325b5ab19979bbe134a722f3dc2e5e82c"
+    },
+    {
       "href": "./CG08.json",
       "rel": "item",
       "type": "application/geo+json",
@@ -112,10 +136,10 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-06-16T23:25:08Z",
-  "updated": "2025-09-01T00:30:36Z",
+  "updated": "2025-09-04T00:30:37Z",
   "extent": {
     "spatial": { "bbox": [[167.5207033, -46.9283415, 176.683288, -34.6822331]] },
-    "temporal": { "interval": [["2024-04-11T12:00:00Z", "2025-03-15T11:00:00Z"]] }
+    "temporal": { "interval": [["2024-04-11T12:00:00Z", "2025-03-30T11:00:00Z"]] }
   },
   "assets": {
     "capture_area": {
@@ -124,8 +148,8 @@
       "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "12206d692f67ba5cc632990b17f18c54b6ef256efa11eb30ed27e585c505b72391f8",
-      "file:size": 8060325
+      "file:checksum": "12204789b2baa2d1afccd6f2503c0aa22639ab07fe942835e7992ed736d2b0f8b8e8",
+      "file:size": 8715296
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
