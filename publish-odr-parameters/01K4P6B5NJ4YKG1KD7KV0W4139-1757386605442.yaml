@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-09/09-initial-national-dsm-coastal-l6cl4/flat/",
+  "target": "s3://nz-coastal/new-zealand/new-zealand/dsm_1m/2193/",
+  "ticket": "TDE-1571",
+  "copy_option": "--force-no-clobber",
+  "region": "new-zealand",
+  "flatten": "false"
+}
