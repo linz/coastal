@@ -2,7 +2,7 @@
   "type": "Collection",
   "stac_version": "1.0.0",
   "id": "01K4P6B5NJ4YKG1KD7KV0W4139",
-  "title": "New Zealand Coastal LiDAR 1m DSM (2025)",
+  "title": "New Zealand Coastal LiDAR 1m DSM",
   "description": "Coastal Digital Surface Model within the New Zealand region captured in 2025.",
   "license": "CC-BY-4.0",
   "links": [
