@@ -1,0 +1,93 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01K4P6B5NJ4YKG1KD7KV0W4139",
+  "title": "New Zealand Coastal LiDAR 1m DSM (2025)",
+  "description": "Coastal Digital Surface Model within the New Zealand region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./AU26.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207ccee28600d9c907242bb26d5b3c7d4bdc4c2bf740d1783378c9b4d4c9183948"
+    },
+    {
+      "href": "./AU27.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200d56c9334c494aee6913163005889aafe6e1b276e6a2f0ce06db2dd9878e3a6a"
+    },
+    {
+      "href": "./AV27.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207c3b8af6daf2281f612ac728bb7a9d353d3e67dc2fbcc83a0e44a6b1c99b8048"
+    },
+    {
+      "href": "./BP26.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122089ce7d496be898546d48d0d38474fd870892e4f948859c36cc088eb7b984403e"
+    },
+    {
+      "href": "./BP27.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220aced5c5654167866cfe8a9a93dc39f9ee3a0b49e13bcee2438e5492552cb3776"
+    },
+    {
+      "href": "./BQ26.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d5e3260ecae0f5c28f6ea312d9438b7228326f90f0d0b3157ac7d471ce0c3b48"
+    },
+    {
+      "href": "./BQ27.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d7c002077df4ab0a3feb76fc2be8093507301018b2e905e1e1f7af79a043c42f"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor", "producer"] }
+  ],
+  "linz:lifecycle": "ongoing",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "new-zealand",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "new-zealand",
+  "created": "2025-09-09T02:54:40Z",
+  "updated": "2025-09-09T02:54:40Z",
+  "extent": {
+    "spatial": { "bbox": [[173.1310027, -41.4975302, 173.7188299, -34.6822331]] },
+    "temporal": { "interval": [["2025-02-27T11:00:00Z", "2025-03-30T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_dates": {
+      "href": "./capture-dates.geojson",
+      "title": "Capture dates",
+      "description": "Boundaries of individual surveys or flight runs that make up the overall collection with the data collection dates, data source links and other associated metadata, such as producers and licensors, where available. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122012425cb231f2150281f5abd6cfcd761419b328d5546cc25e609aa69e1f426bfb",
+      "file:size": 195651
+    },
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12206de57dac384d8982dcbba487bce0f7e7eac59c4ecba3980fcc196c45e6d633eb",
+      "file:size": 209355
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
