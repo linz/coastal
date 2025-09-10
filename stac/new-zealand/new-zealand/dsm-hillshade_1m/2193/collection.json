@@ -1,9 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01K4RS1SRG2VGBBWH6WHJ8RQ13",
-  "title": "New Zealand Coastal 1m DSM Hillshade",
-  "description": "Coastal Hillshade generated from the New Zealand LiDAR 1m DSM using GDAL’s default hillshading parameters of 315˚ azimuth and 45˚ elevation angle.",
+  "id": "01K4RYMF9YVWBGYKPZ5HAMGWRQ",
+  "title": "New Zealand 1m DSM Hillshade",
+  "description": "Hillshade generated from the New Zealand LiDAR 1m DSM using GDAL’s default hillshading parameters of 315˚ azimuth and 45˚ elevation angle.",
   "license": "CC-BY-4.0",
   "links": [
     {
@@ -16,43 +16,43 @@
       "href": "./AU26.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220495bc4ec10ee466dfd78544f76627c0bb5b6f9b5285dc44290b6066025f51b3d"
+      "file:checksum": "12204cc08f62a9e6f01cbbb9d077f4782ba5123a3b4dec1870d1857ab70c24893aea"
     },
     {
       "href": "./AU27.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122026401d2940d0f4651e72d5a7b169c1ea270f5cbc4054bded1357581fc252d510"
+      "file:checksum": "1220cf90e07aa7f2230de9ec1c4262a1efa55b798ed23aa6dd67f4161bf4058f8f28"
     },
     {
       "href": "./AV27.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12205e6d7dd3e95f09bf9a99972561d6c4d13afc993ab33df3987c2d483926fd3b5e"
+      "file:checksum": "1220bf4e712fc9ac6e6835cbaf1c1dc0d8f20b5ac7e461348fb4eb4441792a1474f2"
     },
     {
       "href": "./BP26.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122016e6ad2730461e158d9cd9718f1584240bdd4cf17506b612b42838d0a74223fe"
+      "file:checksum": "1220759f1574147bad4a9e3f0087b44cdf0932da22f3dd04c0eb8ca73b43a02eeec1"
     },
     {
       "href": "./BP27.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12200e5899739b61a07450aae9d227216131c218b8c9afe9c7c59d74c57f719375dd"
+      "file:checksum": "12208dd444de819aee6276e868a91760862bce3accb2c73d959666d65a6e434be68a"
     },
     {
       "href": "./BQ26.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220617754f191467cde2cfc803780785fa3744074924a69e655d2fae81c5e855a45"
+      "file:checksum": "1220b508a216011e54781e3a14a53d65451344bb25fbe21cd3619b11e6efbfc6726a"
     },
     {
       "href": "./BQ27.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220023881c1e26704eda972ecc7f861b12600a8dbce83e3fe00b9fa2429f701fceb"
+      "file:checksum": "12209197cce82db7913a1a58ede1803de95b4bcf198f5bd30e6f2205e2524fa9e0a4"
     }
   ],
   "providers": [
@@ -63,8 +63,8 @@
   "linz:region": "new-zealand",
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
-  "created": "2025-09-10T03:00:05Z",
-  "updated": "2025-09-10T03:00:05Z",
+  "created": "2025-09-10T04:37:40Z",
+  "updated": "2025-09-10T04:37:40Z",
   "extent": {
     "spatial": { "bbox": [[173.1310027, -41.4975302, 173.7188299, -34.6822331]] },
     "temporal": { "interval": [["2025-02-27T11:00:00Z", "2025-03-30T11:00:00Z"]] }
