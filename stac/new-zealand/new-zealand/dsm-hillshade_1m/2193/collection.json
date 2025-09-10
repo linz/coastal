@@ -1,0 +1,84 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01K4RS1SRG2VGBBWH6WHJ8RQ13",
+  "title": "New Zealand Coastal 1m DSM Hillshade",
+  "description": "Coastal Hillshade generated from the New Zealand LiDAR 1m DSM using GDAL’s default hillshading parameters of 315˚ azimuth and 45˚ elevation angle.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./AU26.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220495bc4ec10ee466dfd78544f76627c0bb5b6f9b5285dc44290b6066025f51b3d"
+    },
+    {
+      "href": "./AU27.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122026401d2940d0f4651e72d5a7b169c1ea270f5cbc4054bded1357581fc252d510"
+    },
+    {
+      "href": "./AV27.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205e6d7dd3e95f09bf9a99972561d6c4d13afc993ab33df3987c2d483926fd3b5e"
+    },
+    {
+      "href": "./BP26.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122016e6ad2730461e158d9cd9718f1584240bdd4cf17506b612b42838d0a74223fe"
+    },
+    {
+      "href": "./BP27.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200e5899739b61a07450aae9d227216131c218b8c9afe9c7c59d74c57f719375dd"
+    },
+    {
+      "href": "./BQ26.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220617754f191467cde2cfc803780785fa3744074924a69e655d2fae81c5e855a45"
+    },
+    {
+      "href": "./BQ27.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220023881c1e26704eda972ecc7f861b12600a8dbce83e3fe00b9fa2429f701fceb"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor", "producer"] }
+  ],
+  "linz:lifecycle": "ongoing",
+  "linz:geospatial_category": "dsm-hillshade",
+  "linz:region": "new-zealand",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "new-zealand",
+  "created": "2025-09-10T03:00:05Z",
+  "updated": "2025-09-10T03:00:05Z",
+  "extent": {
+    "spatial": { "bbox": [[173.1310027, -41.4975302, 173.7188299, -34.6822331]] },
+    "temporal": { "interval": [["2025-02-27T11:00:00Z", "2025-03-30T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12206de57dac384d8982dcbba487bce0f7e7eac59c4ecba3980fcc196c45e6d633eb",
+      "file:size": 209355
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
