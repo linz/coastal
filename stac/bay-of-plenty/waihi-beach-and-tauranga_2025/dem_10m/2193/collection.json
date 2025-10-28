@@ -1,0 +1,177 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01K8PAQE5S3M6DJ489ZVP82K9K",
+  "title": "Bay of Plenty - Waihi Beach and Tauranga Coastal LiDAR 10m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Bay of Plenty region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BC36_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d442a7fc607015fefd566c4ba049b53369579d8c17b90a50157055a92ab375ef"
+    },
+    {
+      "href": "./BC36_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122071b0abe5e755def0118b556a5c372365660a5a1b5886a02ccc90dc4438c113c7"
+    },
+    {
+      "href": "./BC36_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208a16d153783550d1647c469f459b5e23cf578e2461dec1db34454a0d737b70aa"
+    },
+    {
+      "href": "./BC36_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e28fd2e27ea92293715e12356efdedf3f6a44ab58c36f81466ca515c674f860a"
+    },
+    {
+      "href": "./BC36_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206c7e5601976cd84b680eec10d9ae51d309988ab2a9e479d588524ffb9880f0ae"
+    },
+    {
+      "href": "./BC36_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207d0309332b246dd486c507ff546fbd08d6e61f6665a9c7364dbce03ad8c6fa37"
+    },
+    {
+      "href": "./BC36_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209c07324a7142cf5c999e1bf03c2f044a6e8f287526b207c69c7bb9541ec96887"
+    },
+    {
+      "href": "./BC36_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122047e2808c0150344857740622c164c059ac909d7e6af5fbf9a56e85e3f7d2b322"
+    },
+    {
+      "href": "./BC36_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205aa6d1e735b8802260431a081537f7f94b325cc30761d1dcfb6c72377bb8a24d"
+    },
+    {
+      "href": "./BD36_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204a3193ad657803dc41112a8a10cdfa9507aacdd67b01d01a6ac271a6e71a5926"
+    },
+    {
+      "href": "./BD36_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122069377bec88a864068c5fbefacdcc237e45f50acfd629b838d19aa14add843a36"
+    },
+    {
+      "href": "./BD36_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208ce42a1d335dc20807663559e4156a49c735da3987dff5570159e6a12e2ac10e"
+    },
+    {
+      "href": "./BD36_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207524c7d0a69919c64fc20fecafc22f2628f5d02b49210082f1d564a50a66e976"
+    },
+    {
+      "href": "./BD36_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208e8b964476ceca7714f3bbdb29f80f3315c8e34a102f25c53bbca5f797210243"
+    },
+    {
+      "href": "./BD36_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122037cf4148dd9027dc43f2d797cd7e72cd2c8715638b5baabe8247b4e2570a70bc"
+    },
+    {
+      "href": "./BD36_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122043cec081830e9bbcdb0d20279f6680da030bd4f9dbe448ec714196ee6066e2d4"
+    },
+    {
+      "href": "./BD36_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ef9bbfe5299ace677f60894c3b608c3121e183c0fabbb9a73da95169b7d773a2"
+    },
+    {
+      "href": "./BD37_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220da5c4b287841ee0edc4cf2383024c3d0a530da2e4fbcdeff40244ffaa37116d8"
+    },
+    {
+      "href": "./BD37_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12202fbce9ea83d96bc4aa52bbea29a5d1e05073e4a7da7419e427cbadf86feca184"
+    },
+    {
+      "href": "./BD37_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ddab9a31d3a510592b9af3e6367f6274a6a156baa12658cd66acce4f6e9c0607"
+    },
+    {
+      "href": "./BD37_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220436bc3a4714c3d9042e05b49be244b63b9f2c42e6e53b710ee348acd260536aa"
+    },
+    {
+      "href": "./BD37_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207f7118442b98c8653c75fdfe1073b3ddbe5da2c2672f08a8f85bf9c262124438"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "bay-of-plenty",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "waihi-beach-and-tauranga_2025",
+  "gsd": 10,
+  "created": "2025-10-28T21:14:04Z",
+  "updated": "2025-10-28T21:14:04Z",
+  "linz:geographic_description": "Waihi Beach and Tauranga",
+  "extent": {
+    "spatial": { "bbox": [[175.9001395, -37.7581051, 176.24176, -37.3721055]] },
+    "temporal": { "interval": [["2025-01-27T11:00:00Z", "2025-03-25T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection provided by the data supplier. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12205256bfef0254b3774a37d89d511c3e204f2c07672fadc6856d27f0d878764a49",
+      "file:size": 10477
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
