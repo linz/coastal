@@ -1,0 +1,75 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KAD1ZZRXA1JNWTJ4RDF9MHHN",
+  "title": "Southland - Bluff Coastal LiDAR 1m DSM (2025)",
+  "description": "Coastal Digital Surface Model within the Southland region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./CG11_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208914b4f795a2f420f5e742d134e8c24d37b85732e76de9312d937512d7136d39"
+    },
+    {
+      "href": "./CH10_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a77138ca3832bd72018e81343850ad9c8759f35fcca948122c2be45311477321"
+    },
+    {
+      "href": "./CH10_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209d2569a4ab95ce104483dad39bbd6374a2f3be4162ade89b6e46f709effb253c"
+    },
+    {
+      "href": "./CH11_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122044eaab174a23751afc2c9fe8b28c0de9864ea0e6270e0df22c059770c97f03a7"
+    },
+    {
+      "href": "./CH11_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209a222e0519b4ebbfa50b6712ecff33ac014f70fc5b92a5074eee1b8628b3d769"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "NV5", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "southland",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "bluff_2025",
+  "gsd": 1,
+  "created": "2025-11-19T03:19:40Z",
+  "updated": "2025-11-19T03:19:40Z",
+  "linz:geographic_description": "Bluff",
+  "extent": {
+    "spatial": { "bbox": [[168.3262117, -46.662764, 168.5868921, -46.5311289]] },
+    "temporal": { "interval": [["2025-02-15T11:00:00Z", "2025-04-15T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220d89e6cce0a31e0f7785686b721ad26f864a68dfb658fa612c47fa7957f2773fd",
+      "file:size": 39907
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
