@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-11/24-imagery-standardising-j955c/flat/",
+  "target": "s3://nz-coastal/southland/bluff_2025/dem_1m/2193/",
+  "ticket": "LI-6743",
+  "copy_option": "--no-clobber",
+  "region": "southland",
+  "flatten": "false"
+}
