@@ -1,0 +1,117 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KASWXH53NWDGTWAEZP6GKCME",
+  "title": "Southland - Bluff Coastal LiDAR 1m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Southland region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./CG11_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204ec55937a9ee49e3503c2c816e93227be8163f760b005c8ac526d78d9dbfe8f5"
+    },
+    {
+      "href": "./CG11_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122052a7c42095fb386a03c698365de6dfd9c0673d373651a1678985dc08ac9c65ab"
+    },
+    {
+      "href": "./CH10_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ab8baea0683f682c396ff01e0de8ef125c16b7f8074fc354f7513d9335a46070"
+    },
+    {
+      "href": "./CH10_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200487c72235827e52681bbd79576decb86854ee3d525398ee3c3b7067c1ea26ef"
+    },
+    {
+      "href": "./CH10_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200c9099dd5658fc051642ca44a9fd62f1ffd49bcb29e09d0d89d0f89c5d83eab5"
+    },
+    {
+      "href": "./CH10_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205692589d119f6b2233af666a38fb9659eae580b25c9ab1b7e4f854817eee47f1"
+    },
+    {
+      "href": "./CH11_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122031531023771139d5a3a002af8163d2d524086c0c6d6c097c4fa1a6df094f43b5"
+    },
+    {
+      "href": "./CH11_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ccdac61b76ecfd44e199633cee9e48b64a6f2b23e1ad740f2b5e0dbd418106ab"
+    },
+    {
+      "href": "./CH11_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220752e54867fb2a0deb48aff574b3880c5c71311707ca8fe0cbff814cc347de602"
+    },
+    {
+      "href": "./CH11_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203a942c369540b91565aeae499299caec8834e37ff812c5664e82959f64c9b47d"
+    },
+    {
+      "href": "./CH11_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220920eebe96e9b2fccf47969a9b97304c6c93ecc5da5cdaa0565a41c0b47efc9e8"
+    },
+    {
+      "href": "./CH11_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122089bc45efd4ada2a989a0c2781a86f304241b4389adee45ab697465389625cc47"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "NV5", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "southland",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "bluff_2025",
+  "gsd": 1,
+  "created": "2025-11-24T03:01:05Z",
+  "updated": "2025-11-24T03:01:05Z",
+  "linz:geographic_description": "Bluff",
+  "extent": {
+    "spatial": { "bbox": [[168.3206263, -46.7297767, 168.6493042, -46.5311289]] },
+    "temporal": { "interval": [["2025-02-15T11:00:00Z", "2025-04-15T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220319daee17c20b92afb923ba6b1de645c5c9e27a47468fe1087186f1dca346c18",
+      "file:size": 300370
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
