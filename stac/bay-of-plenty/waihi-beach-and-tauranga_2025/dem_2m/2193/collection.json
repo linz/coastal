@@ -1,0 +1,63 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KCJE4QPBGKKV2REMCFN1Q30F",
+  "title": "Bay of Plenty - Waihi Beach and Tauranga Coastal LiDAR 2m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Bay of Plenty region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BC36.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ec4b68fe50708b0a341f9b746bf72da0454a037ee54f5439866db00924c71834"
+    },
+    {
+      "href": "./BD36.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205d0a2a5349893ab65f3da11666960d668ea1fc3a3a730743d858977efdbdf43d"
+    },
+    {
+      "href": "./BD37.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207c7a539fd6970d375797eb24807c94f914e8ac1f6d3750ca5a9bec05418197cd"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "bay-of-plenty",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "waihi-beach-and-tauranga_2025",
+  "gsd": 2,
+  "created": "2025-12-16T01:59:35Z",
+  "updated": "2025-12-16T01:59:35Z",
+  "linz:geographic_description": "Waihi Beach and Tauranga",
+  "extent": {
+    "spatial": { "bbox": [[175.8411064, -37.8946579, 176.4109142, -37.2396905]] },
+    "temporal": { "interval": [["2025-01-27T11:00:00Z", "2025-03-25T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12204962973095489d4bb8189a60d0e02148231a1450e89929b346161fd668593eb2",
+      "file:size": 1762394
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
