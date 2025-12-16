@@ -1,0 +1,63 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KCJG1W5208JNHFY2VBCD3PP3",
+  "title": "Northland - Doubtless Bay and Mangōnui Harbour Coastal LiDAR 10m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Northland region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./AU26.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122017ae5f3516ba5454948bb7ec6e985a9463b66d311970d848bdc6f6cdb0a79146"
+    },
+    {
+      "href": "./AU27.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122094ba06aede7599249d1578877a30ee7b4704c02e4febf072315bcf73b7c81c5b"
+    },
+    {
+      "href": "./AV27.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122048194a7df8eaec38b58381bf4ce3a25d441271ea00042a74317b7b7485716c8a"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "northland",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "doubtless-bay-and-mangonui-harbour_2025",
+  "gsd": 10,
+  "created": "2025-12-16T02:32:58Z",
+  "updated": "2025-12-16T02:32:58Z",
+  "linz:geographic_description": "Doubtless Bay and Mangōnui Harbour",
+  "extent": {
+    "spatial": { "bbox": [[173.1310027, -35.3325989, 173.6601906, -34.6822331]] },
+    "temporal": { "interval": [["2025-03-07T11:00:00Z", "2025-03-15T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection provided by the data supplier. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220ae51e2a70bf3d2bbc352c319b8a703e654b0c2a76e3b105612b39d1f71329089",
+      "file:size": 12569083
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
