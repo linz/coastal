@@ -1,0 +1,69 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KCJJ3ADXCQXHK5YN7X1JGAX4",
+  "title": "Nelson - Pepin Island and Rotokura/Cable Bay Coastal LiDAR 2m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Nelson region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BP26.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203695f93534eb45b52ef9db2d4dac6468846ba72d4fd71d43b3d4ed0eea8d1767"
+    },
+    {
+      "href": "./BP27.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122089f9400acd61cd9bd94ced7430d73b86aeeb7540b312bc31e125f77f4c8eb36e"
+    },
+    {
+      "href": "./BQ26.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220afa68f3abeaff1e0d12c76c3791789077dea28cdac67ac001154020ece6bbb19"
+    },
+    {
+      "href": "./BQ27.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208a476df2628f842f800ae8357585655720dc84db501ae028e5a955b07da43a2b"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "NV5", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "nelson",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "pepin-island-and-rotokura-cable-bay_2025",
+  "gsd": 2,
+  "created": "2025-12-16T03:08:43Z",
+  "updated": "2025-12-16T03:08:43Z",
+  "linz:geographic_description": "Pepin Island and Rotokura/Cable Bay",
+  "extent": {
+    "spatial": { "bbox": [[173.1423602, -41.4975302, 173.7188299, -40.8468505]] },
+    "temporal": { "interval": [["2025-02-27T11:00:00Z", "2025-03-30T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection provided by the data supplier. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220e252dc9c6a2575aeed0a43ad30927b615f16ae8806fe6e34df7bc31eb6f85298",
+      "file:size": 16371080
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
