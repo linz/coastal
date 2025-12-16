@@ -1,0 +1,63 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KCJERFR6HG49DZB46775CD0P",
+  "title": "Southland - Bluff Coastal LiDAR 10m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Southland region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./CG11.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12202664b9f45bb5008ad74dc563efa225d9380a809a0f99d38d5e207d92c4677c4d"
+    },
+    {
+      "href": "./CH10.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a0df4e75b7c2562d2af08900cc6692ea07fd5593467f7cf63c62cfda9d8f5f5d"
+    },
+    {
+      "href": "./CH11.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220713b289d3d597ff4b81ce0469337352b3fd08baabc064bb1fc7df2938056c126"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "NV5", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "southland",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "bluff_2025",
+  "gsd": 10,
+  "created": "2025-12-16T02:10:22Z",
+  "updated": "2025-12-16T02:10:22Z",
+  "linz:geographic_description": "Bluff",
+  "extent": {
+    "spatial": { "bbox": [[168.1153331, -46.9283415, 168.7941052, -46.2702838]] },
+    "temporal": { "interval": [["2025-02-15T11:00:00Z", "2025-04-15T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122053611303afd73e90c4de45bac78e5bfe29872b5f66e75a81c545fc732a4a652e",
+      "file:size": 8580
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
