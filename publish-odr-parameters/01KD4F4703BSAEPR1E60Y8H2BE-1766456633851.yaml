@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2025-12/23-imagery-standardising-tkjkm/flat/",
+  "target": "s3://nz-coastal/northland/whangarei-to-bream-bay_2025/dem_10m/2193/",
+  "ticket": "LI-7064",
+  "copy_option": "--no-clobber",
+  "region": "northland",
+  "flatten": "false"
+}
