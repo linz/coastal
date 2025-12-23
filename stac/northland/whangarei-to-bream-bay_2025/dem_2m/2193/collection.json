@@ -1,0 +1,63 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KD4F3K2FN6S7YP0S8RJ2A4JW",
+  "title": "Northland - Whangārei to Bream Bay Coastal LiDAR 2m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Northland region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./AX30.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122035a31993053c4d90649e879edceda21a50865dddce3363ce58ae1f8b30c21347"
+    },
+    {
+      "href": "./AX31.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a4f14550d7506896b774dfd41522cb8bc1d0a9dc1035e564a65903a39f44de8c"
+    },
+    {
+      "href": "./AY31.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207ee826e857880e26a1b23880df79f2d26a08b22a5845f9970a43ee63d4683643"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "northland",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "whangarei-to-bream-bay_2025",
+  "gsd": 2,
+  "created": "2025-12-23T02:02:45Z",
+  "updated": "2025-12-23T02:02:45Z",
+  "linz:geographic_description": "Whangārei to Bream Bay",
+  "extent": {
+    "spatial": { "bbox": [[174.1930523, -36.29796, 174.7372783, -35.645521]] },
+    "temporal": { "interval": [["2025-03-05T11:00:00Z", "2025-03-17T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection provided by the data supplier. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122074b26e5b5c0901acd7bf34f710244897fe46cc7f15a9f79fee44aa374a208d3e",
+      "file:size": 12935728
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
