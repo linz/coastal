@@ -1,0 +1,183 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KD4F61NXX02ZW9GP7WF75XAD",
+  "title": "Northland - Whangārei to Bream Bay Coastal LiDAR 1m DSM (2025)",
+  "description": "Coastal Digital Surface Model within the Northland region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./AX30_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e8679765786c0b1fbd03ff2324aceff94e6b4c06c2ca776089b3eed64b24c568"
+    },
+    {
+      "href": "./AX30_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203c47089367d7eadc98fbea6417d2efaf3ac107ad9f42d2fc978f19fb906a21d8"
+    },
+    {
+      "href": "./AX30_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ee6b962a719aba6fc43660c461b873fed93a226be8950eb21a5907c612dce75f"
+    },
+    {
+      "href": "./AX30_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203701acd48446fde49d0257deeef633038a3b672f1e733a0c72b03d482364c5fe"
+    },
+    {
+      "href": "./AX30_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d866498bcf77c4af10c0f472da2a2137e6e84378880f60a389f5a7672da9daca"
+    },
+    {
+      "href": "./AX30_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220cd6c1b84e5666b54ff5379e2320712f42c14613e2105ac73c53be1b4a91018ad"
+    },
+    {
+      "href": "./AX30_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220de27153c568240af2d3b10933fd42fae16d394b45bddecd538258625adb5f098"
+    },
+    {
+      "href": "./AX30_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122012ae16aa8494a491af8e12d27c5d9de0f923ee3c1b15d3ce1988405434ff7b75"
+    },
+    {
+      "href": "./AX30_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f18ff81d4ec65b9d3649eafbf319005faab02eb6163c1069a255bc9bee48786f"
+    },
+    {
+      "href": "./AX30_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122091b615b258ba446fa7bbd72f8d4b68e94ce7858edf39013a342207e8f901dc5f"
+    },
+    {
+      "href": "./AX30_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122026f48cfad7636cefda810d1dcf4c59877f3af56f24a414224ece4bd7bf0521a8"
+    },
+    {
+      "href": "./AX31_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e1c1c36bc6266707a491c47edd98b6c18faffde3e134c7341da8b4a8b4af53a1"
+    },
+    {
+      "href": "./AX31_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122049581c998bd6ffed50efb931537e28de110eeea6574c893d5019536a7e382ab7"
+    },
+    {
+      "href": "./AX31_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122004354d91f9158edbf10dbb290072a951754abcfd3a1ad7a15b0d24319d45c92d"
+    },
+    {
+      "href": "./AX31_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ab1aadab59964fa20ed67bb42dc6abd8e78667da7492f9f5ae6fe319b0631abe"
+    },
+    {
+      "href": "./AX31_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122068bcfc305f7b15d6b06b77373fbbfeb35893b3bda7f14bbb45d37656e9c33fe2"
+    },
+    {
+      "href": "./AX31_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b1feff35179bb494c73fa9fe5057e27e4947884b458a17434783164dd31e5c8c"
+    },
+    {
+      "href": "./AX31_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206e0f8b6eb4efaaf4bada1c8614e7b30c60df7746a365feba4b1495c12a7559f0"
+    },
+    {
+      "href": "./AY30_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208bb60e4f70af540e38fa30f76f3aa414ecc645f4796356bffe087ce2913ba7e3"
+    },
+    {
+      "href": "./AY31_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201ac1eeea87be91bb8dcbfefb88394c9f40a439641d3fc2d5041e46d61e79cc50"
+    },
+    {
+      "href": "./AY31_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b01b4c13205bdff3526e1fb9ef96b75c9edf72ea723ea78b4433c0d13e7d98a7"
+    },
+    {
+      "href": "./AY31_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122001532a617999d6005185a0e2aad336655da769ea1af8a5f3efd24e702f5f5546"
+    },
+    {
+      "href": "./AY31_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201d4ed2d5f5e6bc5f37ca0d09a890a994b572feaa7b3f1c33db4e67ca481e34b6"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "northland",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "whangarei-to-bream-bay_2025",
+  "gsd": 1,
+  "created": "2025-12-23T02:04:06Z",
+  "updated": "2025-12-23T02:04:06Z",
+  "linz:geographic_description": "Whangārei to Bream Bay",
+  "extent": {
+    "spatial": { "bbox": [[174.2480886, -36.1026218, 174.6263769, -35.7132637]] },
+    "temporal": { "interval": [["2025-03-05T11:00:00Z", "2025-03-17T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12205f97d38c9aea8a24e0e459bf211f5f06346991a490b44b25cbf3f5980f740686",
+      "file:size": 442198
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
