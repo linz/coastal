@@ -1,0 +1,105 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KEX05SF283ATP09QN5GYVDS8",
+  "title": "Bay of Plenty - Ōpōtiki to Tōrere Coastal LiDAR 1m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Bay of Plenty region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BE41_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122046a6d8118f5531b249cb300ecfa3b37db0e3d2351959709faf3883b2a43f2dae"
+    },
+    {
+      "href": "./BE41_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220acbe5b7a6e542fa2ed629f75aa46edbd2e1b871869bfdda8b4ec5e66e4eea929"
+    },
+    {
+      "href": "./BE41_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208decbb469299383f445c3db9fe6d511237bc04b6d1a057c596c5679b6ac743ae"
+    },
+    {
+      "href": "./BE41_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206142d576bbedd3318c71a71bde91bcd0b8823caa71b28037359c996a544d0c5c"
+    },
+    {
+      "href": "./BE41_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b8ea7fef075ab6212d0a9332298e695f20f1cedb2adb93ed93e572a28e01deff"
+    },
+    {
+      "href": "./BE41_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200d43fe5e88c87dfaf97a881d605baa037737192fac21fce0659ecd65544c9fff"
+    },
+    {
+      "href": "./BE41_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220cec3dfcdfd25546831cc4d5072346f7144b8b59c39f061e016bb185c992536ed"
+    },
+    {
+      "href": "./BE41_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e813290b6864f394dd72beb82672b346f599f0d8dba6c439e744e4004ef1e2ff"
+    },
+    {
+      "href": "./BE41_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d6821e1c57adcdd863474f142ffbd3dc0ff7b12ac2a006ecd38d093f7c055977"
+    },
+    {
+      "href": "./BE42_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122027dc38c952c257117d818a6cf73568174cc792e4c7f0246f84360ecd063d86a3"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "bay-of-plenty",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "opotiki-to-torere_2025",
+  "gsd": 1,
+  "created": "2026-01-14T00:58:32Z",
+  "updated": "2026-01-14T00:58:32Z",
+  "linz:geographic_description": "Ōpōtiki to Tōrere",
+  "extent": {
+    "spatial": { "bbox": [[177.2313907, -38.0477261, 177.5620679, -37.9060733]] },
+    "temporal": { "interval": [["2025-02-23T11:00:00Z", "2025-03-27T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection provided by the data supplier. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12205b5809703abd83c5ea62d3b5131d504045b9e253f3662ef1c14f5060803fd8c0",
+      "file:size": 3469469
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
