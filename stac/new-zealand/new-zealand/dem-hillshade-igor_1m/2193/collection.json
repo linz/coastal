@@ -31,6 +31,30 @@
       "file:checksum": "1220c76d54a5cebe99ed73c89e93971afed0d431c75c4f8762893fb7c787195e5b07"
     },
     {
+      "href": "./AX30.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220aeda7e964a229fbdb2867598f90c69ac93890934d7d09a4608030000d0c9eb34"
+    },
+    {
+      "href": "./AX31.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122033152003c4c88e78c45f96264d1c534a951e179aa25ac7edbce4f9f7d3604004"
+    },
+    {
+      "href": "./AY30.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d7dc3a26e6fffbae0a3731e16c11567a01d890a09ca8f2962073a8399e4fef2f"
+    },
+    {
+      "href": "./AY31.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e9847bf8d5febb1bde7c3a0aa774dcf006df13e48b55e732738ebc63347fdf58"
+    },
+    {
       "href": "./BC36.json",
       "rel": "item",
       "type": "application/geo+json",
@@ -65,6 +89,18 @@
       "rel": "item",
       "type": "application/geo+json",
       "file:checksum": "1220619a5ea07f928917852d77d737d6d1ff7f7e33f8afb76fa28bfd358c0a503c4e"
+    },
+    {
+      "href": "./BE41.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220441315fbf8ba6235d8a2d6bca06044ac4189545726cf6a50b3dba5f92781d139"
+    },
+    {
+      "href": "./BE42.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122010659361c3322e49ac3904035ce23868a87294570a6754ae8bd22071c41c5822"
     },
     {
       "href": "./BP26.json",
@@ -136,9 +172,9 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-06-16T21:56:40Z",
-  "updated": "2025-11-27T02:19:51Z",
+  "updated": "2026-01-18T20:32:06Z",
   "extent": {
-    "spatial": { "bbox": [[167.5207033, -46.9283415, 176.683288, -34.6822331]] },
+    "spatial": { "bbox": [[167.5207033, -46.9283415, 177.7925909, -34.6822331]] },
     "temporal": { "interval": [["2024-04-11T12:00:00Z", "2025-04-15T12:00:00Z"]] }
   },
   "assets": {
@@ -148,8 +184,8 @@
       "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "122049c237fa46f124adc74578cbdb9ba7ff34c0a1e6088212dd8aea9bbe7fd99cd0",
-      "file:size": 9911758
+      "file:checksum": "1220bec9ae6f62af839fa7c47a356f974c63665ddebf1bcac26ac15d0fae42ca99fb",
+      "file:size": 19859873
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
