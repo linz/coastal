@@ -31,6 +31,30 @@
       "file:checksum": "1220bf4e712fc9ac6e6835cbaf1c1dc0d8f20b5ac7e461348fb4eb4441792a1474f2"
     },
     {
+      "href": "./AX30.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208a04ae317e83833a49d04d336981e11d576682024f704e274c4efdc649591e5e"
+    },
+    {
+      "href": "./AX31.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207b88b31fe575479258254b9df2f1f64fe2c7b957012ad634aae851897bc45ac1"
+    },
+    {
+      "href": "./AY30.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122031863343c33b7723fe746c49a82348e7bb2d52531743512e7591960a1e26770d"
+    },
+    {
+      "href": "./AY31.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220bb3dbd59c12b167b273f9f39b43093d70250a3b34b7004156946e67079f7a1e4"
+    },
+    {
       "href": "./BC36.json",
       "rel": "item",
       "type": "application/geo+json",
@@ -47,6 +71,12 @@
       "rel": "item",
       "type": "application/geo+json",
       "file:checksum": "122053ba25364127ecaa65ad5252edda791ee66aaa571bb6efc1b22930536f8b07ee"
+    },
+    {
+      "href": "./BE41.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ed0daaafcbbe49b953693e70f4178cd209308bef949876924b8410e0d9869655"
     },
     {
       "href": "./BP26.json",
@@ -100,9 +130,9 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-09-10T04:37:40Z",
-  "updated": "2025-11-27T03:18:14Z",
+  "updated": "2026-01-18T23:30:25Z",
   "extent": {
-    "spatial": { "bbox": [[168.1153331, -46.9283415, 176.4109142, -34.6822331]] },
+    "spatial": { "bbox": [[168.1153331, -46.9283415, 177.5195386, -34.6822331]] },
     "temporal": { "interval": [["2025-01-27T11:00:00Z", "2025-04-15T12:00:00Z"]] }
   },
   "assets": {
@@ -112,8 +142,8 @@
       "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "122011db429d2c6b8236b4ef86926276d4be6388d2c792719eb0606473faa2104181",
-      "file:size": 783365
+      "file:checksum": "12202f47468c26763afeda6e538d37176f085e0c76d89487d7e15f4c3edf771f54a9",
+      "file:size": 1301523
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
