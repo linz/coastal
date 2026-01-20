@@ -1,0 +1,57 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KFEW7N5C1HN0D458VAW654YC",
+  "title": "Bay of Plenty - Ōpōtiki to Tōrere Coastal LiDAR 10m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Bay of Plenty region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BE41.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220989f7d75699a0e828f0486309b39888eda79dc55b39dc62ba14b027f123000aa"
+    },
+    {
+      "href": "./BE42.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204da8ee8b403a9826f8135d518fac1d34278ca2d98556ee95c00e6b9d94097183"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "bay-of-plenty",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "opotiki-to-torere_2025",
+  "gsd": 10,
+  "created": "2026-01-20T23:35:58Z",
+  "updated": "2026-01-20T23:35:58Z",
+  "linz:geographic_description": "Ōpōtiki to Tōrere",
+  "extent": {
+    "spatial": { "bbox": [[177.2276822, -38.1771528, 177.7925909, -37.8327552]] },
+    "temporal": { "interval": [["2025-02-23T11:00:00Z", "2025-03-27T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220b1ab3221b5ad05c5614332bafe221ff092e059144efad203dfd40822133a2445",
+      "file:size": 9291
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
