@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-01/20-imagery-standardising-qmp9q/flat/",
+  "target": "s3://nz-coastal/nelson/pepin-island-and-rotokura-cable-bay_2025/dem_10m/2193/",
+  "ticket": "LI-7718",
+  "copy_option": "--no-clobber",
+  "region": "nelson",
+  "flatten": "false"
+}
