@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-01/20-imagery-standardising-hq5cm/flat/",
+  "target": "s3://nz-coastal/bay-of-plenty/opotiki-to-torere_2025/dem_2m/2193/",
+  "ticket": "LI-7276",
+  "copy_option": "--no-clobber",
+  "region": "bay-of-plenty",
+  "flatten": "false"
+}
