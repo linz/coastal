@@ -1,0 +1,63 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KFEWDSGJ469BV578J78B44QY",
+  "title": "Bay of Plenty - Waihi Beach and Tauranga Coastal LiDAR 10m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Bay of Plenty region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BC36.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d8d84ba9a0556db7ee3d72035ed2311d336717287d79404220f1af0103135670"
+    },
+    {
+      "href": "./BD36.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122071aef4aa6fd3dc1acd30ec365d0ccdd79e6bb8c682932879d048939bc04f1b8d"
+    },
+    {
+      "href": "./BD37.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206df4a299aa7be9f0276d969d53995a9b6214a31b4b273e448b8c481258de867d"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "bay-of-plenty",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "waihi-beach-and-tauranga_2025",
+  "gsd": 10,
+  "created": "2026-01-20T23:39:19Z",
+  "updated": "2026-01-20T23:39:19Z",
+  "linz:geographic_description": "Waihi Beach and Tauranga",
+  "extent": {
+    "spatial": { "bbox": [[175.8411064, -37.8946579, 176.4109142, -37.2396905]] },
+    "temporal": { "interval": [["2025-01-27T11:00:00Z", "2025-03-25T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122026973f4371522345dab76d978b76fa6798d8cb863689940a13afdf25c20efc5e",
+      "file:size": 66642
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
