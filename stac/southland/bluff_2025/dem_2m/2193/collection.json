@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01KCJDSEPNXW728HG15V7M6A68",
+  "id": "01KFKJF7ZPRQRHAVF3PFMVAS05",
   "title": "Southland - Bluff Coastal LiDAR 2m DEM (2025)",
   "description": "Coastal Digital Elevation Model within the Southland region captured in 2025.",
   "license": "CC-BY-4.0",
@@ -16,19 +16,19 @@
       "href": "./CG11.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220754dcb8fad36a3a54ff3b421680e2dbe7fc12567d934d4dd460b92975f5f1c2a"
+      "file:checksum": "122085e367e1edea7a5596b7caf6ed55e39e862da1753f46b37adc09ecff57119e2e"
     },
     {
       "href": "./CH10.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122066c1499f2d1ba5560b9d35b8f5cc275c3d6b77068d6ec48f24db5683c37120e4"
+      "file:checksum": "1220e1a59fa7cd851cd28d9000dc7661c25c9984141d2cc2846ae43075815392812b"
     },
     {
       "href": "./CH11.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220258ac5aa9a98adac2efdb7a12751081f258fdc5022972eb740f7388be00eaecf"
+      "file:checksum": "12200d189d205e9cefef65640f500d60fad508b61507e060c9914d260c6c506c7b09"
     }
   ],
   "providers": [
@@ -41,8 +41,8 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "bluff_2025",
   "gsd": 2,
-  "created": "2025-12-16T01:53:25Z",
-  "updated": "2025-12-16T01:53:25Z",
+  "created": "2026-01-22T19:21:33Z",
+  "updated": "2026-01-22T19:21:33Z",
   "linz:geographic_description": "Bluff",
   "extent": {
     "spatial": { "bbox": [[168.1153331, -46.9283415, 168.7941052, -46.2702838]] },
@@ -52,11 +52,11 @@
     "capture_area": {
       "href": "./capture-area.geojson",
       "title": "Capture area",
-      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220cfcdb3b0df8057baf9e2bde5e54c610486af7aa77471a9523634d19e5f46375d",
-      "file:size": 101505
+      "file:checksum": "1220604936d3e1c3ed03d166bcb690c80dece38562fba16864f118120dcaf12971c8",
+      "file:size": 38007
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
