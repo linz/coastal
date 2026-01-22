@@ -42,7 +42,7 @@
   "linz:slug": "bluff_2025",
   "gsd": 2,
   "created": "2025-12-16T01:53:25Z",
-  "updated": "2025-12-16T01:53:25Z",
+  "updated": "2026-01-22T19:44:25Z",
   "linz:geographic_description": "Bluff",
   "extent": {
     "spatial": { "bbox": [[168.1153331, -46.9283415, 168.7941052, -46.2702838]] },
@@ -52,11 +52,11 @@
     "capture_area": {
       "href": "./capture-area.geojson",
       "title": "Capture area",
-      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220cfcdb3b0df8057baf9e2bde5e54c610486af7aa77471a9523634d19e5f46375d",
-      "file:size": 101505
+      "file:checksum": "1220e3fca0390e2adc8b84cf9d2c1c4aa511866722e58f115104b1667fb6f07b0606",
+      "file:size": 37917
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
