@@ -162,7 +162,7 @@
   "linz:slug": "waihi-beach-and-tauranga_2025",
   "gsd": 1,
   "created": "2025-10-29T21:49:51Z",
-  "updated": "2025-10-29T21:49:51Z",
+  "updated": "2026-01-23T00:37:20Z",
   "linz:geographic_description": "Waihi Beach and Tauranga",
   "extent": {
     "spatial": { "bbox": [[175.9001395, -37.7581051, 176.2961612, -37.3721055]] },
@@ -172,11 +172,11 @@
     "capture_area": {
       "href": "./capture-area.geojson",
       "title": "Capture area",
-      "description": "Boundary of the total capture area for this collection provided by the data supplier. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "122016603083b6dc681df68a583335a3d15441d9076d603253ee0544aea9f5e7a34a",
-      "file:size": 116237
+      "file:checksum": "1220baaeb755af0b7cb4ff87ec09bd59d2d844f917b3d33449d7853826bca3df53c3",
+      "file:size": 1051625
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
