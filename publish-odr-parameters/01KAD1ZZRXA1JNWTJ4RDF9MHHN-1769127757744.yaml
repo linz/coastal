@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-01/23-imagery-standardising-bqmsn/flat/",
+  "target": "s3://nz-coastal/southland/bluff_2025/dsm_1m/2193/",
+  "ticket": "LI-6743",
+  "copy_option": "--no-clobber",
+  "region": "southland",
+  "flatten": "false"
+}
