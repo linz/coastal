@@ -1,0 +1,63 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KGZETWQN28GSDHYRK26K4QXM",
+  "title": "Auckland - Mangawhai to Snells Coastal LiDAR 10m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Auckland region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./AY31.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122057dd8cc91505051e58176cb53ed5e506e370bb93e7b1e956ef060fd72e1d8176"
+    },
+    {
+      "href": "./AY32.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b81c0f3a01295ae4118914b9157f14716b0d0b7443282f5707376276e8dfdd12"
+    },
+    {
+      "href": "./AZ32.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220bab0b89e76d9bc696b592632e2fc5cf3925b0234860d9375dd759fe154137f9f"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "auckland",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "mangawhai-to-snells_2025",
+  "gsd": 10,
+  "created": "2026-02-08T20:24:35Z",
+  "updated": "2026-02-08T20:24:35Z",
+  "linz:geographic_description": "Mangawhai to Snells",
+  "extent": {
+    "spatial": { "bbox": [[174.4640503, -36.6187744, 175.0127803, -35.9658256]] },
+    "temporal": { "interval": [["2025-03-06T11:00:00Z", "2025-03-15T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220f8092a53a67a922757d2bee469cd0e693fbf34a373899bb125976fccc8252829",
+      "file:size": 30338
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
