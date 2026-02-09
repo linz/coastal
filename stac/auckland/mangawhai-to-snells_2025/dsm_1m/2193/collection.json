@@ -1,0 +1,135 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KGZYZPFSFMZG2YVV50313131",
+  "title": "Auckland - Mangawhai to Snells Coastal LiDAR 1m DSM (2025)",
+  "description": "Coastal Digital Surface Model within the Auckland region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./AY31_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220edc19bd04531ef101b5d7f0c20876ead54e3a31aa03fad44f4f4446ebba8ae0f"
+    },
+    {
+      "href": "./AY31_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220bd635043a375263310b7ac2255465ed55f40395e7482f03467a1ecce7461d0a4"
+    },
+    {
+      "href": "./AY31_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e0bf5e4ccadcfacb5914a6e5972a1657d2fbcaa1dc9048a0576fd5f09ce86ce9"
+    },
+    {
+      "href": "./AY31_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122020eb0a504765cce681949cb2bbdd9c79386457389d5db1fed83247f368d71e01"
+    },
+    {
+      "href": "./AY31_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220fc3b9f6de53dbd94ba3c9ffafb16461de48bbd086b15a59ad5f1381e8a3bbc0b"
+    },
+    {
+      "href": "./AY31_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220659c5702aa35bae2986138613f8e87ab0f149f7979c00435c0b17856d3934943"
+    },
+    {
+      "href": "./AY31_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12202f40e01569f94d275df9eee800489e36c4a31293360887e6d116abfb1021015b"
+    },
+    {
+      "href": "./AY31_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201180157f32a465687a5c68e3d30c68c546f9f9d6590d78875cb81938c8baccdb"
+    },
+    {
+      "href": "./AY32_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220412848face5da06b5c43d60bab992561ab30a5228e4db5227abf80f5fb5395fc"
+    },
+    {
+      "href": "./AY32_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122034eac17ab4cd8dec479a6cd1907d065acfde2c3bc2a7414fe766ef7579b6b6f5"
+    },
+    {
+      "href": "./AZ32_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220fcaa3e9ebacbf2d48dc25329ee503c106ec3eee72a224013512951b2c7ee8958"
+    },
+    {
+      "href": "./AZ32_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f961d8ac6dacb12cfbd3e4a5f53d636b6441576c2a6b31c47d36de77b6738e0a"
+    },
+    {
+      "href": "./AZ32_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b4f69bf410e70ee667bf68490f39b563ab57e5f13f2554892d3c2e5d94797468"
+    },
+    {
+      "href": "./AZ32_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f1d57caf925a269d77be7c6bbc4cb257dce781526ae8e00ae1c9ef97153ca1be"
+    },
+    {
+      "href": "./AZ32_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122063640545acac00d70ce22b2a722e0302f3d01e517ef939b0441c39297cb3e6b7"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "auckland",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "mangawhai-to-snells_2025",
+  "gsd": 1,
+  "created": "2026-02-09T01:06:50Z",
+  "updated": "2026-02-09T01:06:50Z",
+  "linz:geographic_description": "Mangawhai to Snells",
+  "extent": {
+    "spatial": { "bbox": [[174.5185161, -36.4241373, 174.9007196, -36.0363339]] },
+    "temporal": { "interval": [["2025-03-06T11:00:00Z", "2025-03-15T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220dfc9db8a50a178d0d07b646a2d94675780f210856ee11f62364bc43fdabd0f90",
+      "file:size": 186371
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
