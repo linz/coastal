@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-02/08-imagery-standardising-tx8vk/flat/",
+  "target": "s3://nz-coastal/auckland/mangawhai-to-snells_2025/dem_10m/2193/",
+  "ticket": "LI-7656",
+  "copy_option": "--no-clobber",
+  "region": "auckland",
+  "flatten": "false"
+}
