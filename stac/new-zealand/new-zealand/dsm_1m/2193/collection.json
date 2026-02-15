@@ -52,7 +52,19 @@
       "href": "./AY31.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122071e39ddd7dba31f94f89eac5df08ec92fc88132b6fb3756572db6cd6d8fe156a"
+      "file:checksum": "12201324c89145787f742f23420feca4ab22f3e81c10f3a24cbcf40f31cf3be21244"
+    },
+    {
+      "href": "./AY32.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220bed0ef0f8c6cfd7f4d1d3427351053ac32aa8e2f7e69cd8498e1bc1389895fe1"
+    },
+    {
+      "href": "./AZ32.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122040ebd2567864bc0b7a728556ce569aa220baa0aab2142a5f78943860a6997edd"
     },
     {
       "href": "./BC36.json",
@@ -130,7 +142,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-09-09T02:54:40Z",
-  "updated": "2026-01-16T02:59:43Z",
+  "updated": "2026-02-15T17:02:48Z",
   "extent": {
     "spatial": { "bbox": [[168.1153331, -46.9283415, 177.5195386, -34.6822331]] },
     "temporal": { "interval": [["2025-01-27T11:00:00Z", "2025-04-15T12:00:00Z"]] }
@@ -142,8 +154,8 @@
       "description": "Boundaries of individual surveys or flight runs that make up the overall collection with the data collection dates, data source links and other associated metadata, such as producers and licensors, where available. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "12206088df42910b8eb674ee47610cb03fe84ca6dcbf16c40cf50c8531e979d0cf13",
-      "file:size": 1164072
+      "file:checksum": "1220df1c7586a5bffd62e17e9ef910f9149965639ab5837aa7b24c18e704974e2226",
+      "file:size": 1338781
     },
     "capture_area": {
       "href": "./capture-area.geojson",
@@ -151,8 +163,8 @@
       "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "12202f47468c26763afeda6e538d37176f085e0c76d89487d7e15f4c3edf771f54a9",
-      "file:size": 1301523
+      "file:checksum": "122094b3961a4b033f69e570843bcc14ea9419637777f8c88d7a23bcd9ac2730a728",
+      "file:size": 1581421
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
