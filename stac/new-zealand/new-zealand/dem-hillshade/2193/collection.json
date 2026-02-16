@@ -52,7 +52,19 @@
       "href": "./AY31.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220e5bf7f44ccc23ddf32979e9d14f412db340b7742e616c6da94783e39ac6a575b"
+      "file:checksum": "1220d35990c89dd8afba914bc0c44d6a6379047ca6ca58454eb37917606f3465ff19"
+    },
+    {
+      "href": "./AY32.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220af04e989f8a9d07b9a2e5097f9aa40db7aff6f539b64610d7f37fdab6c60cab9"
+    },
+    {
+      "href": "./AZ32.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203c24639072cf2d040fe4ef81b2873eb66fe7f9c98dad4253cb3ec407b5d40eff"
     },
     {
       "href": "./BC36.json",
@@ -172,7 +184,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-06-16T23:24:41Z",
-  "updated": "2026-01-18T23:30:20Z",
+  "updated": "2026-02-15T23:30:29Z",
   "extent": {
     "spatial": { "bbox": [[167.5207033, -46.9283415, 177.7925909, -34.6822331]] },
     "temporal": { "interval": [["2024-04-11T12:00:00Z", "2025-04-15T12:00:00Z"]] }
@@ -184,8 +196,8 @@
       "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220bec9ae6f62af839fa7c47a356f974c63665ddebf1bcac26ac15d0fae42ca99fb",
-      "file:size": 19859873
+      "file:checksum": "1220b53a6347a1b6953d8ff579a2387db7ea17fba32fbba6ffebcc9f0cc5604779b4",
+      "file:size": 20041859
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
