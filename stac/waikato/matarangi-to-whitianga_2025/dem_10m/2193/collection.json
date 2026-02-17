@@ -1,0 +1,57 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KHMFJ09ZSM1VX21NV6BTHSF6",
+  "title": "Waikato - Matarangi to Whitianga Coastal LiDAR 10m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Waikato region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BA35.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201a413977983aee5c6d128f4e621a72df2b5676792958ce2f5f8aa1727121db00"
+    },
+    {
+      "href": "./BA36.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e8e7e940d6e823e5425248c5999b4302887500370b9ca57432132c63301d26ba"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "waikato",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "matarangi-to-whitianga_2025",
+  "gsd": 10,
+  "created": "2026-02-17T00:21:16Z",
+  "updated": "2026-02-17T00:21:16Z",
+  "linz:geographic_description": "Matarangi to Whitianga",
+  "extent": {
+    "spatial": { "bbox": [[175.5490913, -36.9284821, 176.0981144, -36.5915936]] },
+    "temporal": { "interval": [["2025-02-20T11:00:00Z", "2025-03-24T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220137169ab810b1903e619fb2d6f9a71eaf2d92e0e7c984591939ab13450bff314",
+      "file:size": 70274
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
