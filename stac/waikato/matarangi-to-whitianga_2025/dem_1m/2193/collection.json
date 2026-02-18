@@ -1,0 +1,183 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KHMFH69S47BSNR9XVW10J5BS",
+  "title": "Waikato - Matarangi to Whitianga Coastal LiDAR 1m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Waikato region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BA35_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c2e89c727581e4ce47c2905260dc01a21a7050feea1a26c249300e85e4c338f3"
+    },
+    {
+      "href": "./BA35_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122018cb3e4341cc55f824c7b15db4a0022985925b6e2d67658eb64ec5e72d7a2ee4"
+    },
+    {
+      "href": "./BA35_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203117e0ac2b2ad7ab85a466575c5e4e6caf0a9787fe63c999d08981541b0fcd1f"
+    },
+    {
+      "href": "./BA35_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206577741e5d864d8507a62d0b1e2aa3989f7ec21d9eec5cf9c2219372598adcde"
+    },
+    {
+      "href": "./BA35_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206130727c6929c61940a4c8df7fabe34b5dba2209b66613474152f20860e67da0"
+    },
+    {
+      "href": "./BA35_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a86a151f12f20ea7d9d1b52a9b7d21ecab3fd8ea082e81e019517ef228f453a0"
+    },
+    {
+      "href": "./BA35_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220db14962f2ea644b64caaa5f37862ec86758f8be1b3fc9ba8ca174ef90b0c12d8"
+    },
+    {
+      "href": "./BA35_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208d5a35fe9b4399b2f5f7adb297e14dcbeb677e53698cd2db4c7fcd662598ab72"
+    },
+    {
+      "href": "./BA35_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220faf4689d417b2048656ce1d0ea7886ca5b43f75d6b59d5499847192470279b17"
+    },
+    {
+      "href": "./BA35_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d99d87cf0ddd1336753183a4086c2ca50c2122f8b44590fb571385c91dcbefe8"
+    },
+    {
+      "href": "./BA35_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122011da22745619a9a0280a44a724610469caa8bfeae1f31f1560246c95043b4e98"
+    },
+    {
+      "href": "./BA35_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209b6c4642f2b6b60231b045ea1de0e7cebdac34f55d778266b6f88f842411dccf"
+    },
+    {
+      "href": "./BA35_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122045019a148c6cbc18b952bb5ef868cdbf22d6d52582f55d3211e3ca69eeee7e3d"
+    },
+    {
+      "href": "./BA35_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a322a6eb9ce77d5bc11008714f760c500b27eb8c0ec25dc4e8f342786b4e81dc"
+    },
+    {
+      "href": "./BA35_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d6a6405935f2bae378be7968cee7d1f0474379b18019c467a4a2be610662ab8c"
+    },
+    {
+      "href": "./BA35_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204c0f59a3c994fe2b3592dc9c932a51373e63a532df6ffdb138aed0786e405cbe"
+    },
+    {
+      "href": "./BA35_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122008507d8250841f97f9b5dc46bf7df7c8a1591c131cf75c782316fc4a31991a56"
+    },
+    {
+      "href": "./BA35_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ced75686751c648dbd0679fa4f426e44e9a48ad9af67880d252bb5f60eba6949"
+    },
+    {
+      "href": "./BA35_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122054ba1e7df2b44e7f9042e387de710917dff53a892cee4127f1542ed62631f273"
+    },
+    {
+      "href": "./BA35_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220bfe15d47b778611781c32395ef50385f55bd948c44e875b5d27126b1d5b4ad2d"
+    },
+    {
+      "href": "./BA36_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209e9fe91df56c56a6bd19ef4600974030160c9f48fde875348916730d636945fe"
+    },
+    {
+      "href": "./BA36_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ab6e4d20e1bc801acb9a6424dba4ad9db7374274bee3e647d156d936f217d255"
+    },
+    {
+      "href": "./BA36_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209acf14bf233d46cedf288ac03d4059aad9fb709e169b49e21834f8a3eb264725"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "waikato",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "matarangi-to-whitianga_2025",
+  "gsd": 1,
+  "created": "2026-02-17T00:20:49Z",
+  "updated": "2026-02-17T00:20:49Z",
+  "linz:geographic_description": "Matarangi to Whitianga",
+  "extent": {
+    "spatial": { "bbox": [[175.5490913, -36.9273088, 175.8804123, -36.5994902]] },
+    "temporal": { "interval": [["2025-02-20T11:00:00Z", "2025-03-24T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12201a3cb49b9136a8211bedf5e45b270c37564c7b773f17462a5d0aa73c2e7ce483",
+      "file:size": 1551466
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
