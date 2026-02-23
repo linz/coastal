@@ -1,0 +1,129 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KJ6BWPD7YW31H5Y53A1WVTN0",
+  "title": "Waikato - Tairua to Whangamatā Coastal LiDAR 1m DSM (2025)",
+  "description": "Coastal Digital Surface Model within the Waikato region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BB35_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122024f7508c12363406a1b6b57a95be818d90c2b1d8de1d1eff7b929880e93818be"
+    },
+    {
+      "href": "./BB35_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200e62df542536180ec7347c14b00274c425774ed7947206f4af33c8cb2089d4ba"
+    },
+    {
+      "href": "./BB36_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201da5caabf1bb93eeb9327258b104de712471e8aba1cf260c48d01b733ef54294"
+    },
+    {
+      "href": "./BB36_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220de2830caec6acc9dbe1fab77f37c04e86e9cdb2508579f3aad22c0ee63159805"
+    },
+    {
+      "href": "./BB36_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b777c87a6e5ef193a57d6789fcb11ea6074d190f0f51b938eac25f1ed2774f75"
+    },
+    {
+      "href": "./BB36_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f311ef6dff91ba81bb68e629e6ae466bad81ff2c936d26c4b750bee051663f65"
+    },
+    {
+      "href": "./BB36_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220efa4de4b1f101839b7b69b0a0f6eae5457d6217b3c0110a8d8847768ad35ea84"
+    },
+    {
+      "href": "./BB36_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122087daebb3b3805e3ac1b59c00270c86ddc1aad501e712725af35d917e9c89c807"
+    },
+    {
+      "href": "./BB36_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d068a7154df39ebe7810ab8bc25ef3f2e93334b72af9517b1321170dc6095a59"
+    },
+    {
+      "href": "./BB36_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b656ccf1e87a22369b9eddc7ff95e2f1af67c2ced31cc99acf4a3f1b66d13701"
+    },
+    {
+      "href": "./BB36_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220145e0718e506da0517a8aa848eb4a1e9a6fe1991d583d38e31d4398bf6566300"
+    },
+    {
+      "href": "./BC36_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a8a26adc809be530dddd52074474b0aa3141e06a9aeea978bdd80317597c61cf"
+    },
+    {
+      "href": "./BC36_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206cf32f954662967c582aea32601666bd189e362585663acdcc6421254757fd92"
+    },
+    {
+      "href": "./BC36_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220774ebf493f02a4e52b0cb7caa68a4140362fdc05d5f3b641aa32f97a6e9cf62a"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "waikato",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "tairua-to-whangamata_2025",
+  "gsd": 1,
+  "created": "2026-02-23T23:03:32Z",
+  "updated": "2026-02-23T23:03:32Z",
+  "linz:geographic_description": "Tairua to Whangamatā",
+  "extent": {
+    "spatial": { "bbox": [[175.7775528, -37.3748127, 175.9542825, -36.9210768]] },
+    "temporal": { "interval": [["2025-02-20T11:00:00Z", "2025-03-24T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122067fdbfbd0ecd72e35a9ae1625270821d2a4eabfef6b47418c8ecdd01249b5c6a",
+      "file:size": 157585
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
