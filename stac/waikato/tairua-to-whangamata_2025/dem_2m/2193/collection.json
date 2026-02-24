@@ -1,0 +1,63 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KJ6BWPC14RCE07V5ZRN0HH88",
+  "title": "Waikato - Tairua to Whangamatā Coastal LiDAR 2m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Waikato region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BB35.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122007fe4234a4b72ba8ff939b61ec14b3a612fc45e02814c5e3861d61929fb96662"
+    },
+    {
+      "href": "./BB36.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122014efdff808fe250c56a8c7ef72df416bb1c504daad265f201714123d3de7ec8a"
+    },
+    {
+      "href": "./BC36.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a50efad4b1a585a5f9c024bc8c1254c1bf61442025a4d32002bd910af5d61558"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "waikato",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "tairua-to-whangamata_2025",
+  "gsd": 2,
+  "created": "2026-02-23T23:03:32Z",
+  "updated": "2026-02-23T23:03:32Z",
+  "linz:geographic_description": "Tairua to Whangamatā",
+  "extent": {
+    "spatial": { "bbox": [[175.5598522, -37.5705838, 176.1247783, -36.9156529]] },
+    "temporal": { "interval": [["2025-02-20T11:00:00Z", "2025-03-24T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12205d05d75d85c6f0d185168c770651cc723ccbb564cecc000459b0bff112086c68",
+      "file:size": 208099
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
