@@ -89,7 +89,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "doubtless-bay-and-mangonui-harbour_2025",
   "created": "2025-09-03T21:36:22Z",
-  "updated": "2025-09-03T21:36:22Z",
+  "updated": "2026-02-24T02:43:00Z",
   "linz:geographic_description": "Doubtless Bay and Mangōnui Harbour",
   "extent": {
     "spatial": { "bbox": [[173.3411382, -35.072523, 173.6054478, -34.8130318]] },
@@ -99,11 +99,11 @@
     "capture_area": {
       "href": "./capture-area.geojson",
       "title": "Capture area",
-      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "12203187cd70d2944e1c30113a6ca8e152e45f5596fdf78220ceaa54258e4baffcd5",
-      "file:size": 95487
+      "file:checksum": "12201defbf1401549e0242fdfef5f86231834d6e75cef8df797d773dc5987c8bbafb",
+      "file:size": 76960
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
