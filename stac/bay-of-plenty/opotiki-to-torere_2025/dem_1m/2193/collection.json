@@ -84,7 +84,7 @@
   "linz:slug": "opotiki-to-torere_2025",
   "gsd": 1,
   "created": "2026-01-15T23:35:10Z",
-  "updated": "2026-01-15T23:35:10Z",
+  "updated": "2026-02-24T19:25:57Z",
   "linz:geographic_description": "Ōpōtiki to Tōrere",
   "extent": {
     "spatial": { "bbox": [[177.2313907, -38.0477261, 177.5620679, -37.9060733]] },
@@ -94,11 +94,11 @@
     "capture_area": {
       "href": "./capture-area.geojson",
       "title": "Capture area",
-      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "12203a30c73762f891e09b5127e756ab5f114b7fe04a9007130ce48fcfb41e7aacf5",
-      "file:size": 141544
+      "file:checksum": "12207d4ee8243e9fba034edcc049302102b5b1ef97d51230e466b662c219df0f0aa3",
+      "file:size": 142011
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
