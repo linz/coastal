@@ -179,7 +179,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "tauranga_2024",
   "created": "2025-05-13T04:35:02Z",
-  "updated": "2025-05-13T04:35:02Z",
+  "updated": "2026-02-24T19:28:01Z",
   "linz:geographic_description": "Tauranga",
   "extent": {
     "spatial": { "bbox": [[175.9001395, -37.8153329, 176.5167958, -37.2338091]] },
@@ -189,11 +189,11 @@
     "capture_area": {
       "href": "./capture-area.geojson",
       "title": "Capture area",
-      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "122048eec4c97bb938c197152ac09f1ddcb0b38ccaa0dbf7947118861186bf28f035",
-      "file:size": 2355011
+      "file:checksum": "1220800c2d52a169ce25e3810eff40cd3d2859b3c9d16d5dbbd0383dbebe74bbfb93",
+      "file:size": 1790013
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
