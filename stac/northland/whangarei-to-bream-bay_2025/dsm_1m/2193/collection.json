@@ -162,7 +162,7 @@
   "linz:slug": "whangarei-to-bream-bay_2025",
   "gsd": 1,
   "created": "2025-12-23T02:04:06Z",
-  "updated": "2025-12-23T02:04:06Z",
+  "updated": "2026-02-24T19:22:29Z",
   "linz:geographic_description": "Whangārei to Bream Bay",
   "extent": {
     "spatial": { "bbox": [[174.2480886, -36.1026218, 174.6263769, -35.7132637]] },
@@ -172,11 +172,11 @@
     "capture_area": {
       "href": "./capture-area.geojson",
       "title": "Capture area",
-      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "12205f97d38c9aea8a24e0e459bf211f5f06346991a490b44b25cbf3f5980f740686",
-      "file:size": 442198
+      "file:checksum": "1220410d690f65a2ec62a13ac752f99bbbd810dc50b7a837e590783d41ed74a9359e",
+      "file:size": 347691
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]

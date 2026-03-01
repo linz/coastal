@@ -1,0 +1,9 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-02/24-capture-area-pepin-island-coastal-dem-1m77vsn/flat/",
+  "target": "s3://nz-coastal/nelson/pepin-island-and-rotokura-cable-bay_2025/dem_1m/2193/",
+  "ticket": "TDE-1779",
+  "copy_option": "--force-no-clobber",
+  "include": "capture-area.geojson$",
+  "region": "nelson",
+  "flatten": "false"
+}

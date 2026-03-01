@@ -59,7 +59,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "pepin-island-and-rotokura-cable-bay_2025",
   "created": "2025-09-03T21:37:55Z",
-  "updated": "2025-09-03T21:37:55Z",
+  "updated": "2026-02-24T03:29:25Z",
   "linz:geographic_description": "Pepin Island and Rotokura/Cable Bay",
   "extent": {
     "spatial": { "bbox": [[173.3715864, -41.2375974, 173.5436168, -41.0423491]] },
@@ -69,11 +69,11 @@
     "capture_area": {
       "href": "./capture-area.geojson",
       "title": "Capture area",
-      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220f5650fe0dd50f2592e38c47b52d4411584b0301e4dd8d3fd9c207de40b8a2dfa",
-      "file:size": 113588
+      "file:checksum": "1220cd1979218b895b80191dbae784bc6c78fbeff5f86532cc20e3a5732d69592ad2",
+      "file:size": 100421
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]

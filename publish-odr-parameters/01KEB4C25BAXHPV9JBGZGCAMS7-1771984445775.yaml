@@ -1,0 +1,9 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-02/24-capture-area-whangarei-coastal-dem-1mnj6w5/flat/",
+  "target": "s3://nz-coastal/northland/whangarei-to-bream-bay_2025/dem_1m/2193/",
+  "ticket": "TDE_1779",
+  "copy_option": "--force-no-clobber",
+  "include": "capture-area.geojson$",
+  "region": "northland",
+  "flatten": "false"
+}
