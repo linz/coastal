@@ -225,11 +225,11 @@
     "capture_area": {
       "href": "./capture-area.geojson",
       "title": "Capture area",
-      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "description": "Boundary of the total capture area for this collection provided by the data supplier. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "12202c29a566dc9f6f394918eb02e97ce4f7e8d9f423b1fa43b389e75a1b1baccf57",
-      "file:size": 4103861
+      "file:checksum": "12204246996d8cdf57760bdaad14e0ad921ad5712da9dcca88e32feeedac290722a3",
+      "file:size": 325024
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
