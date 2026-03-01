@@ -1,7 +1,7 @@
 {
   "source": "s3://linz-workflows-scratch/2026-03/01-capture-area-invercargill-dem-1m-dcb8w/flat/",
   "target": "s3://nz-coastal/southland/invercargill_2024/dem_1m/2193/",
-  "ticket": "TDE-1779",
+  "ticket": "TDE-1799",
   "copy_option": "--force-no-clobber",
   "include": "capture-area.geojson$",
   "region": "southland",
