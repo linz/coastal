@@ -70,13 +70,13 @@
       "href": "./BA35.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122096b53e2ad71f7a61cfae5cf9b74ff5cdf2c200b688a48c39e33b9703c65fb31f"
+      "file:checksum": "1220c89af7cc7b2b8f1bb71678c839aaf49304f24aee4e344cca1db18a4a6b6e63fe"
     },
     {
       "href": "./BA36.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220653cadb1c69d31b6dfb1de2c83653f30d24ef6d261446c28d55d64c08f1a3c95"
+      "file:checksum": "12204d0dcf7708cee7e017f6d8dbdfa87daf7f2894faae53744ab4bd1424fc405a37"
     },
     {
       "href": "./BC36.json",
@@ -196,7 +196,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-06-15T21:11:05Z",
-  "updated": "2026-03-17T02:24:36Z",
+  "updated": "2026-03-17T02:42:21Z",
   "extent": {
     "spatial": { "bbox": [[167.5207033, -46.9283415, 177.7925909, -34.6822331]] },
     "temporal": { "interval": [["2024-04-11T12:00:00Z", "2025-04-15T12:00:00Z"]] }
