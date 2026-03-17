@@ -67,6 +67,18 @@
       "file:checksum": "122040ebd2567864bc0b7a728556ce569aa220baa0aab2142a5f78943860a6997edd"
     },
     {
+      "href": "./BA35.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200c4d9a99b8cee733775da150feb919fa2caf9536a5ff809a0a8baae067e0a19f"
+    },
+    {
+      "href": "./BA36.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200f43f0d26d8d639d6973bdb1ca19de6ff7fbf05881f821a22755ee05e0f2e1d7"
+    },
+    {
       "href": "./BC36.json",
       "rel": "item",
       "type": "application/geo+json",
@@ -142,7 +154,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-09-09T02:54:40Z",
-  "updated": "2026-02-15T17:02:48Z",
+  "updated": "2026-03-17T20:36:46Z",
   "extent": {
     "spatial": { "bbox": [[168.1153331, -46.9283415, 177.5195386, -34.6822331]] },
     "temporal": { "interval": [["2025-01-27T11:00:00Z", "2025-04-15T12:00:00Z"]] }
@@ -154,18 +166,19 @@
       "description": "Boundaries of individual surveys or flight runs that make up the overall collection with the data collection dates, data source links and other associated metadata, such as producers and licensors, where available. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220df1c7586a5bffd62e17e9ef910f9149965639ab5837aa7b24c18e704974e2226",
-      "file:size": 1338781
+      "file:checksum": "12200785ec0f64021a6f5bc68834a2050a2919545784f650e8796f17cc6f817ee45a",
+      "file:size": 1546379
     },
     "capture_area": {
       "href": "./capture-area.geojson",
       "title": "Capture area",
-      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "122094b3961a4b033f69e570843bcc14ea9419637777f8c88d7a23bcd9ac2730a728",
-      "file:size": 1581421
+      "file:checksum": "12208bad286c78b3c8df31b760939769ce73180141991ba5e7f7f923e9fd2e444d10",
+      "file:size": 1644987
     }
   },
-  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
+  "gsd": 1
 }
