@@ -67,6 +67,18 @@
       "file:checksum": "122085ef2e20cd67a646a98b91ae94c5dff4d31d08edb7bebd0fa50e233127bc76e7"
     },
     {
+      "href": "./BA35.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122096b53e2ad71f7a61cfae5cf9b74ff5cdf2c200b688a48c39e33b9703c65fb31f"
+    },
+    {
+      "href": "./BA36.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220653cadb1c69d31b6dfb1de2c83653f30d24ef6d261446c28d55d64c08f1a3c95"
+    },
+    {
       "href": "./BC36.json",
       "rel": "item",
       "type": "application/geo+json",
@@ -184,7 +196,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-06-15T21:11:05Z",
-  "updated": "2026-02-15T17:03:07Z",
+  "updated": "2026-03-17T02:24:36Z",
   "extent": {
     "spatial": { "bbox": [[167.5207033, -46.9283415, 177.7925909, -34.6822331]] },
     "temporal": { "interval": [["2024-04-11T12:00:00Z", "2025-04-15T12:00:00Z"]] }
@@ -196,8 +208,8 @@
       "description": "Boundaries of individual surveys or flight runs that make up the overall collection with the data collection dates, data source links and other associated metadata, such as producers and licensors, where available. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220f0c6c128ff886fa5d1d9e84ffb0410b11d9f0a54ca50ee59e95ad4522730cd65",
-      "file:size": 3887531
+      "file:checksum": "122007afaa85081729eadccf9e7aba29083024e37f5254ac5c595d79a0b38ed62996",
+      "file:size": 3586961
     },
     "capture_area": {
       "href": "./capture-area.geojson",
