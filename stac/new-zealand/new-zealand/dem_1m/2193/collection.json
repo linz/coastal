@@ -229,8 +229,8 @@
       "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "12206928a135c702154f88d61cca18167518c3c12576b270cd8a61cb3a2a248a9a8f",
-      "file:size": 4363671
+      "file:checksum": "122030106928e698157039a3f2d4bed3b43666e89a7fbfd9faa6850d3c50f1301652",
+      "file:size": 4068041
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
