@@ -88,8 +88,9 @@
   "linz:region": "northland",
   "linz:security_classification": "unclassified",
   "linz:slug": "doubtless-bay-and-mangonui-harbour_2025",
+  "gsd": 1,
   "created": "2025-08-29T02:10:49Z",
-  "updated": "2026-02-24T03:14:20Z",
+  "updated": "2026-03-27T02:19:04Z",
   "linz:geographic_description": "Doubtless Bay and Mangōnui Harbour",
   "extent": {
     "spatial": { "bbox": [[173.3411382, -35.072523, 173.6054478, -34.8130318]] },
