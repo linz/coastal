@@ -58,8 +58,9 @@
   "linz:region": "nelson",
   "linz:security_classification": "unclassified",
   "linz:slug": "pepin-island-and-rotokura-cable-bay_2025",
+  "gsd": 1,
   "created": "2025-09-03T21:37:55Z",
-  "updated": "2026-02-24T03:29:25Z",
+  "updated": "2026-03-27T02:19:04Z",
   "linz:geographic_description": "Pepin Island and Rotokura/Cable Bay",
   "extent": {
     "spatial": { "bbox": [[173.3715864, -41.2375974, 173.5436168, -41.0423491]] },
