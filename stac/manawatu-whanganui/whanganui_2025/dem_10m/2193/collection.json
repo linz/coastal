@@ -1,0 +1,51 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KPCKQMNQ6AK87ADJ4ZMJMVY0",
+  "title": "Manawatū-Whanganui - Whanganui Coastal LiDAR 10m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Manawatū-Whanganui region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BL32.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200fe9407b15bfdde8d1d83c7e1b884ce6ed7aec2eda8e227a6421a1c5be4779cf"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "manawatu-whanganui",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "whanganui_2025",
+  "gsd": 10,
+  "created": "2026-04-17T02:18:48Z",
+  "updated": "2026-04-17T02:18:48Z",
+  "linz:geographic_description": "Whanganui",
+  "extent": {
+    "spatial": { "bbox": [[174.8238307, -40.185894, 175.1142379, -39.8569581]] },
+    "temporal": { "interval": [["2025-03-02T11:00:00Z", "2025-11-06T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220058ca6020afc7be721e12b8e954a689e4cb12c01cac68755e2daad800abfdeca",
+      "file:size": 16705
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}

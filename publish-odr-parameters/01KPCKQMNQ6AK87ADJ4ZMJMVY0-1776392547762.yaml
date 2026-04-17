@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-04/17-imagery-standardising-6l9hl/flat/",
+  "target": "s3://nz-coastal/manawatu-whanganui/whanganui_2025/dem_10m/2193/",
+  "ticket": "LI-8704",
+  "copy_option": "--no-clobber",
+  "region": "manawatu-whanganui",
+  "flatten": "false"
+}
