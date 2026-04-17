@@ -1,0 +1,111 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KPCKPZJ6Q7J31AN5W70HAY9H",
+  "title": "Manawatū-Whanganui - Whanganui Coastal LiDAR 1m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Manawatū-Whanganui region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BL32_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e1c6a1e6de5a28b8fda20434b624c3a4974fc39ae083fd7cc7a36382b63b3fee"
+    },
+    {
+      "href": "./BL32_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122046d6a74c2f61c627477b77335803bae5f9ebd69700897bf350b62648ec7e240a"
+    },
+    {
+      "href": "./BL32_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208b9dcdea18675d4faf978c18622a70e0eea0f7f543a4af6473d2491be3a85c0a"
+    },
+    {
+      "href": "./BL32_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122093907782c54785d8368fea9a3dc0a941baed05a8882ed6dd37872d7b404a18eb"
+    },
+    {
+      "href": "./BL32_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e8966c54db75691404dc4749e810718a5ef39f9b54100173442d06761358882e"
+    },
+    {
+      "href": "./BL32_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122079549df732e768f63aef1e996656647860c12be862c661acbe108d4f9fd1472a"
+    },
+    {
+      "href": "./BL32_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205a24f4996a64b582e3b04d902828e17ee54a156774266098f4f4f9c22d4856a7"
+    },
+    {
+      "href": "./BL32_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b375b25c93e322e08c1dba209285592b0f41ea725be597394f330a838352bf48"
+    },
+    {
+      "href": "./BL32_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220587df93ff3872ea56b6bea4f26c406e55d5ecc0cffe626a24c4d741bd46b808c"
+    },
+    {
+      "href": "./BL32_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200c175c5179ee9bb5c41fcf3552753efdd4307e407402a2a1708f6c5ef845cd08"
+    },
+    {
+      "href": "./BL32_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220982c3cbca9490cb0aea443c151467a4a9d4063c45e3d9895452c46d1fb859fc2"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "manawatu-whanganui",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "whanganui_2025",
+  "gsd": 1,
+  "created": "2026-04-17T02:18:27Z",
+  "updated": "2026-04-17T02:18:27Z",
+  "linz:geographic_description": "Whanganui",
+  "extent": {
+    "spatial": { "bbox": [[174.8255506, -40.1182644, 175.1102248, -39.8589393]] },
+    "temporal": { "interval": [["2025-03-02T11:00:00Z", "2025-11-06T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220151d10343073195d17294a019a0c8957b81b6f297c3fbe6b06cd522727681bee",
+      "file:size": 626760
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
