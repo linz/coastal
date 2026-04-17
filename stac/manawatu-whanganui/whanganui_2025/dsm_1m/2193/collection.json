@@ -1,0 +1,75 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KPCKR6SRS9RG1SFPAAHJ0PV9",
+  "title": "Manawatū-Whanganui - Whanganui Coastal LiDAR 1m DSM (2025)",
+  "description": "Coastal Digital Surface Model within the Manawatū-Whanganui region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BL32_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220181f9545bdb4beaf014b268a2bb5ec36e8603a86a6c51dbaf866cfd046b35b88"
+    },
+    {
+      "href": "./BL32_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220fbfff471d136b4c733fa536e1f87c0cb4be82bffb2c3f8e897aaa0c642bd4e92"
+    },
+    {
+      "href": "./BL32_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122078b66b7df9b62c99fba200c834ba1bd8c9adba72f46c293e81de11ad6b7ab070"
+    },
+    {
+      "href": "./BL32_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208324af313352acd1163fb042af8340c8ff460b8104eef0fc34bc5c0201f8b40f"
+    },
+    {
+      "href": "./BL32_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122059c16569f59949d371095610a47d024ee5e0b7ffa2bd918791facf5ae1512c12"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "manawatu-whanganui",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "whanganui_2025",
+  "gsd": 1,
+  "created": "2026-04-17T02:19:07Z",
+  "updated": "2026-04-17T02:19:07Z",
+  "linz:geographic_description": "Whanganui",
+  "extent": {
+    "spatial": { "bbox": [[174.9360078, -40.0534343, 175.1102248, -39.8589393]] },
+    "temporal": { "interval": [["2025-03-02T11:00:00Z", "2025-11-06T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122046123d573106a12771240c75ad1e63c133244ec51fa7e2679f45a49a43cffaf2",
+      "file:size": 15538
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
