@@ -1,0 +1,75 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KQRE776ZE5FXTQJFHZ3Q63P8",
+  "title": "Otago - Dunedin Coastal LiDAR 10m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Otago region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./CD17.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122004b879066ba289614af2e5574973afed06a41e67e7e638112be7f76803e900c8"
+    },
+    {
+      "href": "./CD18.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203073719b7757c3c7af179e2cdadd906ea663dd1007fe28f15814364d2b105186"
+    },
+    {
+      "href": "./CE16.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220bfa65b7c07d0e1c531e24d99f66a85f19da5d7ffee250c90da739340ef201611"
+    },
+    {
+      "href": "./CE17.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122051f262a73c9787986bdd9fff2df15d648d349b1b833d3361e2e2c13501f171a8"
+    },
+    {
+      "href": "./CE18.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209628cca1ee1a538a4708896da6bfaafe953030e081e0223c4aaefa47e3a19636"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "NV5", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "otago",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "dunedin_2025",
+  "gsd": 10,
+  "created": "2026-05-04T02:49:03Z",
+  "updated": "2026-05-04T02:49:03Z",
+  "linz:geographic_description": "Dunedin",
+  "extent": {
+    "spatial": { "bbox": [[170.055575, -46.0178022, 171.0078159, -45.3578094]] },
+    "temporal": { "interval": [["2025-01-30T11:00:00Z", "2025-05-06T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12201c673b07bf6de31b20e3bba785a7cec4f80a8985197b57137b66a5a363dc0525",
+      "file:size": 81785
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
