@@ -1,0 +1,207 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KQRE4SS0TJHD1MXN93XJYS8G",
+  "title": "Otago - Dunedin Coastal LiDAR 1m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Otago region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./CD17_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220cf5a4536d5e383d99de37ced7aaf732d6823b9da6a4b53d4da0555a40a199204"
+    },
+    {
+      "href": "./CD17_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204f6e226d4f169147b60685ac5da8c0b24b25851955c3ee1843cb460a7ee2cbf7"
+    },
+    {
+      "href": "./CD17_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208d618d573d27f50017d1c207c7d3667e20459cd6ac9e893bd1574539858686f6"
+    },
+    {
+      "href": "./CD17_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203d63d0cc78b48f416ec396b5049c1559d5e0882a05b7e0a9369dc6069a461ba8"
+    },
+    {
+      "href": "./CD18_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e6e745a6f665bc477c0253ed556514ce6375e260ad2df493682ab6c72596ab37"
+    },
+    {
+      "href": "./CD18_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220163b8ab8ec7da3719c149905a3031c844d9e8e3d19883ce097018c78fa85b78d"
+    },
+    {
+      "href": "./CE16_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122005e3e6c5970ba0a6182d67528326fdad5d7897435a9a15866c180f0f0caa5b27"
+    },
+    {
+      "href": "./CE16_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220891f41996fbb07ad327062570fe94505ed3450a79b15e94b8200db25a3327056"
+    },
+    {
+      "href": "./CE17_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e15d21995a63026c0d8bb0bf2151cc1788a29d43cc20aa2ec033ab2470aeeac6"
+    },
+    {
+      "href": "./CE17_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d99eb75451019aa7cd8fccd7077c2c363800189f87012482e282020ef547357b"
+    },
+    {
+      "href": "./CE17_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220879d3d894880bee345305c78941ff13e3f9dbcf41528ff3f674d9fa51088aed6"
+    },
+    {
+      "href": "./CE17_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206ab24a6b8a6d534801dc4d843d2a5a5b5795a81cb75d11851e884e8aa5f629d5"
+    },
+    {
+      "href": "./CE17_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e8b0087bcdc1cb031ffa801e0f0c22fed080d39a3303748fd09905bac85508ec"
+    },
+    {
+      "href": "./CE17_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c651c39c2301c902ea8a7caa1553842fc88bf4f4dac94f26db48864abfe013a5"
+    },
+    {
+      "href": "./CE17_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220fb5cf14b4ef5c2a39eaeeb080ecf60b32c169b8d949ce9091ae7a50c262d0a57"
+    },
+    {
+      "href": "./CE17_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b6a7d87fdbb71e2e69b3571fa5c204042acbed2c7891404146659c2692e5990b"
+    },
+    {
+      "href": "./CE17_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209fc5e8a92df243d495ff634d3dcf1657f1d491f759a9c470037d2e8bbd368cb5"
+    },
+    {
+      "href": "./CE17_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122031afadc12609572be07a24c85ad883682230f55c06b5fabe2c338f1196af9988"
+    },
+    {
+      "href": "./CE17_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207dc34975c7067e8b5d672fc7522ef836188733fd810e26dce794ed327da7b054"
+    },
+    {
+      "href": "./CE17_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208c9987f0b4c765b717096ca3e1ab7cfe1bad5d1a3bff9b88935cd7a10cc1f031"
+    },
+    {
+      "href": "./CE17_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220719020e345c0003a2b1ee379938520394e5426afcc079f422135d8bfd8aa136d"
+    },
+    {
+      "href": "./CE18_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ef25b54c2bf3e0c0a53e4accfbfe25a0cfdd693fa2a113e51da39b9953e62127"
+    },
+    {
+      "href": "./CE18_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122063c2c89be88dd2814eb00470f3772a15b910ba88efe67ab1c96725dbf00d46bc"
+    },
+    {
+      "href": "./CE18_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207e5c5e84cc9faac4c138fadff5bdb0bd2079174185d50eb09c1a595b9c55274c"
+    },
+    {
+      "href": "./CE18_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d06704115a8a4e3a8007487f907444e9c7d241205fd4c8948a0d5632fac2b2f7"
+    },
+    {
+      "href": "./CE18_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b07b92c4a66ae51e0a28f7e6de24b4d1cf7abcabd15edaf63f9c10259387f79e"
+    },
+    {
+      "href": "./CE18_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d709d46bf011b2d54d662175364b400643d843a6c7c2e9a8e53e2f7a5c339fe7"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "NV5", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "otago",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "dunedin_2025",
+  "gsd": 1,
+  "created": "2026-05-04T02:47:44Z",
+  "updated": "2026-05-04T02:47:44Z",
+  "linz:geographic_description": "Dunedin",
+  "extent": {
+    "spatial": { "bbox": [[170.3032357, -46.0066041, 170.8089914, -45.5561044]] },
+    "temporal": { "interval": [["2025-01-30T11:00:00Z", "2025-05-06T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12202b829ecc0192378b64606aceb45b0fc72a08079ed6f19ba1fb6e8668cad584bd",
+      "file:size": 606006
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
