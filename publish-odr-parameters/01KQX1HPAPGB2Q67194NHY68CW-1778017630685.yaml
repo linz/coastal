@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-05/05-imagery-standardising-xdcr5/flat/",
+  "target": "s3://nz-coastal/otago/dunedin_2025/dem_1m/2193/",
+  "ticket": "LI-7248",
+  "copy_option": "--no-clobber",
+  "region": "otago",
+  "flatten": "false"
+}
