@@ -169,6 +169,36 @@
       "file:checksum": "12206209d4aefb3d5c420e7a805e3865aa25b8f613d0b0289fcc4c6cadf3653445a2"
     },
     {
+      "href": "./CD17.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220967c1096b7db0938ca22e66dd9d651d5a213568148b40e7422e7759b57b0c5e7"
+    },
+    {
+      "href": "./CD18.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c4c580b3987d2ba373ee1eb0239504267ad051c59dd8e8e7155cb44bbdb951f3"
+    },
+    {
+      "href": "./CE16.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e7dc611806145fcb53dfc5d0504fa0e9e6784345505969ac761b93110f57d027"
+    },
+    {
+      "href": "./CE17.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122039c40f5ebed43289f505d192743005d0724feb74e8879fa2ff420f994b8b1082"
+    },
+    {
+      "href": "./CE18.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c429b7ef2f7431fc49bd12dfeeae5d96a2cda890649bffa03a320aee28bc5b75"
+    },
+    {
       "href": "./CG08.json",
       "rel": "item",
       "type": "application/geo+json",
@@ -214,7 +244,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-06-16T21:56:40Z",
-  "updated": "2026-04-22T21:31:53Z",
+  "updated": "2026-05-05T20:58:35Z",
   "extent": {
     "spatial": { "bbox": [[167.5207033, -46.9283415, 177.7925909, -34.6822331]] },
     "temporal": { "interval": [["2024-04-11T12:00:00Z", "2025-11-06T11:00:00Z"]] }
@@ -226,8 +256,8 @@
       "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220b7b5e0c53cdb1aa364a558cbe1c7429904d55801471345345ca2d847eb9cb5ec",
-      "file:size": 4899594
+      "file:checksum": "12207217b4f84b8c1790da7fd87eead959a69b60b54008129e2e92f77f21b68815ef",
+      "file:size": 5501236
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
