@@ -1,7 +1,7 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01KQX1HPAPGB2Q67194NHY68CW",
+  "id": "01KQRE4SS0TJHD1MXN93XJYS8G",
   "title": "Otago - Dunedin Coastal LiDAR 1m DEM (2025)",
   "description": "Coastal Digital Elevation Model within the Otago region captured in 2025.",
   "license": "CC-BY-4.0",
@@ -185,8 +185,8 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "dunedin_2025",
   "gsd": 1,
-  "created": "2026-05-05T21:43:47Z",
-  "updated": "2026-05-05T21:43:47Z",
+  "created": "2026-05-04T02:47:44Z",
+  "updated": "2026-05-05T22:00:00Z",
   "linz:geographic_description": "Dunedin",
   "extent": {
     "spatial": { "bbox": [[170.3032357, -46.0066041, 170.8089914, -45.5561044]] },
