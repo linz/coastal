@@ -145,6 +145,36 @@
       "file:checksum": "12205930cf936c79b8a44a1f1c6097f3528c00456eceb3323f9c14a56736afe61b2f"
     },
     {
+      "href": "./CD17.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122076fc1eb9491f475aa454783beda2a25f37ba368339316bdbb3738d95311d2000"
+    },
+    {
+      "href": "./CD18.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220327cc0bf183aa40d210c6b049893e4de7bc411c21098f3ceb98c0f2a218ab5f9"
+    },
+    {
+      "href": "./CE16.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e5b52f79fdb13ae925f25644475d2b2cc8cfa3d59987a35d64f0bbd45495c152"
+    },
+    {
+      "href": "./CE17.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122016b8ed98fd7f1911d1630d4d86f8cf4b8aac8e8e1c9bceced8e4d6be547a1cc7"
+    },
+    {
+      "href": "./CE18.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220093b44f8cc65917e6f59ef84f2b62d29f8482198762062196597d5881c715c9b"
+    },
+    {
       "href": "./CG11.json",
       "rel": "item",
       "type": "application/geo+json",
@@ -172,7 +202,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-09-10T04:37:40Z",
-  "updated": "2026-04-23T00:31:56Z",
+  "updated": "2026-05-06T03:41:36Z",
   "extent": {
     "spatial": { "bbox": [[168.1153331, -46.9283415, 177.5195386, -34.6822331]] },
     "temporal": { "interval": [["2025-01-27T11:00:00Z", "2025-11-06T11:00:00Z"]] }
@@ -181,11 +211,11 @@
     "capture_area": {
       "href": "./capture-area.geojson",
       "title": "Capture area",
-      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220d59c67a26cf029ecd2272d3fc07b50e4d2dce9c5789a498bed5333682c0c5ce8",
-      "file:size": 1814780
+      "file:checksum": "1220d8a8e410af9309a3fa57376d32e69c81ee939f13633c9b70923a98c95702e939",
+      "file:size": 2569326
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
