@@ -172,31 +172,31 @@
       "href": "./CD17.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220192fe50f75294ff54287b4f138fdc6507f821c385b34b1967800cba212555187"
+      "file:checksum": "1220f6f80f9a13db536eb402fb25368968bd4f64a5be9960e5bc4e3852b854ed784e"
     },
     {
       "href": "./CD18.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12207a0cace0368d5c43c35069fbd439aa6dc775582175a73e01f0a4c15994868dc3"
+      "file:checksum": "12201e536a962b039d750356b7713cd1760b5854386ccedf96d4a840c65c40c5dba4"
     },
     {
       "href": "./CE16.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12206a8e0031f4a80351b98acf73220bd6711a2e682da4e167b5e4169902cb3615e8"
+      "file:checksum": "122018befaef568717fdee0d38558208e389fdeeb727a311e42d964c4611dffc6cde"
     },
     {
       "href": "./CE17.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122046a1f4e92e82f63fe6616f48f97f71e7bc330a96637209ecd8fbbd4baf7ac8d3"
+      "file:checksum": "12209b84c291fcba1e6aee64b4a00b768ea443b5eab40fda6901eba48f1e51c16449"
     },
     {
       "href": "./CE18.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220c12101043e6f0d61f38d88902103f41c77f363dee77a4c1cb546e3b7c91216c1"
+      "file:checksum": "1220ffa8974e681dbb5fc33a34844df023daaf29b58ed7f2cbb334c5b43bc27e65a3"
     },
     {
       "href": "./CG08.json",
@@ -244,7 +244,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-06-16T21:56:40Z",
-  "updated": "2026-05-05T20:58:35Z",
+  "updated": "2026-05-06T02:48:51Z",
   "extent": {
     "spatial": { "bbox": [[167.5207033, -46.9283415, 177.7925909, -34.6822331]] },
     "temporal": { "interval": [["2024-04-11T12:00:00Z", "2025-11-06T11:00:00Z"]] }
@@ -256,8 +256,8 @@
       "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "12207217b4f84b8c1790da7fd87eead959a69b60b54008129e2e92f77f21b68815ef",
-      "file:size": 5501236
+      "file:checksum": "122043c5d856c5ec5783d1a401bad3984b226b90868eb1c55e050bea9592aad619dd",
+      "file:size": 5507585
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
