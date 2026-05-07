@@ -1,0 +1,87 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KR00Y38XEQ0GT0DX4B7J5RQF",
+  "title": "Taranaki - Awakino to Tongapōrutu Coastal LiDAR 1m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Taranaki region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BG30_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a7f0c915acc98cc40de1417bda4ec5bc1476aeb95d4cb5d724121add91fde4ae"
+    },
+    {
+      "href": "./BG31_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220922d0ab365cce165350568ae88db16b9623778a82213dd06c32480d011d7080f"
+    },
+    {
+      "href": "./BG31_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f0789b2d97d4c701fc94767700dfaffded071ea4f4290f87a71672d47bfd2fee"
+    },
+    {
+      "href": "./BG31_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a30f673a330c9004d57b2c14cc3d2dd501fd101b7f40f8c76a7a9b986a4a2365"
+    },
+    {
+      "href": "./BG31_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122094b900e56727895dd3168acffa2e87892c9ce059b5c3a31450c330f18cadad7b"
+    },
+    {
+      "href": "./BG31_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12202b70f50779ebb14f6de433b37ac496bf85053411b861165f753ab402dd3d7925"
+    },
+    {
+      "href": "./BG31_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b6f7242dd2ce702f8bb925c87064a837e25a5a0c1a255e61229a54d4c7ce98b8"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "taranaki",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "awakino-to-tongaporutu_2025",
+  "gsd": 1,
+  "created": "2026-05-07T01:30:48Z",
+  "updated": "2026-05-07T01:30:48Z",
+  "linz:geographic_description": "Awakino to Tongapōrutu",
+  "extent": {
+    "spatial": { "bbox": [[174.464075, -38.8288123, 174.6312382, -38.6320384]] },
+    "temporal": { "interval": [["2025-03-01T11:00:00Z", "2025-11-23T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12206994eca79a28cdd14e2f26b2dfe8a35b42f5610e4dd2883aadc8294cd04c0af2",
+      "file:size": 764479
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
