@@ -1,0 +1,63 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KR00YNABQ7GFZMB4BZCBM0DT",
+  "title": "Taranaki - Awakino to Tongapōrutu Coastal LiDAR 1m DSM (2025)",
+  "description": "Coastal Digital Surface Model within the Taranaki region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BG31_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122072e26e95bac25afc5454dc19dc4b2bddf1ad0ce2e0cfccde32513402c7913f29"
+    },
+    {
+      "href": "./BG31_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e04cf89045062716bcd7c2fa022aff8503e7720b3dcb568cc345c1089fd15298"
+    },
+    {
+      "href": "./BG31_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220853866e9b3b50e8b1aa33f364afcde2ce4abf9f813d67db01a53fccc77d86f0f"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "taranaki",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "awakino-to-tongaporutu_2025",
+  "gsd": 1,
+  "created": "2026-05-07T01:31:06Z",
+  "updated": "2026-05-07T01:31:06Z",
+  "linz:geographic_description": "Awakino to Tongapōrutu",
+  "extent": {
+    "spatial": { "bbox": [[174.5716916, -38.8273728, 174.6312382, -38.6320384]] },
+    "temporal": { "interval": [["2025-03-01T11:00:00Z", "2025-11-23T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220f94118cee123531fbbeeac9827009e78663935cff6a5ca3e6acc39926ddf246d",
+      "file:size": 77299
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
