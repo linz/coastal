@@ -1,0 +1,87 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KR00KYSJNAP7M1PN6Z8694HE",
+  "title": "New Zealand - Awakino to Tongapōrutu Coastal LiDAR 1m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the New Zealand region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BG30_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a29c588ce7ebf35923314bf61b0498f912942a45a4c372d54ef02871d9fdfc63"
+    },
+    {
+      "href": "./BG31_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220bb1af1b347224ea04298f16d3061914d7f5a94046d5f41e757a60df0fd7e762a"
+    },
+    {
+      "href": "./BG31_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122043f6c22b2a16b7a7b6df93851c72922fb0a516c86d108d1331255fc24e4dbeaa"
+    },
+    {
+      "href": "./BG31_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d02cf608e722cfda117bd4e7da5a15a5227d9e2dd7c203f6141690a65fd99d0b"
+    },
+    {
+      "href": "./BG31_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206128f5dc2da3fd6bf24548d9ee29fd69aab20b5f3ac09887a42131429a7b3256"
+    },
+    {
+      "href": "./BG31_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c882edf094ea428fc4688c4230a827d88661caa9f39d9b2d1766f065cb3bc6fd"
+    },
+    {
+      "href": "./BG31_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a20e191360f2bc8771c9b3ea35dac8b21a0072178d9d2809aaf63f5cbb4aae98"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "new-zealand",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "awakino-to-tongaporutu_2025",
+  "gsd": 1,
+  "created": "2026-05-07T01:25:15Z",
+  "updated": "2026-05-07T01:25:15Z",
+  "linz:geographic_description": "Awakino to Tongapōrutu",
+  "extent": {
+    "spatial": { "bbox": [[174.464075, -38.8288123, 174.6312382, -38.6320384]] },
+    "temporal": { "interval": [["2025-03-01T11:00:00Z", "2025-11-23T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12206994eca79a28cdd14e2f26b2dfe8a35b42f5610e4dd2883aadc8294cd04c0af2",
+      "file:size": 764479
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
