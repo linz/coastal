@@ -1,0 +1,57 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KR00YAPSZTMN0W9D0EBSTYM3",
+  "title": "Taranaki - Awakino to Tongapōrutu Coastal LiDAR 2m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Taranaki region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BG30.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12202eec8cb003fb81aa6f95cf8fcc7c02dda619a00927d1a350222abf37cb701c46"
+    },
+    {
+      "href": "./BG31.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a12cba09e48a9c195b2c8c5754293d13e2a9c0e98575bb74cbdbea7850fa7a80"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "taranaki",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "awakino-to-tongaporutu_2025",
+  "gsd": 2,
+  "created": "2026-05-07T01:30:55Z",
+  "updated": "2026-05-07T01:30:55Z",
+  "linz:geographic_description": "Awakino to Tongapōrutu",
+  "extent": {
+    "spatial": { "bbox": [[174.239774, -38.8962453, 174.7986877, -38.5647671]] },
+    "temporal": { "interval": [["2025-03-01T11:00:00Z", "2025-11-23T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220d2d831aeae40836554d5a87474d1f42950f792d9c5ddf70d2727917e3b0b4557",
+      "file:size": 308365
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
