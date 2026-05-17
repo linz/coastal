@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-05/17-imagery-standardising-2d9vk/flat/",
+  "target": "s3://nz-coastal/waikato/tairua-to-whangamata_2025/dem_2m/2193/",
+  "ticket": "LI-9148",
+  "copy_option": "--force-no-clobber",
+  "region": "waikato",
+  "flatten": "false"
+}
