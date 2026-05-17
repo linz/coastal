@@ -2,8 +2,8 @@
   "type": "Collection",
   "stac_version": "1.0.0",
   "id": "01KJ6BVWJGG87BAFMKEYZBDY4S",
-  "title": "Waikato - Tairua to Whangamatā Coastal LiDAR 1m DEM (2025)",
-  "description": "Coastal Digital Elevation Model within the Waikato region captured in 2025.",
+  "title": "Waikato - Tairua to Whangamatā Coastal LiDAR 1m DEM (2025-2026)",
+  "description": "Coastal Digital Elevation Model within the Waikato region captured in 2025-2026.",
   "license": "CC-BY-4.0",
   "links": [
     {
@@ -16,91 +16,91 @@
       "href": "./BB35_10000_0205.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12207be96f4b808a1c4dccc20322574548fa2baa7fcc85b1bf25475759ace1e8d96b"
+      "file:checksum": "122095033a6b9317274b49dc81ec7bb0efa432b4ff99b268e9ebe030341f0f5c2bf4"
     },
     {
       "href": "./BB35_10000_0305.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220563615c5eb04442650a6ded946bd0a0e1087d4c17d52aaf50a39b032cb48d1fe"
+      "file:checksum": "12209c58f60cd47697033a6b6841bd9792082a3df8c592b5c479d9e1632ad56042aa"
     },
     {
       "href": "./BB36_10000_0101.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220d50a9abd7a011293a42d3179a741310973c42ace45f51de48817f5951707564a"
+      "file:checksum": "12200b243169ea5fe5f75b7b19d598cf690c1561888381071b9614b52f0ca7b01cec"
     },
     {
       "href": "./BB36_10000_0102.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122053df4110bda6932c4f8c6ccf7e0e84c1639a9f0a4d7589cb4cb5cfc85dd7a2b6"
+      "file:checksum": "12204ce51435ca5230efec566aae12bb172611b7b0a1db4a57d8a9975258b4de6c05"
     },
     {
       "href": "./BB36_10000_0201.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122024426c46f724282a3cbe7180e8e093f4f5d3534ad4dfd82461f4150ba4be488a"
+      "file:checksum": "12205a52018e7b03349292c42e7f1b2ea0dc345d6056157e72a6525f4825701fabb5"
     },
     {
       "href": "./BB36_10000_0202.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12205221573ba98676e99316a7dd554f9498eb3f8484bd7691074b813abec351896b"
+      "file:checksum": "1220867621fc83421e6a8643f008a61bbbabdcca9cb0c2bed6d1c112f08d50cc1089"
     },
     {
       "href": "./BB36_10000_0301.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220e033979263fd1d487c3b0aca5bacc57f1d3fef948d302aabf0d7d8464b00a231"
+      "file:checksum": "1220226243547ae990ba4f50cfe5376de52c9057ce15fe9ebd5763aff900ce580984"
     },
     {
       "href": "./BB36_10000_0302.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220275462a9da5faaa54b1a0dfe74b58d447064d19dce59abee3d6ec59ab08a9824"
+      "file:checksum": "12205e015c52169f0891c066337073455a152b571a1c85d41ce74b7cf5ed1199b1dc"
     },
     {
       "href": "./BB36_10000_0401.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122035a2f9faaadfaa2cd01dced639b4ad488884bba754e4c0deb0f32c715fc7816c"
+      "file:checksum": "1220d1dc7a52196b8bc691f50d1e54f1648001df9968305c5a6a216c139535adb4da"
     },
     {
       "href": "./BB36_10000_0402.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122089cda10e49b96c7bf7c2ef1c65883864870cde3132bfb45dc88b896a9ea210ba"
+      "file:checksum": "1220db068e7b9c1ab1e189eab9fada055858596679551e1f6522996a07d488fab48d"
     },
     {
       "href": "./BB36_10000_0501.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220975bcf4a4085d0a6f5f512b448458694b131f8a382651b5fbd3e38fd66763694"
+      "file:checksum": "1220e2af07dfe8de0bf982612cf17b7725cd804488cf44e2eb0f3a217699bc4ecc1f"
     },
     {
       "href": "./BB36_10000_0502.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220525aebd73c8f45c3bbbcefb6338ba6689b0fc15494464beaa4a1e256ae186702"
+      "file:checksum": "1220557dbd24c469a782f6b0b844a27136df462b7e75d86c1e5a5034f750996d8218"
     },
     {
       "href": "./BC36_10000_0101.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122011a8fdc010df275efb242689809765fe91e9ee2b74e6060e0ce771693d68bf9d"
+      "file:checksum": "1220d03e150b54ebf53eb4155b60062848be6778fa624273c40a783c9ee1e0a78788"
     },
     {
       "href": "./BC36_10000_0102.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12206ca13723ed8472206b5e759bef3d5d41c7d88d6e73228df333e8e8d9ee693b47"
+      "file:checksum": "1220fcb1ae45d73a2f9ee83a19817fe0b0a403c4aeb09c5060d0276a002b55f61dc1"
     },
     {
       "href": "./BC36_10000_0202.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220fd6d9f07fe9ad950ae53e87e2e0c557384881287f1d1ce4df8d1b9d912cc8783"
+      "file:checksum": "12202a4d609c72a59c0bf97f3b07bc663a1e9de5c701735c58836459a27e79540802"
     }
   ],
   "providers": [
@@ -114,11 +114,11 @@
   "linz:slug": "tairua-to-whangamata_2025",
   "gsd": 1,
   "created": "2026-02-23T23:03:05Z",
-  "updated": "2026-02-23T23:03:05Z",
+  "updated": "2026-05-17T23:38:15Z",
   "linz:geographic_description": "Tairua to Whangamatā",
   "extent": {
     "spatial": { "bbox": [[175.7775528, -37.3748127, 175.9542825, -36.9197573]] },
-    "temporal": { "interval": [["2025-02-20T11:00:00Z", "2025-03-24T11:00:00Z"]] }
+    "temporal": { "interval": [["2025-02-20T11:00:00Z", "2026-02-22T11:00:00Z"]] }
   },
   "assets": {
     "capture_area": {
@@ -127,8 +127,8 @@
       "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220bd981200b4c72e5babfd031f223dda0c697e7fb933c7db85359e9ecdf381c7ad",
-      "file:size": 515525
+      "file:checksum": "1220302646e6fcee5d22dd8c8319c9b36e1610b0eaf2536b466b6e9318fdf3bd52f0",
+      "file:size": 514505
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
