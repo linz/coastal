@@ -34,7 +34,7 @@
       "href": "./BB36_10000_0201.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220de2830caec6acc9dbe1fab77f37c04e86e9cdb2508579f3aad22c0ee63159805"
+      "file:checksum": "12206d36462cde3b4a7d34d91263fd6ac8516c9d3e17aa352b0216a7117c97aed8a1"
     },
     {
       "href": "./BB36_10000_0202.json",
@@ -108,7 +108,7 @@
   "linz:slug": "tairua-to-whangamata_2025",
   "gsd": 1,
   "created": "2026-02-23T23:03:32Z",
-  "updated": "2026-02-23T23:03:32Z",
+  "updated": "2026-05-17T23:36:57Z",
   "linz:geographic_description": "Tairua to Whangamatā",
   "extent": {
     "spatial": { "bbox": [[175.7775528, -37.3748127, 175.9542825, -36.9210768]] },
@@ -121,8 +121,8 @@
       "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "122067fdbfbd0ecd72e35a9ae1625270821d2a4eabfef6b47418c8ecdd01249b5c6a",
-      "file:size": 157585
+      "file:checksum": "1220606dda1720b81cee8b345a5bbdbf27802bec040ef8dee69776fe0e3f131c9d5f",
+      "file:size": 157016
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
