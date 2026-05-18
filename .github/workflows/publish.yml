@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  # Queue master branch, but let all other branch actions execute independently.
+  # Queue master branch, but let all other branch actions execute independently
   group: ${{ github.ref == 'refs/heads/master' && 'publish-queue' || format('validate-{0}', github.run_id) }}
   queue: max
 
