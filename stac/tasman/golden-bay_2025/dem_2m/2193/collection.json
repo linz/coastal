@@ -1,0 +1,63 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KRYJD8NBKQV4DBBQ762VF7HB",
+  "title": "Tasman - Golden Bay Coastal LiDAR 2m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Tasman region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BN24.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220cfff73692d28ae6cfd966d6fe2fbfdbb239368c38b84df71c20272da03897ffc"
+    },
+    {
+      "href": "./BN25.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205d757a3a974d0125c2961f4e1c642648447f7b6e3754b6bb90c193d820551fab"
+    },
+    {
+      "href": "./BP25.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220307938bf35db0a5054af9caa5e0f20da28d98e7a0b4019d895575e28ac9bd4d7"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "NV5", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "tasman",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "golden-bay_2025",
+  "gsd": 2,
+  "created": "2026-05-18T22:13:23Z",
+  "updated": "2026-05-18T22:13:23Z",
+  "linz:geographic_description": "Golden Bay",
+  "extent": {
+    "spatial": { "bbox": [[172.5729245, -41.1732535, 173.1430599, -40.5239505]] },
+    "temporal": { "interval": [["2025-02-20T11:00:00Z", "2025-12-04T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220ac659d7bce420601501de4a8704283c425ea76450628e0f068de2222227d41e2",
+      "file:size": 595290
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
