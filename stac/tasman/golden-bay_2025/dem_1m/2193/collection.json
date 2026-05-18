@@ -1,0 +1,189 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KRYJD0TNXJG514HAQ6WDXQSJ",
+  "title": "Tasman - Golden Bay Coastal LiDAR 1m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Tasman region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BN24_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12202c49e169f5562eab783e972f447b36efef0ffe4b93f41d9afd4ca77cac753db9"
+    },
+    {
+      "href": "./BN24_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122064d76b0e1ad037abf9169bf38b91710f60d4159c9a313751f9eb16e203647471"
+    },
+    {
+      "href": "./BN24_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220afb86863d1bef801dafe1297650f50b87f3475aeecd9d5d8c622541446ddaf98"
+    },
+    {
+      "href": "./BN24_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122077f10819b32d4813446781d7a8bc5b02e6c18a9fa8e2ee96f4427ddfe93e8cc5"
+    },
+    {
+      "href": "./BN24_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205a94bc46827247881dc6ff826214da80e0e5932a603deda336f7ff7f6dd6763c"
+    },
+    {
+      "href": "./BN24_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205f8d335cc598a3ea0576e4bbf30e3b9ec1ba6590af6646bf1ff74ca72675c44e"
+    },
+    {
+      "href": "./BN24_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122008eb4ea62e5e35befd1d7d0a44e3b414acb51506b97fd84e7349ca3089d207ac"
+    },
+    {
+      "href": "./BN24_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122054db97919ad4a35eb332dc1e7106aed9e07a38a68092e0dd00ff5ac21778ac5f"
+    },
+    {
+      "href": "./BN24_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f286e152a4a9ffda80f16533701d1860eb3f2955e00694c8d5eb5e30f5cf8a95"
+    },
+    {
+      "href": "./BN24_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207635d264dd474c698f441a6976e89b5cb0a1b7fde0bc782f60b93bcadcff6223"
+    },
+    {
+      "href": "./BN24_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b8d3201f9b9d3b71c47cb63d0b71a45c4ff0a13201af2bb1e7015e95d4bf2e0a"
+    },
+    {
+      "href": "./BN24_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a31271e8184d0dea3d426753ad79f992b298127125c43553d712e615a38d05e1"
+    },
+    {
+      "href": "./BN25_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c404382f90520f1b7a48a598eac278bbf3e8302069fe951769db0a6627c8d343"
+    },
+    {
+      "href": "./BN25_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122038e61f9d22702b0dfda3e157e18238357af1c94ea991408eede9ff006a9eb675"
+    },
+    {
+      "href": "./BN25_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220406bf604bbd3ac98c2c2018109906ac0826de0d7fd5b0f8474c08218ab883b60"
+    },
+    {
+      "href": "./BN25_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a2559c41b0b872b9c09fe959b2e224785a36529c52f62892222b61f414abb2a0"
+    },
+    {
+      "href": "./BN25_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122059cef265ed275ed72d8156b1958cec016a8b3e4113feea0b6309d471538083d5"
+    },
+    {
+      "href": "./BN25_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203e79520fff218db0d87f786275af137e4b3c6c359bbae7417474df9599257ef3"
+    },
+    {
+      "href": "./BN25_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122047428413ac1bc0a2f25cfd1379cc7a208d94e6c835e9131a5dcebda629de50cf"
+    },
+    {
+      "href": "./BP25_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220581477f2542cb4c18eb21ce5c965392348566588bdd796f44be7c245c8e2b048"
+    },
+    {
+      "href": "./BP25_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203317525fd376344fc35a79af85193b0fdf22fafdf312b9e81face6f51ea66308"
+    },
+    {
+      "href": "./BP25_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122058efe3626cf1d68fb50e67777407be02a4f37871f3fff3d8dc1db11182a25d8f"
+    },
+    {
+      "href": "./BP25_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220863e1083ad486eed7dd4dfd6de0f210916a211b1c8a96c566a2c1e8ae993da16"
+    },
+    {
+      "href": "./BP25_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ddf80a2634a06811c557e2c51762ada3151572aefbc7acce8831dd13737f3883"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "NV5", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "tasman",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "golden-bay_2025",
+  "gsd": 1,
+  "created": "2026-05-18T22:13:15Z",
+  "updated": "2026-05-18T22:13:15Z",
+  "linz:geographic_description": "Golden Bay",
+  "extent": {
+    "spatial": { "bbox": [[172.630227, -41.0436226, 173.0856673, -40.589008]] },
+    "temporal": { "interval": [["2025-02-20T11:00:00Z", "2025-12-04T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220f489039024c730f147fc311dab4582f3e91f57f2ccde47633867eb082539ea1e",
+      "file:size": 582232
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
