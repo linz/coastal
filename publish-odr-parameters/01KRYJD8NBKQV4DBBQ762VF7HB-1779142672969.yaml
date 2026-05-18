@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-05/18-imagery-standardising-7h2qq/flat/",
+  "target": "s3://nz-coastal/tasman/golden-bay_2025/dem_2m/2193/",
+  "ticket": "LI-7561",
+  "copy_option": "--no-clobber",
+  "region": "tasman",
+  "flatten": "false"
+}
