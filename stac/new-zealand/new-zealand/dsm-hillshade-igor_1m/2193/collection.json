@@ -82,19 +82,19 @@
       "href": "./BB35.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12209939fa7472c8f9e23bf637407c1ef8f597da6c6cfcfd10d66e22e8c339a72223"
+      "file:checksum": "1220ad9707c3560bf3c7bcda5f73c88997f029efa6bf599c68a3f711dc611234254a"
     },
     {
       "href": "./BB36.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220271ab90da9521f0998af619e6d355abd3630428e960d038405c5b4e824e2eea4"
+      "file:checksum": "1220235f5f25a0cb69d6ab66df877601590990a81b20f695e8c1f90805944b90a899"
     },
     {
       "href": "./BC36.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220043422e5d19a0be787490bbc34c3b73639f60e9e65181bbf6ea7fb5d9cbc603a"
+      "file:checksum": "1220183cbc07b83157c5e5f9264218d2c0110005a55a509c3d3936a500f81e42803e"
     },
     {
       "href": "./BD36.json",
@@ -208,10 +208,10 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-09-10T03:00:05Z",
-  "updated": "2026-05-08T01:51:16Z",
+  "updated": "2026-05-20T01:56:38Z",
   "extent": {
     "spatial": { "bbox": [[168.1153331, -46.9283415, 177.5195386, -34.6822331]] },
-    "temporal": { "interval": [["2025-01-27T11:00:00Z", "2025-11-23T11:00:00Z"]] }
+    "temporal": { "interval": [["2025-01-27T11:00:00Z", "2026-02-22T11:00:00Z"]] }
   },
   "assets": {
     "capture_area": {
@@ -220,8 +220,8 @@
       "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "12206c696a43484c3bf17f4a67b98090ed7ed09e4c76d720436d671701d09b50366f",
-      "file:size": 2501207
+      "file:checksum": "1220d7f8083284c0ca50b6fa252498a60371f118cbe70e8522d190b3eacfc5b0af52",
+      "file:size": 2500639
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
