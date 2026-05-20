@@ -82,19 +82,19 @@
       "href": "./BB35.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220af447ea40239811671f2480ac4b2feabe87432ecf095e6f246fe9c94fb346c5a"
+      "file:checksum": "12203f26baf98ed944d1122577335878ac4271be18244d9596eba1b20dc878f8512b"
     },
     {
       "href": "./BB36.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12202b87680be735095355170861fd1a029dfef68c9fde9c59ebb7753d57441a7a3f"
+      "file:checksum": "12201e469d0df50f5024e2206d13479082108748e9773efa0c0f72c925e7f0ae2045"
     },
     {
       "href": "./BC36.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220146e3e4db5532a529af88bc4f8597f993e5d8544976932d294d68d8382756b77"
+      "file:checksum": "1220fcb0cf47825e340e0f89845ec3ed063a6aa1701055ef5c0df15cd5fe109b6ada"
     },
     {
       "href": "./BC37.json",
@@ -256,10 +256,10 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-06-16T23:25:08Z",
-  "updated": "2026-05-08T02:34:05Z",
+  "updated": "2026-05-20T02:23:28Z",
   "extent": {
     "spatial": { "bbox": [[167.5207033, -46.9283415, 177.7925909, -34.6822331]] },
-    "temporal": { "interval": [["2024-04-11T12:00:00Z", "2025-11-23T11:00:00Z"]] }
+    "temporal": { "interval": [["2024-04-11T12:00:00Z", "2026-02-22T11:00:00Z"]] }
   },
   "assets": {
     "capture_area": {
@@ -268,8 +268,8 @@
       "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "122049dcd4aa7497758e2a9992da782ac937b5f6f086969b5382d2ccfe3dae6abcf5",
-      "file:size": 13594333
+      "file:checksum": "1220bdee73dad30e8e7ca48e371b6325b84dadda7b5de975c29b66bb2443a8e48de4",
+      "file:size": 30740362
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
