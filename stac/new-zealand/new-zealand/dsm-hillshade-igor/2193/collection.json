@@ -82,19 +82,19 @@
       "href": "./BB35.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220777cb237a7ccbd79204567e0f1c820d3eb9685b2523dbe6548a0941bfd25fa56"
+      "file:checksum": "12209ba9e54b15a3660fcd94bdbb54e7df17f374c9dd440511f94f7171b929bf3e03"
     },
     {
       "href": "./BB36.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12203898854c2145a52ab2667d4facbe8943d5ca6c128ebaf1d6f79370d4537b5577"
+      "file:checksum": "122063cb8e9fa1ff61829778f70339078027761c5eec17782f16434a288fb8a34687"
     },
     {
       "href": "./BC36.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "122003dbc0b8dac534a60ced2e2eb725f6f59461c79fa3a5bbf803713bcea6bfeb6f"
+      "file:checksum": "12209cfd90e7477cc4a9cb57f5e34ab7bdd4a359f153e104cff9eff9eccf2e4dfb9a"
     },
     {
       "href": "./BD36.json",
@@ -208,10 +208,10 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-09-10T04:37:50Z",
-  "updated": "2026-05-08T02:37:00Z",
+  "updated": "2026-05-20T02:20:12Z",
   "extent": {
     "spatial": { "bbox": [[168.1153331, -46.9283415, 177.5195386, -34.6822331]] },
-    "temporal": { "interval": [["2025-01-27T11:00:00Z", "2025-11-23T11:00:00Z"]] }
+    "temporal": { "interval": [["2025-01-27T11:00:00Z", "2026-02-22T11:00:00Z"]] }
   },
   "assets": {
     "capture_area": {
@@ -220,8 +220,8 @@
       "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220aa7e09a91f8a5191d272efa05b1fa0425a9f8ef2e0ac9c301426867601924efa",
-      "file:size": 2698285
+      "file:checksum": "122003eca9acb14993fab0ddc10618ea8bd13c3d66932af423cfd3102f3fe80f1da2",
+      "file:size": 2774568
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
