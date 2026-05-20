@@ -3,7 +3,7 @@
   "stac_version": "1.0.0",
   "id": "01JXTPWYDWTP9TRXV5CTW6MTCX",
   "title": "New Zealand Coastal LiDAR 1m DEM",
-  "description": "Coastal Digital Elevation Model within the New Zealand region captured in 2024-2025.",
+  "description": "Coastal Digital Elevation Model within the New Zealand region captured in 2024-2026.",
   "license": "CC-BY-4.0",
   "links": [
     {
@@ -82,19 +82,19 @@
       "href": "./BB35.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220d04629fd58f7fa5d702e4dbbc7f2889e33b23c57c48f2a9d809586d721400329"
+      "file:checksum": "12207dea521bc0490f02ff0864bb35e3f87d37e5736d341d7e4fa4b3b2132f301bad"
     },
     {
       "href": "./BB36.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220832ca8c2dab43db09de2ee1ce1662f12b7ad256444aeedb7e8b22886e7ef9cfe"
+      "file:checksum": "1220926ad0705adcf623857c4ab159baaae10663b801b3d69b0a4b86f373c4868dd1"
     },
     {
       "href": "./BC36.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220989040813c9d295a67fe3d9d72749e8423526c75b11b33373416302698361fb5"
+      "file:checksum": "1220bd6d7e4f603d2e1a70fc1343bf165511606fd4a97ecf05009776d97f764e26cc"
     },
     {
       "href": "./BC37.json",
@@ -256,10 +256,10 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-06-15T21:11:05Z",
-  "updated": "2026-05-08T01:31:18Z",
+  "updated": "2026-05-20T01:40:56Z",
   "extent": {
     "spatial": { "bbox": [[167.5207033, -46.9283415, 177.7925909, -34.6822331]] },
-    "temporal": { "interval": [["2024-04-11T12:00:00Z", "2025-11-23T11:00:00Z"]] }
+    "temporal": { "interval": [["2024-04-11T12:00:00Z", "2026-02-22T11:00:00Z"]] }
   },
   "assets": {
     "capture_dates": {
@@ -268,8 +268,8 @@
       "description": "Boundaries of individual surveys or flight runs that make up the overall collection with the data collection dates, data source links and other associated metadata, such as producers and licensors, where available. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "12204d8347ce9fc8a19d4c3aa556f7d5d4dc753c32f7f5d93e2bcf480e9499f7c23a",
-      "file:size": 5939890
+      "file:checksum": "12202f3c92ef49e75cd58d3138f82e4d7dcb88e1d7163f496b0dfac49a09764fa604",
+      "file:size": 5938838
     },
     "capture_area": {
       "href": "./capture-area.geojson",
@@ -277,8 +277,8 @@
       "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220895fc710349cdb61278092e3442a16b3809966f642dbc784b671403ea0dbb720",
-      "file:size": 6277621
+      "file:checksum": "12208643efbbf96bb64cb2485ef87745a344776a28e8da8059b19a52f4b432c36b28",
+      "file:size": 6276453
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
