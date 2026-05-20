@@ -157,6 +157,24 @@
       "file:checksum": "1220feecf138e39a0f9215a2a9a913b2c6cd30606227c8fadc7f70dd00b35e055954"
     },
     {
+      "href": "./BN24.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122041ffc66bc880582488c9fa446b9e6d8cb83a41b81e1822907b0c71322e785a77"
+    },
+    {
+      "href": "./BN25.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205d8d773408c2a541005d9d8d99648aba81ec360c38108836cf42c5ae3931a646"
+    },
+    {
+      "href": "./BP25.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206d484a449128b25584050b65c62aa6db8ef1167182a8627be15253909869ee9b"
+    },
+    {
       "href": "./BP26.json",
       "rel": "item",
       "type": "application/geo+json",
@@ -256,7 +274,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-06-15T21:11:05Z",
-  "updated": "2026-05-20T01:40:56Z",
+  "updated": "2026-05-20T18:03:04Z",
   "extent": {
     "spatial": { "bbox": [[167.5207033, -46.9283415, 177.7925909, -34.6822331]] },
     "temporal": { "interval": [["2024-04-11T12:00:00Z", "2026-02-22T11:00:00Z"]] }
@@ -268,8 +286,8 @@
       "description": "Boundaries of individual surveys or flight runs that make up the overall collection with the data collection dates, data source links and other associated metadata, such as producers and licensors, where available. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "12202f3c92ef49e75cd58d3138f82e4d7dcb88e1d7163f496b0dfac49a09764fa604",
-      "file:size": 5938838
+      "file:checksum": "122037dd094dee1f2bbe103ff8d80e6c08f78496490170f79cc9a90cc7653b57dc77",
+      "file:size": 6482752
     },
     "capture_area": {
       "href": "./capture-area.geojson",
@@ -277,8 +295,8 @@
       "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "12208643efbbf96bb64cb2485ef87745a344776a28e8da8059b19a52f4b432c36b28",
-      "file:size": 6276453
+      "file:checksum": "12201f45f16407e544a924847560ca87ba1eba78798c8d27b8388ed8e049c6652d12",
+      "file:size": 6857734
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
