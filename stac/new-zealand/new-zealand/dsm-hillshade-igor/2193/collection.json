@@ -127,6 +127,24 @@
       "file:checksum": "12206bc60d7f1870b0dd838e4ce27873d7f9e8a0a83abf3d7261e1dc12949cba9d54"
     },
     {
+      "href": "./BN24.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122032a26fafcc4d002a12258e8b85146a0b5fb70ed5e07f29e4fbae46852d271d6c"
+    },
+    {
+      "href": "./BN25.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e129ba4b15e3668a81cc1785799fb623eeb8944dab25212682f90cb93f34d5a5"
+    },
+    {
+      "href": "./BP25.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12202ecd5d6e8cb11fa1de10d78c61441989bea67e2345c66f89fcd466ccb7ec1f56"
+    },
+    {
       "href": "./BP26.json",
       "rel": "item",
       "type": "application/geo+json",
@@ -208,7 +226,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-09-10T04:37:50Z",
-  "updated": "2026-05-20T02:20:12Z",
+  "updated": "2026-05-21T22:19:15Z",
   "extent": {
     "spatial": { "bbox": [[168.1153331, -46.9283415, 177.5195386, -34.6822331]] },
     "temporal": { "interval": [["2025-01-27T11:00:00Z", "2026-02-22T11:00:00Z"]] }
@@ -217,11 +235,11 @@
     "capture_area": {
       "href": "./capture-area.geojson",
       "title": "Capture area",
-      "description": "Boundary of the total capture area for this collection. Excludes nodata areas in the source data. Geometries are simplified.",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "122003eca9acb14993fab0ddc10618ea8bd13c3d66932af423cfd3102f3fe80f1da2",
-      "file:size": 2774568
+      "file:checksum": "12202dfe0778f3d30b8fe0af9b7b0aa2702e90f2353d6e5c169bedca700f380cfb6d",
+      "file:size": 3168342
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
