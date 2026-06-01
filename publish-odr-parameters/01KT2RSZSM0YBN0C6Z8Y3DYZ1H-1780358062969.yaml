@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-06/01-imagery-standardising-n79f6/flat/",
+  "target": "s3://nz-coastal/taranaki/urenui-to-oakura_2025/dem_1m/2193/",
+  "ticket": "LI-9146",
+  "copy_option": "--no-clobber",
+  "region": "taranaki",
+  "flatten": "false"
+}

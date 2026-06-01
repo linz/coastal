@@ -1,0 +1,141 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KT2RSZSM0YBN0C6Z8Y3DYZ1H",
+  "title": "Taranaki - Urenui to Ōakura Coastal LiDAR 1m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Taranaki region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BH28_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122057df77624dbf9fdd5def80840fd4c7fdb8bb0299334b06762e341b1ec33c7db4"
+    },
+    {
+      "href": "./BH29_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220332b15e1280e31aa7c824f48e6d55cce41c2b22886470fadb87032fda032f159"
+    },
+    {
+      "href": "./BH29_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204ba6e39ff591de2101afaa2fa60558235d92435e28f7f4c6971500579ee55f99"
+    },
+    {
+      "href": "./BH29_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c9137b0dcf6e8c48add204668ffa97363c29f0d990b1884352f6cc53d9d31271"
+    },
+    {
+      "href": "./BH29_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207dc6336b64bac796dc8722126c034c5e19b976f574375ae6bb0e9844ae693562"
+    },
+    {
+      "href": "./BH29_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207379339bc30da0c7752e76164b6d0019867025be4163854e80f23404f5f5bc9f"
+    },
+    {
+      "href": "./BH29_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122081b897bc739d450e1363f750b5f35c83181e2d3c85c7bd90317b91b05e08a4e8"
+    },
+    {
+      "href": "./BH29_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209d8d8c157b264fda19a6c3aefe70c5ead83026b455a0d1b715ae6da2eddcbe70"
+    },
+    {
+      "href": "./BH29_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a817c4bf738e14efcaccb730c1a217e0fb263af0213e5b2f3cb15fabd8c7752f"
+    },
+    {
+      "href": "./BH29_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220cf4df6a383b41fe7b791dca77a445dea9b8da350b21bbea250aa0595243fa494"
+    },
+    {
+      "href": "./BH30_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220521956c0a866d7f44a273bcbce170cdc34c133fb5c4dd9ae0cbe22db1206e8a0"
+    },
+    {
+      "href": "./BH30_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12202712a3fad8b2752b8a0708cd1e1a09e8ab9505237172b7fac46bec90299df56a"
+    },
+    {
+      "href": "./BH30_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220fe71a8008059834a6f2e2bb8a64a5619f872ece36d65e4e8f643c99e8a7ce03d"
+    },
+    {
+      "href": "./BH30_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220786b1752c83038a9987af7e3bdea205218aedefc10145f6a5f7412e05851726f"
+    },
+    {
+      "href": "./BH30_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122036d50483ad9451f72f6a186ea293f4c0009e3062e29aa6f6924bc47eb8db9f5b"
+    },
+    {
+      "href": "./BH30_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122065f28f2bab884de0654da838b801f7d7559841eb6783afa42fd0057d430956de"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "taranaki",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "urenui-to-oakura_2025",
+  "gsd": 1,
+  "created": "2026-06-01T23:37:52Z",
+  "updated": "2026-06-01T23:37:52Z",
+  "linz:geographic_description": "Urenui to Ōakura",
+  "extent": {
+    "spatial": { "bbox": [[173.9158409, -39.1588079, 174.4139789, -38.8943564]] },
+    "temporal": { "interval": [["2025-03-01T11:00:00Z", "2025-11-15T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220037634bb0e299c9c6cbb3aa5a95c5ae5c2d5ea257ee7219797447e5e129b28ee",
+      "file:size": 1404012
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
