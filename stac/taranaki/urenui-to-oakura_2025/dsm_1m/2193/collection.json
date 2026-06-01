@@ -1,0 +1,111 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KT2S71J0P125EAP3AX8TFXPK",
+  "title": "Taranaki - Urenui to Ōakura Coastal LiDAR 1m DSM (2025)",
+  "description": "Coastal Digital Surface Model within the Taranaki region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BH28_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c30c26a4d53be8ad256c863dde0d02b8055ebc46472d9fefd7a43d74f5b80805"
+    },
+    {
+      "href": "./BH29_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209a357d5eb575a8261a3a8c57a243def2bc489233ebd345bf21cfd4c86ca047f0"
+    },
+    {
+      "href": "./BH29_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205f5766225b7ff2126bba0333527a7101b9a54410c59c5cc5d283e7f0c14e6217"
+    },
+    {
+      "href": "./BH29_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c1a99e7ec8445fcd49e11f62e032bf12fc0352f1e7e83f19db0bd3e681b55ce9"
+    },
+    {
+      "href": "./BH29_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d6e13eb376ceaa9471a0c821751d7b3c5a041d67aedf4b71c9368e919ef2d57e"
+    },
+    {
+      "href": "./BH29_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122075337f6f59525dd8c09a53f6a97b20a2c06c7203ca915464b4f5237dab316f7c"
+    },
+    {
+      "href": "./BH29_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a6dcd5c168cad9f4d7a0b14b38df2c4d86575a33b5c6e8ec6645489109639d9c"
+    },
+    {
+      "href": "./BH29_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220afb838cbaa5f67097d985d25456fc83549939538e88fb849764a67e78fea7521"
+    },
+    {
+      "href": "./BH30_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206369bfb7d6d269b811223610667781f05d5b419733f4fbb62afd418d56720dc2"
+    },
+    {
+      "href": "./BH30_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208713278ddbe4e759e25cd34034bac3b6c9fb71ef907784b80edec388dbc3088f"
+    },
+    {
+      "href": "./BH30_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d8eca43af8492138a1aad7a4d3003da8697a9fa3bfcb024c1dc7d2a6cf64e32e"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "taranaki",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "urenui-to-oakura_2025",
+  "gsd": 1,
+  "created": "2026-06-01T23:44:59Z",
+  "updated": "2026-06-01T23:44:59Z",
+  "linz:geographic_description": "Urenui to Ōakura",
+  "extent": {
+    "spatial": { "bbox": [[173.9158409, -39.1588079, 174.4139789, -38.9592192]] },
+    "temporal": { "interval": [["2025-03-01T11:00:00Z", "2025-11-15T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12204730e97f79cd7af6c8be596c2c6428779e1ddc5f3b10ad644482f8e63a64ea08",
+      "file:size": 74397
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
