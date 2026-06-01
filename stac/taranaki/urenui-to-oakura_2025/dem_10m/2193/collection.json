@@ -1,0 +1,63 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KT2RX00ZZ53SGX4W5YNYK9HQ",
+  "title": "Taranaki - Urenui to Ōakura Coastal LiDAR 10m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Taranaki region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BH28.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220adde48149b00600687d16d5dc670e7bfec56a8c10629de18ee12b673d957b8a2"
+    },
+    {
+      "href": "./BH29.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122022f203e222970c4a94cb4bfebdd9d4ac240a137873b2c657c3908e17d43af029"
+    },
+    {
+      "href": "./BH30.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122044e99e25b06f4ba17913253c7bf82ee433fffa7d937844e45437499bce69d44e"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "taranaki",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "urenui-to-oakura_2025",
+  "gsd": 10,
+  "created": "2026-06-01T23:39:30Z",
+  "updated": "2026-06-01T23:39:30Z",
+  "linz:geographic_description": "Urenui to Ōakura",
+  "extent": {
+    "spatial": { "bbox": [[173.6919382, -39.2252188, 174.5290449, -38.892966]] },
+    "temporal": { "interval": [["2025-03-01T11:00:00Z", "2025-11-15T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220243dd8c8c73443e7e878460ca71c2588ecedfd9ba251e11e5d25e84084786121",
+      "file:size": 50034
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
