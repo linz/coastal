@@ -1,0 +1,81 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KVXW2BQTXMKGV6C618JTBM0F",
+  "title": "West Coast - Okuru Coastal LiDAR 1m DEM (2026)",
+  "description": "Coastal Digital Elevation Model within the West Coast region captured in 2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BY11_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220bfc8d5e6df8a3c4d9153f28574b32b4078c0df85ada2c0997dc9dbcd2d6901ef"
+    },
+    {
+      "href": "./BY11_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209dda0e16a9bd4b0d952b7a0eb66b3f18dbb2c26d98a7f262f9eef093f4ef8f1a"
+    },
+    {
+      "href": "./BY11_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122027854d97076c4bc746a645605460ae9b7885bc912091cb5f0a085604e022d1ec"
+    },
+    {
+      "href": "./BY11_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12202168c4dd023658212805bf8e68628ab027dc93b2d1e6803cea4bb7c6da9128af"
+    },
+    {
+      "href": "./BY11_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ba4263919c686359d4a670205d87d23a0194a0ee65ebb4964607dd979b288764"
+    },
+    {
+      "href": "./BY11_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220482f5ceb3aea5181f66203f310e5405ca65a5aa39435244d8377aef614a00ad0"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "NV5", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "west-coast",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "okuru_2026",
+  "gsd": 1,
+  "created": "2026-06-24T22:30:03Z",
+  "updated": "2026-06-24T22:30:03Z",
+  "linz:geographic_description": "Okuru",
+  "extent": {
+    "spatial": { "bbox": [[168.782978, -43.9549445, 168.9707182, -43.8191654]] },
+    "temporal": { "interval": [["2026-01-29T11:00:00Z", "2026-03-23T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122003a8a749364f8e32b4da4732d622c0b2ee1bdffc0ddc7c909b312bfb8a262429",
+      "file:size": 239493
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
