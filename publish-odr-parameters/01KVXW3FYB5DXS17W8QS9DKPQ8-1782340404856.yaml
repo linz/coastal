@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-06/24-imagery-standardising-v2cjc/flat/",
+  "target": "s3://nz-coastal/west-coast/okuru_2026/dem_2m/2193/",
+  "ticket": "LI-9562",
+  "copy_option": "--no-clobber",
+  "region": "west-coast",
+  "flatten": "false"
+}
