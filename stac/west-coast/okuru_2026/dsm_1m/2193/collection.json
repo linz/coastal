@@ -1,0 +1,69 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KVXW45FXWNN3AAAEW4STZQ0A",
+  "title": "West Coast - Okuru Coastal LiDAR 1m DSM (2026)",
+  "description": "Coastal Digital Surface Model within the West Coast region captured in 2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BY11_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c4b1c1c2f5b0f4f95cd2c5b990293929eabebf23d073d3a4df1c490b14ed9708"
+    },
+    {
+      "href": "./BY11_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122081ac267465e4fe17102de5615cbb82dfc45bc1e1bdf5f40b9eb26010f47de4d6"
+    },
+    {
+      "href": "./BY11_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d989940af7cccac0630ca4e87be3b037a358513dc2be02e53525d52a8751fa9f"
+    },
+    {
+      "href": "./BY11_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220895c58c57bd1b9d5bf5b1d16e014f151cdd7627a65f75d33bcb3325b6bbed834"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "NV5", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "west-coast",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "okuru_2026",
+  "gsd": 1,
+  "created": "2026-06-24T22:31:02Z",
+  "updated": "2026-06-24T22:31:02Z",
+  "linz:geographic_description": "Okuru",
+  "extent": {
+    "spatial": { "bbox": [[168.8426371, -43.9549445, 168.9707182, -43.8213456]] },
+    "temporal": { "interval": [["2026-01-29T11:00:00Z", "2026-03-23T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220734fcfae6ff76f0bdc8d248ffff2fbb056917581f5060ecf9f89d60fdb9a0f1f",
+      "file:size": 31994
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
