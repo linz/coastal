@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-07/19-imagery-standardising-49djl/flat/",
+  "target": "s3://nz-coastal/gisborne/anaura-bay-to-tolaga-bay_2025/dem_1m/2193/",
+  "ticket": "LI-9673",
+  "copy_option": "--no-clobber",
+  "region": "gisborne",
+  "flatten": "false"
+}

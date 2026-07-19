@@ -1,0 +1,123 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KXY1SB4M89GS19RS5P1F3QPB",
+  "title": "Gisborne - Anaura Bay to Tolaga Bay Coastal LiDAR 1m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Gisborne region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BF44_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220fe108c0e4737f19015da78a36aa1f42f79b28d8dcdfe95b9241e2749c0a57183"
+    },
+    {
+      "href": "./BF44_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122054bd9ec6b5051c681f0136cc0aaec65b05d26f9af0cbca86c01e9db87d4ae6b0"
+    },
+    {
+      "href": "./BF44_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122068ac7cd3915a9e07a471ead1d9c7f7cc7139a9984ca75dda84280e3cd48781e1"
+    },
+    {
+      "href": "./BF44_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201ebd9a52b77f6c2fd4830e6e9c9a80fecca046e8f5e0c8014ab2187fe9a6d29f"
+    },
+    {
+      "href": "./BF44_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e92b50748d0e27ac2010246049bf2df4e84edcebe7d50b0d852838c288ba4557"
+    },
+    {
+      "href": "./BF44_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220aa245405063251dc84f25d78f302f668d8d20b898d10394dacd9aa617bf60c54"
+    },
+    {
+      "href": "./BF45_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208a57521e07feffba598f2cd7fceda40382d2c32c35c4dc2242d457f8f3477f2f"
+    },
+    {
+      "href": "./BF45_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208e4db0f436c28814937651d0a34678c9406988fa4b8890bf0f4159235e8b342c"
+    },
+    {
+      "href": "./BF45_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12202568f10400c33da9713964ae9bd70e02cde02ecad0f337da1d773ec90e1b8330"
+    },
+    {
+      "href": "./BF45_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c2d2e1468628bb94884751c3500db7898414dc21c07810a84a6aa8c11bba8ded"
+    },
+    {
+      "href": "./BG44_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206cac5a548403dfa2dbebd045f1ac073693ff1e2b604aa3a129d8fd752665eec4"
+    },
+    {
+      "href": "./BG44_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206c361450586dd9467df0008d551c90798ca5346002df0fd2d781243a9a71c4aa"
+    },
+    {
+      "href": "./BG44_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c93adc82eb35582c0e7517a8234fdd7826f46ed18d6742b8d2d6931e5dbe050b"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "gisborne",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "anaura-bay-to-tolaga-bay_2025",
+  "gsd": 1,
+  "created": "2026-07-19T20:41:22Z",
+  "updated": "2026-07-19T20:41:22Z",
+  "linz:geographic_description": "Anaura Bay to Tolaga Bay",
+  "extent": {
+    "spatial": { "bbox": [[178.2430968, -38.5897304, 178.416791, -38.1946004]] },
+    "temporal": { "interval": [["2025-10-16T11:00:00Z", "2025-12-11T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122012833d21fdc9a1227a8dc8c16fe0cbe247e40946805023415dbdd86e6437c8eb",
+      "file:size": 4623100
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
