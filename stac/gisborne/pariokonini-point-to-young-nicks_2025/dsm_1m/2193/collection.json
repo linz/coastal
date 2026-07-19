@@ -1,0 +1,117 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KXY241K8MPETV5D7NR12XVT3",
+  "title": "Gisborne - Pariokonini Point to Young Nicks Coastal LiDAR 1m DSM (2025)",
+  "description": "Coastal Digital Surface Model within the Gisborne region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BG43_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220556e6d72f051b5f4ce528f392d05183074c2845e59a9f22b507b4d2ed3ce6d6d"
+    },
+    {
+      "href": "./BG43_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ed7bde7b235432311c95e11b29e87052b05fa4b543289bf474a69b4ff3c2a7af"
+    },
+    {
+      "href": "./BG43_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200a2e569a0694d66030daa2a509b1c6fe11b88f6bd041f173eefee944470f04f5"
+    },
+    {
+      "href": "./BG43_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203365a38b074e989b0d5fbd74c377c5c17bdd0455df0d3c266686fb75bb1bb7f5"
+    },
+    {
+      "href": "./BG43_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f6db430c925467594d202f0d82cfede961504affd07e25e01ee74ba974548eae"
+    },
+    {
+      "href": "./BG43_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220963706b98747b50647c92f919045f53d83b79b57600c6b807b381aa6f547fa83"
+    },
+    {
+      "href": "./BG44_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122037652df2875e958e2b378f4130b959457ee9aafe64a5c1864bd402c98a0db6ae"
+    },
+    {
+      "href": "./BG44_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f31ac6b1dd774defdd05d4ee0290d4cb6d4ded127cec59c07710dfa5d1424481"
+    },
+    {
+      "href": "./BG44_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ca5f2d353b440498428c2ea6466cdb4516e77fed4a477070abe52880b3ae84f3"
+    },
+    {
+      "href": "./BG44_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220b7054002925de2f94cc1c18d97c676fa2959ada379fbe538a75fd550f0c66515"
+    },
+    {
+      "href": "./BG44_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c6456e535a30ff1b647cca16b733fd963d1dcad16d7d29b7b7a9736aa78231e3"
+    },
+    {
+      "href": "./BG44_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200835c39dbf6a6a98b59fb661855c46afaed50979ec49dd4170a8b7fb78646300"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "gisborne",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "pariokonini-point-to-young-nicks_2025",
+  "gsd": 1,
+  "created": "2026-07-19T20:47:13Z",
+  "updated": "2026-07-19T20:47:13Z",
+  "linz:geographic_description": "Pariokonini Point to Young Nicks",
+  "extent": {
+    "spatial": { "bbox": [[177.8819461, -38.8003704, 178.3167721, -38.5226361]] },
+    "temporal": { "interval": [["2025-10-16T11:00:00Z", "2025-12-11T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12207599f2130be42ba7e54e1b960bd7c14a8699e33eb947e1832ba803f3253469a6",
+      "file:size": 55930
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
