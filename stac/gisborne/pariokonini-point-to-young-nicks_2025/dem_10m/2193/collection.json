@@ -1,0 +1,57 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KXY21YNB2QF1SF6SA05R2AWD",
+  "title": "Gisborne - Pariokonini Point to Young Nicks Coastal LiDAR 10m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Gisborne region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BG43.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220678da88e17a3eb745b7da9bc7924774ad4ba68453067f78a19e434dd5134dfbe"
+    },
+    {
+      "href": "./BG44.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220de563c4649f6604b288c686d5ddd8fb0f117b65b8f2d2917c28d3355809442af"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "gisborne",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "pariokonini-point-to-young-nicks_2025",
+  "gsd": 10,
+  "created": "2026-07-19T20:46:05Z",
+  "updated": "2026-07-19T20:46:05Z",
+  "linz:geographic_description": "Pariokonini Point to Young Nicks",
+  "extent": {
+    "spatial": { "bbox": [[177.8139717, -38.8026683, 178.3861945, -38.4555264]] },
+    "temporal": { "interval": [["2025-10-16T11:00:00Z", "2025-12-11T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220bcfe014be51d374b02d90b6c8cba6d64d943741776bde51c6a9ea6d85bb41d08",
+      "file:size": 16930
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
