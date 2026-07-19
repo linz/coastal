@@ -1,0 +1,135 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KXY1WHZ0B2PN7DH060FSJ34Y",
+  "title": "Gisborne - Pariokonini Point to Young Nicks Coastal LiDAR 1m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Gisborne region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BG43_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122002fb8a773525039817960c8fbfc6fc56c36e38f93b872b2af243978f237b32b8"
+    },
+    {
+      "href": "./BG43_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220905061296021d7bf5786c715e6d9f80b1ec5f83878e37327d29fa11562edd41d"
+    },
+    {
+      "href": "./BG43_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122067128350e09172cd413deed7b7fb8ed318be6011f0b74d8ad9c84aebcedf4d4b"
+    },
+    {
+      "href": "./BG43_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f1862d0b1e5e9dc56f96863377c97e68c4cc8b8f76aae453517c5a79309cc4f7"
+    },
+    {
+      "href": "./BG43_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208a4ee5928935351c5ba87d964cbe845cae0035e1cbbd9df2b46ec9274b89d2f2"
+    },
+    {
+      "href": "./BG43_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220eab9b547f4145519cf7c698ab0a0f8ed76120963ce3d3af8f2ae933b4662f253"
+    },
+    {
+      "href": "./BG44_10000_0202.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220326b11ba3da355142eb12013055640d3c732ebdadc643aefbd5d462c7edd2b9f"
+    },
+    {
+      "href": "./BG44_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122025ca470ea8a11077afd453a1bcd19c4321d19243ca5ea232f0a917e83896fe00"
+    },
+    {
+      "href": "./BG44_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220950c92711ee2a770ff95cac01cf0a87bb30610773b812ce89aea56cd3e663973"
+    },
+    {
+      "href": "./BG44_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a7d9ee0f2c589fb9287bbfb166770986f24d7ab3d149cbd6bc9e3880cf2a25e9"
+    },
+    {
+      "href": "./BG44_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209107266d6a6ffcddb4e365a47e86389906f680739b2570446c8612ab01b009ea"
+    },
+    {
+      "href": "./BG44_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a82c86a57d093565f8c796e89de07bf0c6ee07eb96671491320b2c0fc3a6a385"
+    },
+    {
+      "href": "./BG44_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220eec4964d25f56400559ece6308a098f8db87e6777086e47b60e90c7e3830f7f0"
+    },
+    {
+      "href": "./BG44_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c1a13ef3aa81ab9adad3aa7c947375791a2485fd74f5be8f28058731082fc973"
+    },
+    {
+      "href": "./BG44_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220d5fc89f881b41aae9713856d4aa521a2aacb7fea02b3a8b121eec640de375fd0"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "gisborne",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "pariokonini-point-to-young-nicks_2025",
+  "gsd": 1,
+  "created": "2026-07-19T20:43:08Z",
+  "updated": "2026-07-19T20:43:08Z",
+  "linz:geographic_description": "Pariokonini Point to Young Nicks",
+  "extent": {
+    "spatial": { "bbox": [[177.8819461, -38.8003704, 178.3215577, -38.5226361]] },
+    "temporal": { "interval": [["2025-10-16T11:00:00Z", "2025-12-11T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220ebe4391eba69420c6e77db2ffb47ac68d38f4a229af7e1ea4f8220fa5c945133",
+      "file:size": 609175
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
