@@ -1,0 +1,57 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KXY1Z2PA30725HT1K8KAD77J",
+  "title": "Gisborne - Pariokonini Point to Young Nicks Coastal LiDAR 2m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Gisborne region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BG43.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220ce02c3c6e4c6e5e6beba3936a30a8c9f7fcf46c9074fd18f735cf71097dc92a5"
+    },
+    {
+      "href": "./BG44.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220885f1495df387148628dadb225768026309bbf05f6a857798db2d12d8af52f85"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "gisborne",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "pariokonini-point-to-young-nicks_2025",
+  "gsd": 2,
+  "created": "2026-07-19T20:44:31Z",
+  "updated": "2026-07-19T20:44:31Z",
+  "linz:geographic_description": "Pariokonini Point to Young Nicks",
+  "extent": {
+    "spatial": { "bbox": [[177.8139717, -38.8026683, 178.3861945, -38.4555264]] },
+    "temporal": { "interval": [["2025-10-16T11:00:00Z", "2025-12-11T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220e5780e67d4927d886fb758bc910911574a6b7ef84088820ef977f1c6c7ade461",
+      "file:size": 159762
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
