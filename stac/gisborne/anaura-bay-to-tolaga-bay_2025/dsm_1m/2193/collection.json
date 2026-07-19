@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KXY1ST64R06NAX78AVYEREWV",
+  "title": "Gisborne - Anaura Bay to Tolaga Bay Coastal LiDAR 1m DSM (2025)",
+  "description": "Coastal Digital Surface Model within the Gisborne region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BF44_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208bc38e7682621e0712641649e905506cebc5b021d4203c91e710d4b4cca10c52"
+    },
+    {
+      "href": "./BF44_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201e6b309ffd4df120d3018d8d02db486c132cd9360dcba148d823b77285bd755f"
+    },
+    {
+      "href": "./BF44_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220286c2df591605a0fee78d7441871f3404541653f307b73352e84ad8f1ceab78c"
+    },
+    {
+      "href": "./BF44_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122042c9aee36727f51d7df2884ec165338f9b9740f87bf9373069ab06a00f2a1bcd"
+    },
+    {
+      "href": "./BF44_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a7a70b3bec8df77bbf27aeb1fc38bd86e1496285083e40fe712f233f424d2e08"
+    },
+    {
+      "href": "./BF44_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122027480141355c499cde98615af313d5dd1ca7e7de7099fecc063fbd47d42f7c21"
+    },
+    {
+      "href": "./BF45_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220750a27de4f9306e2a71a2c2f83ba27952c7fd4c74ccccf2f7ba0d58b3ed6f201"
+    },
+    {
+      "href": "./BG44_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122080dfe66cc51d0f88521f3c732164f5884eb514804635f9a42e50a515835d74bc"
+    },
+    {
+      "href": "./BG44_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a5e6322ab1ea880a7a923d73ce174e39528f5840cbc975635006ef1687fc80a0"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "gisborne",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "anaura-bay-to-tolaga-bay_2025",
+  "gsd": 1,
+  "created": "2026-07-19T20:41:38Z",
+  "updated": "2026-07-19T20:41:38Z",
+  "linz:geographic_description": "Anaura Bay to Tolaga Bay",
+  "extent": {
+    "spatial": { "bbox": [[178.2430968, -38.5897304, 178.4071335, -38.197104]] },
+    "temporal": { "interval": [["2025-10-16T11:00:00Z", "2025-12-11T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12200779a95966956ff3717b461dd8432a12896fd6c2a9affb7046426d04be120afc",
+      "file:size": 104002
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
