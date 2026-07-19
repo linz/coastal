@@ -1,0 +1,63 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KXY1RXWCD7QAWEV32E37ZJ9G",
+  "title": "Gisborne - Anaura Bay to Tolaga Bay Coastal LiDAR 2m DEM (2025)",
+  "description": "Coastal Digital Elevation Model within the Gisborne region captured in 2025.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BF44.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207963d01238535c05bea85dcb068099135242e29e900cd9e56ddc3c59c27da759"
+    },
+    {
+      "href": "./BF45.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220cf10f7fd9fb519de141eef04478e389dba33911991218b3189f0bd5e37c9bd09"
+    },
+    {
+      "href": "./BG44.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122000f3fdc28e515cf55daef8d31526bf19a03dca83ae433065a91f520118e9baa1"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "gisborne",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "anaura-bay-to-tolaga-bay_2025",
+  "gsd": 2,
+  "created": "2026-07-19T20:41:09Z",
+  "updated": "2026-07-19T20:41:09Z",
+  "linz:geographic_description": "Anaura Bay to Tolaga Bay",
+  "extent": {
+    "spatial": { "bbox": [[178.0654923, -38.7909202, 178.6357959, -38.1197545]] },
+    "temporal": { "interval": [["2025-10-16T11:00:00Z", "2025-12-11T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122017d18d75855e672859cfc4e0236928acd7fa22bc5e3ff14774f54c5d676f4924",
+      "file:size": 984219
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
