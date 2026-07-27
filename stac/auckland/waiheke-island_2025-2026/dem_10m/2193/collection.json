@@ -1,0 +1,57 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KYGGAG77EK3XPMD9VT20WXDF",
+  "title": "Auckland - Waiheke Island Coastal LiDAR 10m DEM (2025-2026)",
+  "description": "Coastal Digital Elevation Model within the Auckland region captured in 2025-2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BA32.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220df3511f01eb6f86f85a3a08bc2c6684849c199a79db17ea5b169116dfda73c05"
+    },
+    {
+      "href": "./BA33.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c9e867ec92b4006683f48aafcf92f8d233891f7e1706bb15d6378ece0af4bb7d"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "auckland",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "waiheke-island_2025-2026",
+  "gsd": 10,
+  "created": "2026-07-27T00:41:45Z",
+  "updated": "2026-07-27T00:41:45Z",
+  "linz:geographic_description": "Waiheke Island",
+  "extent": {
+    "spatial": { "bbox": [[174.744531, -36.9431544, 175.2906013, -36.6097099]] },
+    "temporal": { "interval": [["2025-11-10T11:00:00Z", "2026-02-06T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220d3503e8626a8c233e0657de15ad4b16a9ed680f98c11f3bd001e84cf9e8110ad",
+      "file:size": 20794
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
