@@ -1,0 +1,93 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01KYGG9DG3SR5DN0J66X3647QV",
+  "title": "Auckland - Waiheke Island Coastal LiDAR 1m DEM (2025-2026)",
+  "description": "Coastal Digital Elevation Model within the Auckland region captured in 2025-2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BA32_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122067de9662f2d3abd6426c0f9c1524967cd00d8e467c69c91990043d568916e507"
+    },
+    {
+      "href": "./BA32_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206b8e4340a0dd4d28ca9f82158505c3cd44ac5ea0279fbc4c9a3723fe797fc606"
+    },
+    {
+      "href": "./BA32_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122043528c3974c02a6bf4948600cea1bcff700626551b4b491d6ab68a0a5ae8ac0a"
+    },
+    {
+      "href": "./BA33_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e0381aa4b30a7e6d30168058cb60c813b2d0e51937261847438aca9d54447e36"
+    },
+    {
+      "href": "./BA33_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a9c7bb86c97eea12268a2ab73997530e4e56c5e5b222a80a0fd85d2cb6476d05"
+    },
+    {
+      "href": "./BA33_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220626c17f414b0c874185412742e1a2b90484dd90bc492657c06536c335939ed8c"
+    },
+    {
+      "href": "./BA33_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a47dad11391364d9a6de17f5a26f53677d6fe9df11d8949a258464ad51765236"
+    },
+    {
+      "href": "./BA33_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f17990dd8a977a1dd884025fe47f7c19599f01f7167d377c5f5dca097a557182"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "auckland",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "waiheke-island_2025-2026",
+  "gsd": 1,
+  "created": "2026-07-27T00:41:09Z",
+  "updated": "2026-07-27T00:41:09Z",
+  "linz:geographic_description": "Waiheke Island",
+  "extent": {
+    "spatial": { "bbox": [[174.9607794, -36.8749122, 175.127215, -36.6784906]] },
+    "temporal": { "interval": [["2025-11-10T11:00:00Z", "2026-02-06T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220fe3011d82e172303a81045598519c54c7f307994a43eaeecfddb49e6f6ef808b",
+      "file:size": 443655
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
