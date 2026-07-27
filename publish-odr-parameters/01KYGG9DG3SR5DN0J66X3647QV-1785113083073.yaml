@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-07/27-imagery-standardising-7ns2j/flat/",
+  "target": "s3://nz-coastal/auckland/waiheke-island_2025-2026/dem_1m/2193/",
+  "ticket": "LI-9914",
+  "copy_option": "--no-clobber",
+  "region": "auckland",
+  "flatten": "false"
+}
