@@ -40,7 +40,7 @@
       "href": "./BA33_10000_0301.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220a9c7bb86c97eea12268a2ab73997530e4e56c5e5b222a80a0fd85d2cb6476d05"
+      "file:checksum": "12208e008b22d813b2fe229c3e96ef0fbb9be3e100f6e71c26eeba719f46058a85f8"
     },
     {
       "href": "./BA33_10000_0302.json",
@@ -72,7 +72,7 @@
   "linz:slug": "waiheke-island_2025-2026",
   "gsd": 1,
   "created": "2026-07-27T00:41:09Z",
-  "updated": "2026-07-27T00:41:09Z",
+  "updated": "2026-08-16T21:50:18Z",
   "linz:geographic_description": "Waiheke Island",
   "extent": {
     "spatial": { "bbox": [[174.9607794, -36.8749122, 175.127215, -36.6784906]] },
@@ -85,8 +85,8 @@
       "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220fe3011d82e172303a81045598519c54c7f307994a43eaeecfddb49e6f6ef808b",
-      "file:size": 443655
+      "file:checksum": "12200b4e0fd988950530ae91e6bb739fc413280befa983f804bf5c18c44204e0af73",
+      "file:size": 443381
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
