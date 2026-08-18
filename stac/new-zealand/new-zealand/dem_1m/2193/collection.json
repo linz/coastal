@@ -76,7 +76,7 @@
       "href": "./BA33.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220273d5f4d63ebb881bfcddd1e2b3b33a64bc08d316ebbded7482528eb3f65d2e6"
+      "file:checksum": "12207590bb35a93db7de3c3996a045b9c86f377ed04ad37aa8c93d4fe2ff1dac6aac"
     },
     {
       "href": "./BA35.json",
@@ -334,7 +334,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-06-15T21:11:05Z",
-  "updated": "2026-07-28T18:03:57Z",
+  "updated": "2026-08-17T18:04:46Z",
   "extent": {
     "spatial": { "bbox": [[167.5207033, -46.9283415, 178.6357959, -34.6822331]] },
     "temporal": { "interval": [["2024-04-11T12:00:00Z", "2026-03-23T11:00:00Z"]] }
@@ -346,8 +346,8 @@
       "description": "Boundaries of individual surveys or flight runs that make up the overall collection with the data collection dates, data source links and other associated metadata, such as producers and licensors, where available. Excludes nodata areas in the source data. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "12201f2f8e5c1ad5f8ac5a2c0a81c6895158f2d1383a3b15986436aca19a71bd1da1",
-      "file:size": 13312092
+      "file:checksum": "1220bcaded9e8214d8d550ef1b446595cadb3a964557f2a11054a92e4853f3516cdb",
+      "file:size": 13311840
     },
     "capture_area": {
       "href": "./capture-area.geojson",
@@ -355,8 +355,8 @@
       "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "122003630ebcee1a04be95cbd3a611252eda8c29af3c0df48049bf13fc3102da8fae",
-      "file:size": 14124871
+      "file:checksum": "12209393cc3896c9a1a9d3277f8c2f34375792cde9af1090df3001acc3295cc3f57f",
+      "file:size": 14124599
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"],
