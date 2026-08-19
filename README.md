@@ -17,7 +17,7 @@ The New Zealand Elevation repository guidance documentation covers information t
 
 - [Naming](https://github.com/linz/elevation/blob/master/docs/naming.md) covers the bucket naming structure
 - [Usage](https://github.com/linz/elevation/blob/master/docs/usage.md) shows how TIFFs can be interacted with from S3 using GDAL, QGIS, etc
-- [Elevation Compression](https://github.com/linz/elevation/blob/master/docs/tiff-compression/README.md) provides commentary and analysis on the compression options we explored.
+- [Elevation Compression](https://github.com/linz/elevation/blob/master/docs/research/tiff-compression.md) provides commentary and analysis on the compression options we explored.
 
 ## AWS Access
 
