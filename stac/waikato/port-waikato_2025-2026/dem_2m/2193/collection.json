@@ -1,0 +1,51 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01M0RVSVPTC4D05V6GBDMG70WK",
+  "title": "Port Waikato Coastal LiDAR 2m DEM (2025-2026)",
+  "description": "Coastal Digital Elevation Model within the Waikato region captured in 2025-2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BC31.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220498b87641ac28b700ce697346dfc7d6eabb58f72a559169b9431c6aff82cff34"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "waikato",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "port-waikato_2025-2026",
+  "gsd": 2,
+  "created": "2026-08-24T03:07:42Z",
+  "updated": "2026-08-24T03:07:42Z",
+  "linz:geographic_description": "Port Waikato",
+  "extent": {
+    "spatial": { "bbox": [[174.4888049, -37.5956136, 174.7669986, -37.2675153]] },
+    "temporal": { "interval": [["2025-11-27T11:00:00Z", "2026-02-10T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122079b5a2545cdb07eb6ca6072317aeb547e65e677ecd847308da54d253bdf1c6b6",
+      "file:size": 111427
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
