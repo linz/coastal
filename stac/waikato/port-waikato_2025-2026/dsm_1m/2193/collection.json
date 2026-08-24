@@ -1,0 +1,69 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01M0TTW6F412W2WNWF7P2K03V9",
+  "title": "Port Waikato Coastal LiDAR 1m DSM (2025-2026)",
+  "description": "Coastal Digital Surface Model within the Waikato region captured in 2025-2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BC31_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203c44416ed0e13ec56517e2a35292286da097f963c342be8a75a1615ef5882e20"
+    },
+    {
+      "href": "./BC31_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201d52776d026297963b6002c4d0e258ed1b7bd8914422a3a6be7a007ed36b3e12"
+    },
+    {
+      "href": "./BC31_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204caf3bbca967295b0fc3065c72eeaa66fa4f10d27908a303ab026168b5ebdc0b"
+    },
+    {
+      "href": "./BC31_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e435bb041358690456091e782b55c0d535335597fdab5a892852adc2374f7093"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "waikato",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "port-waikato_2025-2026",
+  "gsd": 1,
+  "created": "2026-08-24T21:29:58Z",
+  "updated": "2026-08-24T21:29:58Z",
+  "linz:geographic_description": "Port Waikato",
+  "extent": {
+    "spatial": { "bbox": [[174.6525807, -37.463693, 174.7639402, -37.3323852]] },
+    "temporal": { "interval": [["2025-11-27T11:00:00Z", "2026-02-10T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220175225e0f7a497eaa63c14baf13a34fc4506f37ef83199076c6f2c2283b368d7",
+      "file:size": 10675
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
