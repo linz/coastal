@@ -1,0 +1,57 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01M27839SY0NQ48XSJT31MQD4D",
+  "title": "Southland - Mataura River Mouth Coastal LiDAR 1m DEM (2026)",
+  "description": "Coastal Digital Elevation Model within the Southland region captured in 2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./CG11_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200a4d07ecd920a1890ffbe924198798db7bf7736594895d10c77560dc76d9c85c"
+    },
+    {
+      "href": "./CG12_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220bd522cecb8507793b7c3ceefaf2de5906f88c0809e5b05dcee6a4d3fa85c1995"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "NV5", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "southland",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "mataura-river-mouth_2026",
+  "gsd": 1,
+  "created": "2026-09-11T03:27:37Z",
+  "updated": "2026-09-11T03:27:37Z",
+  "linz:geographic_description": "Mataura River Mouth",
+  "extent": {
+    "spatial": { "bbox": [[168.7066191, -46.6075609, 168.8365876, -46.5383153]] },
+    "temporal": { "interval": [["2026-03-09T11:00:00Z", "2026-05-03T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220e7d260fb93610bd4b0ed5ce0b342abb89950142bd0b3eac2303e813a29c5a7e4",
+      "file:size": 93684
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
