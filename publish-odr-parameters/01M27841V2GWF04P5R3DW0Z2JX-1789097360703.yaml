@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-09/11-imagery-standardising-2gq2d/flat/",
+  "target": "s3://nz-coastal/southland/mataura-river-mouth_2026/dem_10m/2193/",
+  "ticket": "LI-10075",
+  "copy_option": "--no-clobber",
+  "region": "southland",
+  "flatten": "false"
+}
