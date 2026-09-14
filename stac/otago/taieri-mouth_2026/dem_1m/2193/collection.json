@@ -1,0 +1,63 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01M2EQRP6B6A5RFPYY7Q79RET0",
+  "title": "Otago - Taieri Mouth Coastal LiDAR 1m DEM (2026)",
+  "description": "Coastal Digital Elevation Model within the Otago region captured in 2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./CF16_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201c627d509f6c31e718ea3506adfb0984693e065e5fa9270d9c6b2ff854374681"
+    },
+    {
+      "href": "./CF16_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12202f29552d66b0a26a79bba716b3f5484545a37cefb58a496ecf9b04a429c0b494"
+    },
+    {
+      "href": "./CF16_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204fa5791ab2b8a1b21af96e925a75a31e8cc73a61f716304f46d81f062c321dd1"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "NV5", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "otago",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "taieri-mouth_2026",
+  "gsd": 1,
+  "created": "2026-09-14T01:16:08Z",
+  "updated": "2026-09-14T01:16:08Z",
+  "linz:geographic_description": "Taieri Mouth",
+  "extent": {
+    "spatial": { "bbox": [[170.1727896, -46.1317203, 170.3032357, -46.0007551]] },
+    "temporal": { "interval": [["2026-03-09T11:00:00Z", "2026-05-03T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220d275e8d4265b368564160b49237953b48d1c628cd9c055918e598b69cba2b7ab",
+      "file:size": 93941
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
