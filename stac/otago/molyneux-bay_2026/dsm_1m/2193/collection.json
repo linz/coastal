@@ -1,0 +1,57 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01M2ER308Z67MMCEBQXDTESGY4",
+  "title": "Otago - Molyneux Bay Coastal LiDAR 1m DSM (2026)",
+  "description": "Coastal Digital Surface Model within the Otago region captured in 2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./CG15_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122006641785190f8e0360a4e085a56bcdfce6e31f800c84321d303632f650bc3f6d"
+    },
+    {
+      "href": "./CG15_10000_0102.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220dabcc31a0a36baf0bd0c9be760564f1b5468b18ce8180029e93275f54b1e6f4c"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "NV5", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "otago",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "molyneux-bay_2026",
+  "gsd": 1,
+  "created": "2026-09-14T01:21:46Z",
+  "updated": "2026-09-14T01:21:46Z",
+  "linz:geographic_description": "Molyneux Bay",
+  "extent": {
+    "spatial": { "bbox": [[169.723111, -46.3809072, 169.8514698, -46.3127073]] },
+    "temporal": { "interval": [["2026-03-09T11:00:00Z", "2026-05-03T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220ec43b0bf3b85fec93282728cbf6cd102f74d9aa9f0534b9f32dbf6e2f2d65019",
+      "file:size": 39143
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
