@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-09/14-imagery-standardising-r7kfc/flat/",
+  "target": "s3://nz-coastal/southland/toetoes-harbour_2026/dsm_1m/2193/",
+  "ticket": "LI-10075",
+  "copy_option": "--no-clobber",
+  "region": "southland",
+  "flatten": "false"
+}
