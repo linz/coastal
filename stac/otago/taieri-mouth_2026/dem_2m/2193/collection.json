@@ -1,0 +1,51 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01M2EQSRSK7X0Q2EEN1BX277MM",
+  "title": "Otago - Taieri Mouth Coastal LiDAR 2m DEM (2026)",
+  "description": "Coastal Digital Elevation Model within the Otago region captured in 2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./CF16.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220752805c22d975d63f78dc22796f478a44ef2606df217f13d9eae92a28d0c6443"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "NV5", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "otago",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "taieri-mouth_2026",
+  "gsd": 2,
+  "created": "2026-09-14T01:16:43Z",
+  "updated": "2026-09-14T01:16:43Z",
+  "linz:geographic_description": "Taieri Mouth",
+  "extent": {
+    "spatial": { "bbox": [[170.0382492, -46.3288499, 170.3651631, -45.9976295]] },
+    "temporal": { "interval": [["2026-03-09T11:00:00Z", "2026-05-03T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122066f5466c75aa00a4d698a276d8029ce507f55f09f4f6502bc637f00547b3cb87",
+      "file:size": 43908
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
