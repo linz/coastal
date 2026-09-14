@@ -1,0 +1,57 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01M2EQJZZRRZRPEDJY9D1QA1AC",
+  "title": "Southland - Toetoes Harbour Coastal LiDAR 2m DEM (2026)",
+  "description": "Coastal Digital Elevation Model within the Southland region captured in 2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./CG11.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a1f13a0f5fb13a2728ae91cd7815c5633d35bc977b484e9f389e6604badb13c4"
+    },
+    {
+      "href": "./CG12.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220f344fc1c62e2275418e098c13dbaed1dabfe635f3ca8de8d81abf144c1af221b"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "NV5", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "southland",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "toetoes-harbour_2026",
+  "gsd": 2,
+  "created": "2026-09-14T01:13:01Z",
+  "updated": "2026-09-14T01:13:01Z",
+  "linz:geographic_description": "Toetoes Harbour",
+  "extent": {
+    "spatial": { "bbox": [[168.4566921, -46.6164148, 169.1048925, -46.2702838]] },
+    "temporal": { "interval": [["2026-03-09T11:00:00Z", "2026-05-03T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12202c4d2b59430112f92c0fa30786328ebb69a5063ad968deb6d1f12960f274d9dc",
+      "file:size": 53487
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
