@@ -1,0 +1,57 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01M2ER1W1459Z2BPWVWXFDPGYP",
+  "title": "Otago - Taieri Mouth Coastal LiDAR 1m DSM (2026)",
+  "description": "Coastal Digital Surface Model within the Otago region captured in 2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./CF16_10000_0103.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220188e8a5efc5aec727d85d589d3d34b3a2e67eda27cb2ad108e7b4f864e53c9e8"
+    },
+    {
+      "href": "./CF16_10000_0203.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c855a179fe7a11887c24019e7ba307ce2c78e77d0658576c810a5987103f3bf2"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "NV5", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "otago",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "taieri-mouth_2026",
+  "gsd": 1,
+  "created": "2026-09-14T01:21:09Z",
+  "updated": "2026-09-14T01:21:09Z",
+  "linz:geographic_description": "Taieri Mouth",
+  "extent": {
+    "spatial": { "bbox": [[170.1727896, -46.1317203, 170.2413131, -46.0007551]] },
+    "temporal": { "interval": [["2026-03-09T11:00:00Z", "2026-05-03T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122026107883cc5891330a209162443ee204c93facc84d19cad1c0b9a6b83f8230bb",
+      "file:size": 20835
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
