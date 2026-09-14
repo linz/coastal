@@ -1,0 +1,51 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01M2EQNDT1H16Z8WC77MQZKYVH",
+  "title": "Otago - Molyneux Bay Coastal LiDAR 10m DEM (2026)",
+  "description": "Coastal Digital Elevation Model within the Otago region captured in 2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./CG15.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205873d43ad41ac7d35d60129a1632e39bc8e2b094d073248938d808ecbb7049c3"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "NV5", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "otago",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "molyneux-bay_2026",
+  "gsd": 10,
+  "created": "2026-09-14T01:14:21Z",
+  "updated": "2026-09-14T01:14:21Z",
+  "linz:geographic_description": "Molyneux Bay",
+  "extent": {
+    "spatial": { "bbox": [[169.7075076, -46.6447509, 170.0382492, -46.3127073]] },
+    "temporal": { "interval": [["2026-03-09T11:00:00Z", "2026-05-03T12:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220fec6bdbf77f132de78e57b2d36086d35a8be6724d569b93f135cd3ecdac75dd4",
+      "file:size": 9122
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
