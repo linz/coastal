@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-09/14-imagery-standardising-wk8x7/flat/",
+  "target": "s3://nz-coastal/otago/molyneux-bay_2026/dem_10m/2193/",
+  "ticket": "LI-10075",
+  "copy_option": "--no-clobber",
+  "region": "otago",
+  "flatten": "false"
+}
