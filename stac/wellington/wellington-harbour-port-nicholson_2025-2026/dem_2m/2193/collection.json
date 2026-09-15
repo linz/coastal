@@ -1,0 +1,57 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01M2KHPJMMR8HB0ZEEFQ373KGW",
+  "title": "Wellington Harbour / Port Nicholson Coastal LiDAR 2m DEM (2025-2026)",
+  "description": "Coastal Digital Elevation Model within the Wellington region captured in 2025-2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BQ31.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206543cdfdf684885eb526c7fd1da69eb591bd0a93a991f8d12252330893139d48"
+    },
+    {
+      "href": "./BQ32.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c997aa507f120590b1aad048db17f2036c2cda7e5dece63d64edf79bb3ce01af"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "wellington",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "wellington-harbour-port-nicholson_2025-2026",
+  "gsd": 2,
+  "created": "2026-09-15T22:06:20Z",
+  "updated": "2026-09-15T22:06:20Z",
+  "linz:geographic_description": "Wellington Harbour / Port Nicholson",
+  "extent": {
+    "spatial": { "bbox": [[174.5733776, -41.4867503, 175.1558379, -41.1533623]] },
+    "temporal": { "interval": [["2025-11-05T11:00:00Z", "2026-02-27T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122040a004bbd91bb3d15261f40790828a9933b357468c6f9044f9691d67a1cc9fe5",
+      "file:size": 141102
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
