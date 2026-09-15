@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-09/15-imagery-standardising-vf52q/flat/",
+  "target": "s3://nz-coastal/wellington/wellington-harbour-port-nicholson_2025-2026/dsm_1m/2193/",
+  "ticket": "LI-10079",
+  "copy_option": "--no-clobber",
+  "region": "wellington",
+  "flatten": "false"
+}

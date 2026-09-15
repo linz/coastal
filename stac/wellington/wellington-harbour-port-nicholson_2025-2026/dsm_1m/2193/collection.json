@@ -1,0 +1,87 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01M2KHSFATM3TDJBAPPW5JEXA3",
+  "title": "Wellington Harbour / Port Nicholson Coastal LiDAR 1m DSM (2025-2026)",
+  "description": "Coastal Digital Surface Model within the Wellington region captured in 2025-2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BQ31_10000_0204.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208708a275280170d389f5d1f91ed6284ab58fa98c181d51134bc02c74c1cf730f"
+    },
+    {
+      "href": "./BQ31_10000_0205.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220275caad1f1c0f2baf2285aca02b17b7a17f233754c63feac5b8afe758833eee9"
+    },
+    {
+      "href": "./BQ31_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220165b0928bc0d87483b325291caa33218e5f2c4bcbc5485d024bfabd92980bf93"
+    },
+    {
+      "href": "./BQ31_10000_0305.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201c79f1166b08efc6c0c6f398f8020ba54ea79a157dba993efec2a860d1942426"
+    },
+    {
+      "href": "./BQ31_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122048c50b8526621f388e342c58bb4503e195fb274caf5d54f94c5981ea1259109e"
+    },
+    {
+      "href": "./BQ32_10000_0201.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12201e342f18a411d930c9c854310d6ee1f1eae4a0e6360c659574a9e7677411f6ea"
+    },
+    {
+      "href": "./BQ32_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220987bcf15c528d454531cfb1342df894672b028e4ff49cb363cd1abec21654275"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "wellington",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "wellington-harbour-port-nicholson_2025-2026",
+  "gsd": 1,
+  "created": "2026-09-15T22:07:55Z",
+  "updated": "2026-09-15T22:07:55Z",
+  "linz:geographic_description": "Wellington Harbour / Port Nicholson",
+  "extent": {
+    "spatial": { "bbox": [[174.7466691, -41.4185376, 174.9221868, -41.2222166]] },
+    "temporal": { "interval": [["2025-11-05T11:00:00Z", "2026-02-27T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "1220b2a718d0e8bff6f884a4a05dde5cfb432f1662abff429b1877ff705f21cb190f",
+      "file:size": 109763
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
