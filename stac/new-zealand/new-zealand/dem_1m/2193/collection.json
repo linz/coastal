@@ -298,7 +298,7 @@
       "href": "./CF16.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220f0f3316b254f72ee05508ab06fc7381cc0a95f49210b174716ecc3499d082a4b"
+      "file:checksum": "1220895e489438467bc26fb82ea04ee1c7e74d8bc374b17ae04b6a2e5f46067e5747"
     },
     {
       "href": "./CG08.json",
@@ -322,19 +322,19 @@
       "href": "./CG11.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220b6d6e6cff0a1679c9dc0fb8981e6c95ac6cccf94bb555b1e93236304293d029d"
+      "file:checksum": "12200e3a3e7d023bbeb7a29f688eb7e0ee694a0abf39b2fc7256c0c891613f66e8de"
     },
     {
       "href": "./CG12.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220a5d98f1787096167929aeafbd18430c08da84390a162a3cf810d2edd117e3b11"
+      "file:checksum": "1220d090d8168cec634363a2c50108adea8d98e68a727936705f831e0f0892195b9f"
     },
     {
       "href": "./CG15.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12209cc71f6b20560431e86b2879b7ad31736b316678aabd587e21bbdbd29a1ccaa6"
+      "file:checksum": "122010e2d0764ea6dfc3a3a08e1d5490677d9f6ab9d1d59e111b39216ea0b8466c6e"
     },
     {
       "href": "./CH10.json",
@@ -358,7 +358,7 @@
   "linz:security_classification": "unclassified",
   "linz:slug": "new-zealand",
   "created": "2025-06-15T21:11:05Z",
-  "updated": "2026-09-16T00:35:57Z",
+  "updated": "2026-09-16T00:36:13Z",
   "extent": {
     "spatial": { "bbox": [[167.5207033, -46.9283415, 178.6357959, -34.6822331]] },
     "temporal": { "interval": [["2024-04-11T12:00:00Z", "2026-05-03T12:00:00Z"]] }
