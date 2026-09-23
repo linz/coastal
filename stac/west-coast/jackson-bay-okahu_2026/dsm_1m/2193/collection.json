@@ -1,0 +1,57 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01M362NZHJBDP6PM3E4Y7RTNWS",
+  "title": "West Coast - Jackson Bay/Okahu Coastal LiDAR 1m DSM (2026)",
+  "description": "Coastal Digital Surface Model within the West Coast region captured in 2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BY10_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220bf284b978b997eef548c5a9b1c22ab0e463ebec745c414907c62329263058cb6"
+    },
+    {
+      "href": "./BY11_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207bb8898ccf76421bdf2a7ca54bc8ba99945238f744a1b4a172229a1fc5ea1369"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "NV5", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "west-coast",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "jackson-bay-okahu_2026",
+  "gsd": 1,
+  "created": "2026-09-23T02:49:26Z",
+  "updated": "2026-09-23T02:49:26Z",
+  "linz:geographic_description": "Jackson Bay/Okahu",
+  "extent": {
+    "spatial": { "bbox": [[168.599262, -44.0108911, 168.7233257, -43.9417113]] },
+    "temporal": { "interval": [["2026-01-29T11:00:00Z", "2026-03-23T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12201ff586ade21394f6a582c3ee49b75d1cb2e0abe9506a0bbb0518f3f24598a82d",
+      "file:size": 21233
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
