@@ -6,14 +6,9 @@ on:
       - gh-readonly-queue/**
   workflow_dispatch:
 
-concurrency:
-  # Queue master branch, but let all other branch actions execute independently.
-  group: ${{ github.ref == 'refs/heads/master' && 'publish-queue' || format('validate-{0}', github.run_id) }}
-  queue: max
-
 jobs:
   publish:
-    uses: linz/topo-workflows/.github/workflows/publish.yml@master
+    uses: linz/topo-workflows/.github/workflows/publish.yml@shared-publish-workflow-tde-2121 # TO DO: change this when final
     with:
       user_group: sea
       odr_bucket: s3://nz-coastal/
