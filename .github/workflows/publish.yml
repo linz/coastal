@@ -8,7 +8,7 @@ on:
 
 jobs:
   publish:
-    uses: linz/topo-workflows/.github/workflows/publish.yml@feat/shared-publish-workflow-tde-2121 # TO DO: change this when final
+    uses: linz/topo-workflows/.github/workflows/publish.yml@1886a1a0012feeadcfd0b62300e80707a41f532e
     with:
       user_group: sea
       odr_bucket: s3://nz-coastal/
