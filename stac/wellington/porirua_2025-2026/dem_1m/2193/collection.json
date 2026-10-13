@@ -1,0 +1,87 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01M4SM0A7WCW5T4CZY8YJK37DQ",
+  "title": "Wellington - Porirua Coastal LiDAR 1m DEM (2025-2026)",
+  "description": "Coastal Digital Elevation Model within the Wellington region captured in 2025-2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BP31_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208ce6c9af729351a7025622b7237b1fc7214f35eb7e1c89f8a4c934b8a351f24c"
+    },
+    {
+      "href": "./BP31_10000_0405.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220152cf96ba28cf6e9bbbe336a037e0f4a46e8ce87b8e3cd83925ef8219b4498a0"
+    },
+    {
+      "href": "./BP31_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209866c8037ced10e28097f13c52585fe0977472fdf191f1409607ef79893abac1"
+    },
+    {
+      "href": "./BP31_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220bf909265c2d56008ea7e63605c7b9016a7b8995496f21e1ca04a0e0da9b98574"
+    },
+    {
+      "href": "./BP32_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205d7b36e99f74261d63f6967e5a62f7b980955f839330eb6b5ec1dfc577ac092e"
+    },
+    {
+      "href": "./BP32_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e6446ff4f6da612f98744f5985f321d9c1c0c9efd9ecbe19863e501d3c0c9f61"
+    },
+    {
+      "href": "./BP32_10000_0502.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12207b5a64138effdad4db147e8464f5e87eab537295fec05b2ea85b941ec4dab580"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "wellington",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "porirua_2025-2026",
+  "gsd": 1,
+  "created": "2026-10-13T03:13:27Z",
+  "updated": "2026-10-13T03:13:27Z",
+  "linz:geographic_description": "Porirua",
+  "extent": {
+    "spatial": { "bbox": [[174.7415177, -41.1601232, 174.9736694, -41.0277519]] },
+    "temporal": { "interval": [["2025-11-06T11:00:00Z", "2026-02-26T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12200e9c23a655b5ad00fc2488a6e77362427f04fdce040bba6f8166048822b21914",
+      "file:size": 184970
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
