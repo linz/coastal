@@ -1,0 +1,57 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01M4SM9CVEZQSH56CMBAC42JWK",
+  "title": "Wellington - Porirua Coastal LiDAR 2m DEM (2025-2026)",
+  "description": "Coastal Digital Elevation Model within the Wellington region captured in 2025-2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./BP31.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220c7179004c8c81ef43be394823d12aabf7594dd90f1d11df3e2bc0b3dbf75835d"
+    },
+    {
+      "href": "./BP32.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209a7c2f3a7173d46b7e4815a5b3041f7b60d9781f57c4394a49055004f285ef62"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dem",
+  "linz:region": "wellington",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "porirua_2025-2026",
+  "gsd": 2,
+  "created": "2026-10-13T03:18:23Z",
+  "updated": "2026-10-13T03:18:23Z",
+  "linz:geographic_description": "Porirua",
+  "extent": {
+    "spatial": { "bbox": [[174.5656855, -41.1625951, 175.1451823, -40.8292918]] },
+    "temporal": { "interval": [["2025-11-06T11:00:00Z", "2026-02-26T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "12209e9509f58816ebb4d1fd42ee1ce243ffe67c5abd8ae60b3d35c1c5a89d5b818c",
+      "file:size": 75268
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
