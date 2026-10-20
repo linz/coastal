@@ -2,8 +2,8 @@
   "name": "@linzjs/coastal",
   "version": "1.0.0",
   "private": "true",
-  "repository": "git@github.com:linz/coastal.git",
   "license": "MIT",
+  "repository": "git@github.com:linz/coastal.git",
   "type": "module",
   "scripts": {
     "lint": "npx concurrently \"npm run lint:fmt\"",
