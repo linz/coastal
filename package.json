@@ -11,7 +11,8 @@
     "format": "oxfmt --write ."
   },
   "devDependencies": {
-    "@linzjs/style": "^6.1.1"
+    "@linzjs/style": "^6.1.1",
+    "concurrently": "^10.0.6"
   },
   "engines": {
     "node": "^24.12.0"
