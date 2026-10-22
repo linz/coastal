@@ -6,13 +6,12 @@
   "repository": "git@github.com:linz/coastal.git",
   "type": "module",
   "scripts": {
-    "lint": "npx concurrently \"npm run lint:fmt\"",
+    "lint": "npm run lint:fmt",
     "lint:fmt": "oxfmt --check .",
     "format": "oxfmt --write ."
   },
   "devDependencies": {
-    "@linzjs/style": "^6.1.1",
-    "concurrently": "^10.0.6"
+    "@linzjs/style": "^6.1.1"
   },
   "engines": {
     "node": "^24.12.0"
