@@ -8,7 +8,7 @@ on:
 
 jobs:
   publish:
-    uses: linz/topo-workflows/.github/workflows/publish.yml@d83a20c83b5c6c740cad4a5c676b37e05a2bef99
+    uses: linz/topo-workflows/.github/workflows/publish.yml@93aa6efb7b82dca989ea61ec4f0320653f29ef15
     with:
       user_group: sea
       odr_bucket: s3://nz-coastal/
