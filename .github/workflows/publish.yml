@@ -13,3 +13,11 @@ jobs:
       user_group: sea
       odr_bucket: s3://nz-coastal/
     secrets: inherit
+
+  ci-ok:
+    if: always()
+    needs: [publish]
+    runs-on: ubuntu-latest
+    steps:
+      - if: contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled')
+        run: exit 1
