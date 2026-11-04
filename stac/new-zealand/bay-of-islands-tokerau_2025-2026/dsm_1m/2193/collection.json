@@ -1,0 +1,135 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01M6M8CRNPMS77JG4CZERN8XWY",
+  "title": "New Zealand - Bay of Islands/Tokerau Coastal LiDAR 1m DSM (2025-2026)",
+  "description": "Coastal Digital Surface Model within the New Zealand region captured in 2025-2026.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./AV29_10000_0301.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e5da1556a9f3969fe8432161e3c5989a46e20be831943220576d24efc491db72"
+    },
+    {
+      "href": "./AV29_10000_0302.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122029873b8e0d8fc58ca91001cca7b4a5a6464b557af363788d61387b09c6baab54"
+    },
+    {
+      "href": "./AV29_10000_0303.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12208eccfb897796f6e0c055657522cb5eb0d8b0894f9e02c3ac3f72c55eeecbcdc9"
+    },
+    {
+      "href": "./AV29_10000_0304.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12206509126f075ab41cdce22c979aaaf0d2f2aec6978fe50f3a1f099e25ae8f38db"
+    },
+    {
+      "href": "./AV29_10000_0401.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12203075304efce90980962f8e124fc80fd06c2c8dc01cdaceaf7ce1b9c22c8c47b9"
+    },
+    {
+      "href": "./AV29_10000_0402.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220a9ab5a7b7417cb921398386e344d22618497cefd4f39bfe90de4742e06d1a7cf"
+    },
+    {
+      "href": "./AV29_10000_0403.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200ade3d13c780ddfdd49b7e6b94047433f326df39bbb1f2eedf8fb1e154021b12"
+    },
+    {
+      "href": "./AV29_10000_0404.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204bc36f9af2b2077ea2e9fb189e2847efc48ed104fc86e57198e1d7b4a63f0830"
+    },
+    {
+      "href": "./AV29_10000_0503.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220908767c08eedd5cd6736a967117dd53820d2d5966c77240e3082c0ae8268d016"
+    },
+    {
+      "href": "./AV29_10000_0504.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220be90f703d4c9c276fd779eec19fd6af4b9910270c6a644b5d0f356533acc9c74"
+    },
+    {
+      "href": "./AV29_10000_0505.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12200cfd2df682ced8b23f1cb146a9f583d3807d67bfc8efabe55ee76243e72117fd"
+    },
+    {
+      "href": "./AV30_10000_0501.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220cf5bccb87c6afea8cd4fed1b1aa577e83b8a224ce67baf8399abc5deedc851b3"
+    },
+    {
+      "href": "./AW29_10000_0104.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "122094c0d91bb046152646fee0780df86f5915993956561c593154e29c199098d4f2"
+    },
+    {
+      "href": "./AW29_10000_0105.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220e938472a8ce3092a7c49eb3782e676ed9d5ebe6e4c47fc803067473a716b604d"
+    },
+    {
+      "href": "./AW30_10000_0101.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12204ab5ad1252531e62adaa58f385c62fa04de13e8b7f0720049650f583fe717709"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "dsm",
+  "linz:region": "new-zealand",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "bay-of-islands-tokerau_2025-2026",
+  "gsd": 1,
+  "created": "2026-11-04T21:45:42Z",
+  "updated": "2026-11-04T21:45:42Z",
+  "linz:geographic_description": "Bay of Islands/Tokerau",
+  "extent": {
+    "spatial": { "bbox": [[173.9220343, -35.3933101, 174.242059, -35.1331845]] },
+    "temporal": { "interval": [["2025-12-04T11:00:00Z", "2026-02-10T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122093a9ee49c89ece7ccb367bbfa4679fb08130c3eef5365225d0acccd31713d5d3",
+      "file:size": 502886
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
