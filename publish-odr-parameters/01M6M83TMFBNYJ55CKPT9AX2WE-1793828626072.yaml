@@ -1,0 +1,8 @@
+{
+  "source": "s3://linz-workflows-scratch/2026-11/04-imagery-standardising-5nxkb/flat/",
+  "target": "s3://nz-coastal/new-zealand/bay-of-islands-tokerau_2025-2026_1m/rgb/2193/",
+  "ticket": "LI-11058",
+  "copy_option": "--no-clobber",
+  "region": "new-zealand",
+  "flatten": "false"
+}
