@@ -1,0 +1,69 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "id": "01M6M83A5NXHR3WANHWQYZHQ1V",
+  "title": "Bay of Islands/Tokerau 10m Rural Aerial Photos (2025-2026)",
+  "description": "Orthophotography within the New Zealand region captured in the 2025-2026 flying season.",
+  "license": "CC-BY-4.0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
+      "type": "application/json"
+    },
+    { "rel": "self", "href": "./collection.json", "type": "application/json" },
+    {
+      "href": "./AV29.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220574d6abecbea4f053dce1ce1db369d7d0e170c658e969c7d313fa79644d0b180"
+    },
+    {
+      "href": "./AV30.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12209ba431712aa530dae33c1d03bd7eecf0293adca40445fe6425eeabd4ebaec8b0"
+    },
+    {
+      "href": "./AW29.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "1220507dcd4ad9519ca9c5248b566ae92274a4310e76a3bbe895dd789525e9191694"
+    },
+    {
+      "href": "./AW30.json",
+      "rel": "item",
+      "type": "application/geo+json",
+      "file:checksum": "12205447786b466156012ee8dcd775eec604ee2ac389c137cc0847b4ce50c0a38e2c"
+    }
+  ],
+  "providers": [
+    { "name": "Toitū Te Whenua Land Information New Zealand", "roles": ["host", "licensor", "processor"] },
+    { "name": "Woolpert", "roles": ["producer"] }
+  ],
+  "linz:lifecycle": "completed",
+  "linz:geospatial_category": "rural-aerial-photos",
+  "linz:region": "new-zealand",
+  "linz:security_classification": "unclassified",
+  "linz:slug": "bay-of-islands-tokerau_2025-2026_10m",
+  "gsd": 10,
+  "created": "2026-11-04T21:40:33Z",
+  "updated": "2026-11-04T21:40:33Z",
+  "linz:geographic_description": "Bay of Islands/Tokerau",
+  "extent": {
+    "spatial": { "bbox": [[173.9205751, -35.6542739, 174.4581052, -35.0000099]] },
+    "temporal": { "interval": [["2025-12-04T11:00:00Z", "2026-02-10T11:00:00Z"]] }
+  },
+  "assets": {
+    "capture_area": {
+      "href": "./capture-area.geojson",
+      "title": "Capture area",
+      "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
+      "type": "application/geo+json",
+      "roles": ["metadata"],
+      "file:checksum": "122012cb2d1f89b345d3c26cecce775e4f17b187ef2502a34bb9c47073f84e735372",
+      "file:size": 109025
+    }
+  },
+  "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
+}
