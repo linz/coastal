@@ -1,9 +1,9 @@
 {
   "type": "Collection",
   "stac_version": "1.0.0",
-  "id": "01M6M9MZ88W5TYAY5VNSN16QXR",
-  "title": "New Zealand - Bay of Islands/Tokerau Coastal LiDAR 2m DEM (2025-2026)",
-  "description": "Coastal Digital Elevation Model within the New Zealand region captured in 2025-2026.",
+  "id": "01M6M9NK356MRH45AGYKGZFDN3",
+  "title": "Northland - Bay of Islands/Tokerau Coastal LiDAR 10m DEM (2025-2026)",
+  "description": "Coastal Digital Elevation Model within the Northland region captured in 2025-2026.",
   "license": "CC-BY-4.0",
   "links": [
     {
@@ -16,25 +16,25 @@
       "href": "./AV29.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "12207bb5b469af5d566dfa1495adb820209ed8f58d9b515cec3fd4040884bebbd981"
+      "file:checksum": "122093777c1d306a959e191630d4972d09bca869e536e7a27167e00e9c53b17abe17"
     },
     {
       "href": "./AV30.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220a5fdf4b07810721d2d776d1e6e26175f8deb9f209a876fa92863b23dc3a92734"
+      "file:checksum": "12209f857366fd7a40ee3b55dff2b087a508cf51d6b0602aa1f7672bafcf6a59122f"
     },
     {
       "href": "./AW29.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220522ce82ec968435836ef0913d323c984e8fcc01afa42d63fe53ccd18a8e84061"
+      "file:checksum": "12209dba609b3e723d08e35415435c1b717ef048c5c817629f000e0b2f6d365a3e58"
     },
     {
       "href": "./AW30.json",
       "rel": "item",
       "type": "application/geo+json",
-      "file:checksum": "1220037bc476d394f20d2a83b9c3dac2585c43b7a83b606148518382a99e82b1e4e4"
+      "file:checksum": "12201a5c35d09e5979b2ec5e25ede591b2d3d6335e73f15955e48c776e9a6e467e79"
     }
   ],
   "providers": [
@@ -43,12 +43,12 @@
   ],
   "linz:lifecycle": "completed",
   "linz:geospatial_category": "dem",
-  "linz:region": "new-zealand",
+  "linz:region": "northland",
   "linz:security_classification": "unclassified",
   "linz:slug": "bay-of-islands-tokerau_2025-2026",
-  "gsd": 2,
-  "created": "2026-11-04T22:07:40Z",
-  "updated": "2026-11-04T22:07:40Z",
+  "gsd": 10,
+  "created": "2026-11-04T22:08:00Z",
+  "updated": "2026-11-06T22:09:04Z",
   "linz:geographic_description": "Bay of Islands/Tokerau",
   "extent": {
     "spatial": { "bbox": [[173.9205751, -35.6542739, 174.4581052, -35.0000099]] },
@@ -61,8 +61,8 @@
       "description": "Boundary of the total capture area for this collection. May include some areas of nodata where capture was attempted but unsuccessful. Geometries are simplified.",
       "type": "application/geo+json",
       "roles": ["metadata"],
-      "file:checksum": "1220cf0fad0b89657cf405c955b152eb2523cbc75e02540a42779d82bfa0527b33cf",
-      "file:size": 689861
+      "file:checksum": "122012cb2d1f89b345d3c26cecce775e4f17b187ef2502a34bb9c47073f84e735372",
+      "file:size": 109025
     }
   },
   "stac_extensions": ["https://stac-extensions.github.io/file/v2.0.0/schema.json"]
