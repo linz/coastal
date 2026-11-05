@@ -2,8 +2,8 @@
   "type": "Collection",
   "stac_version": "1.0.0",
   "id": "01M6M9NEZHSXXERHA259W4Z1BK",
-  "title": "New Zealand - Bay of Islands/Tokerau Coastal LiDAR 1m DEM (2025-2026)",
-  "description": "Coastal Digital Elevation Model within the New Zealand region captured in 2025-2026.",
+  "title": "Northland - Bay of Islands/Tokerau Coastal LiDAR 1m DEM (2025-2026)",
+  "description": "Coastal Digital Elevation Model within the Northland region captured in 2025-2026.",
   "license": "CC-BY-4.0",
   "links": [
     {
@@ -109,7 +109,7 @@
   ],
   "linz:lifecycle": "completed",
   "linz:geospatial_category": "dem",
-  "linz:region": "new-zealand",
+  "linz:region": "northland",
   "linz:security_classification": "unclassified",
   "linz:slug": "bay-of-islands-tokerau_2025-2026",
   "gsd": 1,
