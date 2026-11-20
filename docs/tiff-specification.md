@@ -58,14 +58,14 @@ No alpha band is used for coastal data.
 
 The following [GDAL COG driver creation options](https://gdal.org/en/stable/drivers/raster/cog.html#creation-options) are applied to all TIFFs:
 
-| GDAL Creation Option | Value             | Notes                                                                                                                                                              |
-| -------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `-co BLOCKSIZE`      | `512`             | 512×512 pixel tiles (default)                                                                                                                                      |
-| `-co NUM_THREADS`    | `ALL_CPUS`        | Use all available CPUs for compression, overview generation, etc                                                                                                   |
-| `-co SPARSE_OK`      | `TRUE`            | Omit empty tiles (null byte) rather than writing blank data                                                                                                        |
-| `-co BIGTIFF`        | `NO`              | Classic TIFF only (GDAL will raise an error if output exceeds 4 GB and we target approx 1 GB TIFF sizes via automated tiling). Intensity overrides this, see below |
-| `-co OVERVIEWS`      | `IGNORE_EXISTING` | Always regenerate overviews (never build from pre-existing lossy overviews)                                                                                        |
-| `-co STATISTICS`     | `YES`             | Compute and embed raster statistics (ensures that GIS software can immediately accurately display the data)                                                        |
+| GDAL Creation Option | Value             | Notes                                                                                                                         |
+| -------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `-co BLOCKSIZE`      | `512`             | 512×512 pixel tiles (default)                                                                                                 |
+| `-co NUM_THREADS`    | `ALL_CPUS`        | Use all available CPUs for compression, overview generation, etc                                                              |
+| `-co SPARSE_OK`      | `TRUE`            | Omit empty tiles (null byte) rather than writing blank data                                                                   |
+| `-co BIGTIFF`        | `NO`              | Classic TIFF only (GDAL will raise an error if output exceeds 4 GB and we target approx 1 GB TIFF sizes via automated tiling) |
+| `-co OVERVIEWS`      | `IGNORE_EXISTING` | Always regenerate overviews (never build from pre-existing lossy overviews)                                                   |
+| `-co STATISTICS`     | `YES`             | Compute and embed raster statistics (ensures that GIS software can immediately accurately display the data)                   |
 
 ### Compression
 
@@ -83,14 +83,13 @@ LERC is a near-lossless compression allowing a configurable per-pixel Z error (c
 
 #### Intensity - `ZSTD`
 
-| GDAL Creation Option      | Value     | Notes                                                                      |
-| ------------------------- | --------- | -------------------------------------------------------------------------- |
-| `-co COMPRESS`            | `ZSTD`    | Lossless compression, preserving the original 16-bit intensity values      |
-| `-co LEVEL`               | `17`      | High ZSTD compression level for smaller files                              |
-| `-co PREDICTOR`           | `2`       | Horizontal differencing, which improves compression of integer data        |
-| `-co OVERVIEW_COMPRESS`   | `ZSTD`    | Overviews are also ZSTD compressed                                         |
-| `-co OVERVIEW_RESAMPLING` | `LANCZOS` | Resampling method used when generating overviews                           |
-| `-co BIGTIFF`             | `YES`     | Overrides the default above, as un-rescaled `uint16` TIFFs may exceed 4 GB |
+| GDAL Creation Option      | Value     | Notes                                                                 |
+| ------------------------- | --------- | --------------------------------------------------------------------- |
+| `-co COMPRESS`            | `ZSTD`    | Lossless compression, preserving the original 16-bit intensity values |
+| `-co LEVEL`               | `17`      | High ZSTD compression level for smaller files                         |
+| `-co PREDICTOR`           | `2`       | Horizontal differencing, which improves compression of integer data   |
+| `-co OVERVIEW_COMPRESS`   | `ZSTD`    | Overviews are also ZSTD compressed                                    |
+| `-co OVERVIEW_RESAMPLING` | `LANCZOS` | Resampling method used when generating overviews                      |
 
 ZSTD is lossless, so intensity values are stored exactly as supplied. Nodata (`0`) is carried through from the source TIFFs rather than being set explicitly.
 
