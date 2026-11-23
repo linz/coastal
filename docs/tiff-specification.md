@@ -52,7 +52,7 @@ Intensity rasters are published at the resolution of the supplied data.
 | Hillshade | 1 (greyscale) | `uint8`   | `Gray`                | `0`     | `Band`     |
 | Intensity | 1 (intensity) | `uint16`  | `Gray`                | `0`     | `Band`     |
 
-No alpha band is used for coastal data.
+No alpha band is used for coastal elevation data.
 
 ### COG Driver Options
 
