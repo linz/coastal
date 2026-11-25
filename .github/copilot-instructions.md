@@ -36,6 +36,7 @@ Each dataset's metadata lives under `stac/{region}/{survey}/{product}/{projectio
 - If the title contains `"Draft"`, `linz:lifecycle` must be `"ongoing"`.
 - If the title contains `"DEM"` then the repository path must be also contain `dem`.
 - If the title contains `"DSM"` then the repository path must be also contain `dsm`.
+- If the title contains `"Intensity"` then the repository path must be also contain `intensity`.
 - If the title contains `"Hillshade"` then the repository path must be also contain `hillshade`.
 - If the title contains `"Igor"` then the repository path must be also contain `igor`.
 - If the repository path contains `igor` then the title must also contain `"Igor"`.
